@@ -1,6 +1,6 @@
 {
   "title": "Payton's AI Systems",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "releaseStatus": "buyer_release",
   "maintainer": "Payton Bilodeau",
   "attribution": "Created and maintained by Payton Bilodeau for AI Mentorship.",
@@ -167,8 +167,8 @@
         "templates/IMAGE BRIEF.md", "templates/TEST MATRIX.md", "templates/STYLE DNA.md",
         "templates/PROMPT COMPILER.md", "templates/REFERENCE RIGHTS.md",
         "templates/STYLE CHANGELOG.md", "templates/TEN-RUN STYLE TRACKER.md",
-        "examples/HAND-DRAWN.md", "examples/RETRO-FUTURISM.md",
-        "examples/BLACK-AND-WHITE INK.md", "examples/DEADPAN REALITY CLASH.md"
+        "examples/RETRO-FUTURISM.md", "examples/BLACK-AND-WHITE INK.md",
+        "examples/DEADPAN REALITY CLASH.md"
       ]
     },
     {

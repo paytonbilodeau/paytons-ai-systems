@@ -2,6 +2,14 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 2.0.4 - 2026-08-27
+
+### System 06: Visual Style Builder
+
+- Removed the creator-specific Sketch starter card from the public library so private visual recipes stay private.
+- Kept Retro-Futurism, Black-and-White Ink, and Deadpan Reality Clash as the three public starter cards.
+- Added an explicit rule against copying a creator's private style recipe into a public package.
+
 ## 2.0.3 - 2026-08-24
 
 ### System 06: Visual Style Builder
