@@ -17,7 +17,7 @@ New releases appear first. Apply only the changes you want to a separate working
 - Added an exact-logo composition gate that reserves the surface before base generation, uses the supplied official asset without redrawing or retyping it, and matches perspective, light, material, texture, and edge treatment.
 - Added deterministic final-text placement with grid, safe-margin, full-size, and small-display checks.
 - Expanded the image brief so brand source, approved variant, planned surface, blend treatment, and omission rule are recorded before generation.
-- Improved the Sketch starter with visible underdrawing, corrected and doubled strokes, coherent silhouettes, loose off-register fills, simplified anatomy, original-metaphor rules, and an explicit rejection of smooth finished ink.
+- Updated a creator-private visual style recipe. The private recipe is not included in this library.
 
 ### System 09: Visual Storytelling and Motion System
 
