@@ -1,0 +1,266 @@
+{
+  "title": "Payton's AI Systems",
+  "version": "2.0.3",
+  "releaseStatus": "buyer_release",
+  "maintainer": "Payton Bilodeau",
+  "attribution": "Created and maintained by Payton Bilodeau for AI Mentorship.",
+  "rootFiles": [
+    "READ ME FIRST.md",
+    "FULL LIBRARY MAP.md",
+    "BUNDLE ORCHESTRATOR.md",
+    "CONTENT PACK ORCHESTRATOR.md",
+    "SKILLS AND AUTOMATION PACK ORCHESTRATOR.md",
+    "SETUP GUIDE.md",
+    "GLOSSARY.md",
+    "CHANGELOG.md",
+    "LICENSE AND USE.md",
+    "THIRD-PARTY INDEX.md",
+    "templates/BUNDLE STATUS.md",
+    "templates/SYSTEM HANDOFF.md",
+    "templates/TEN-RUN VALUE TRACKER.md",
+    "templates/CONTENT ROI TRACKER.md",
+    "templates/SYSTEM ROI TRACKER.md",
+    "templates/MEASUREMENT DASHBOARD.md",
+    "manifest.json",
+    "validate-library.mjs"
+  ],
+  "bundles": [
+    {
+      "key": "content",
+      "name": "AI Content Creation Pack",
+      "priceCents": 24900,
+      "systemIds": ["05", "06", "09", "10"],
+      "orchestrator": "CONTENT PACK ORCHESTRATOR.md",
+      "tracker": "templates/CONTENT ROI TRACKER.md"
+    },
+    {
+      "key": "skills_automation",
+      "name": "AI Skills and Automation Pack",
+      "priceCents": 19900,
+      "systemIds": ["02", "03"],
+      "orchestrator": "SKILLS AND AUTOMATION PACK ORCHESTRATOR.md",
+      "tracker": "templates/SYSTEM ROI TRACKER.md"
+    },
+    {
+      "key": "complete",
+      "name": "Payton's Complete AI Systems",
+      "priceCents": 50000,
+      "systemIds": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"],
+      "orchestrator": "BUNDLE ORCHESTRATOR.md",
+      "tracker": "templates/MEASUREMENT DASHBOARD.md"
+    }
+  ],
+  "systems": [
+    {
+      "id": "01",
+      "order": 1,
+      "name": "AI Memory and Reflection System",
+      "path": "01 AI Memory and Reflection System",
+      "status": "buyer_ready",
+      "minimumCapability": "write_files",
+      "additionalCapabilities": [],
+      "measurementFile": "templates/TEN-RUN MEMORY TRACKER.md",
+      "maintenanceFile": "templates/MONTHLY REVIEW.md",
+      "requiredFiles": [
+        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE PROJECT MEMORY.md",
+        "templates/MEMORY INDEX.md", "templates/CONTEXT.md", "templates/PROJECT STATE.md",
+        "templates/DECISIONS.md", "templates/RECEIPTS.md", "templates/SESSION HANDOFF.md",
+        "templates/MEMORY HEALTH.md", "templates/MONTHLY REVIEW.md",
+        "templates/RETRIEVAL TEST.md", "templates/TEN-RUN MEMORY TRACKER.md"
+      ]
+    },
+    {
+      "id": "02",
+      "order": 2,
+      "name": "Skill Library and Improvement System",
+      "path": "02 Skill Library and Improvement System",
+      "status": "buyer_ready",
+      "minimumCapability": "write_files",
+      "additionalCapabilities": ["current_official_information", "run_named_tools"],
+      "measurementFile": "templates/TEN-RUN SKILL TRACKER.md",
+      "maintenanceFile": "templates/MAINTENANCE.md",
+      "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
+      "requiredFiles": [
+        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE SKILL PACKAGE.md",
+        "templates/SKILL TEMPLATE.md", "templates/TEST CASES.md", "templates/PACKAGE PLAN.md",
+        "templates/MAINTENANCE.md", "templates/USAGE LEDGER.md",
+        "templates/IMPROVEMENT PROPOSAL.md", "templates/JUDGE RUBRIC.md",
+        "templates/ROLLBACK.md", "templates/TEN-RUN SKILL TRACKER.md",
+        "tools/skills_hq.py", "tests/test_skills_hq.py"
+      ]
+    },
+    {
+      "id": "03",
+      "order": 3,
+      "name": "Safe Automation Blueprint",
+      "path": "03 Safe Automation Blueprint",
+      "status": "buyer_ready",
+      "minimumCapability": "chat_only",
+      "additionalCapabilities": ["run_named_tools"],
+      "measurementFile": "templates/TEN-RUN AUTOMATION TRACKER.md",
+      "maintenanceFile": "templates/INCIDENT REVIEW.md",
+      "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
+      "requiredFiles": [
+        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE AUTOMATION PILOT.md",
+        "templates/TASK INVENTORY.md", "templates/AUTOMATION SCORECARD.md",
+        "templates/AUTOMATION BRIEF.md", "templates/PROCESS MAP.md",
+        "templates/TOOL ACCESS PLAN.md", "templates/TEST PLAN.md", "templates/RUNBOOK.md",
+        "templates/RUN RECEIPT.md", "templates/INCIDENT REVIEW.md",
+        "templates/TEN-RUN AUTOMATION TRACKER.md", "tools/safe_counter.py",
+        "tests/test_safe_counter.py"
+      ]
+    },
+    {
+      "id": "04",
+      "order": 4,
+      "name": "Decision to Action System",
+      "path": "04 Decision to Action System",
+      "status": "buyer_ready",
+      "minimumCapability": "chat_only",
+      "additionalCapabilities": ["current_official_information"],
+      "measurementFile": "templates/TEN-RUN DECISION TRACKER.md",
+      "maintenanceFile": "templates/AFTER ACTION REVIEW.md",
+      "requiredFiles": [
+        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE DECISION.md",
+        "templates/DECISION BRIEF.md", "templates/OPTION COMPARISON.md",
+        "templates/DECISION LOG.md", "templates/ACTION PLAN.md",
+        "templates/ASSUMPTION LEDGER.md", "templates/PREMORTEM.md",
+        "templates/KILL CRITERIA.md", "templates/AFTER ACTION REVIEW.md",
+        "templates/TEN-RUN DECISION TRACKER.md"
+      ]
+    },
+    {
+      "id": "05",
+      "order": 5,
+      "name": "Video Pre-Edit System",
+      "path": "05 Video Pre-Edit System",
+      "status": "buyer_ready",
+      "minimumCapability": "run_named_tools",
+      "additionalCapabilities": [],
+      "measurementFile": "templates/TEN-RUN EDIT TRACKER.md",
+      "maintenanceFile": "templates/EDIT PROFILE.md",
+      "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
+      "requiredFiles": [
+        "START HERE.md", "INSTALL.md", "SYSTEM.md", "THIRD-PARTY.md",
+        "requirements-markers.txt", "templates/PRE-EDIT BRIEF.md",
+        "templates/EDIT REPORT.md", "templates/REVIEW CHECKLIST.md",
+        "templates/EDIT PROFILE.md", "templates/EDITOR HANDOFF.md",
+        "templates/TEN-RUN EDIT TRACKER.md", "TOOL ADAPTER.md",
+        "tools/video_pre_edit.py", "tools/setup_doctor.py", "tests/make_fixture.py",
+        "tests/test_video_pre_edit.py", "tests/test_setup_doctor.py",
+        "examples/EXAMPLE EDIT REPORT.md"
+      ]
+    },
+    {
+      "id": "06",
+      "order": 6,
+      "name": "Visual Style Builder",
+      "path": "06 Visual Style Builder",
+      "status": "buyer_ready",
+      "minimumCapability": "chat_only",
+      "additionalCapabilities": ["image_understanding", "image_generation", "current_official_information"],
+      "measurementFile": "templates/TEN-RUN STYLE TRACKER.md",
+      "maintenanceFile": "templates/STYLE CHANGELOG.md",
+      "requiredFiles": [
+        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE STYLE BUILD.md",
+        "templates/REFERENCE INVENTORY.md", "templates/STYLE SPEC.md",
+        "templates/IMAGE BRIEF.md", "templates/TEST MATRIX.md", "templates/STYLE DNA.md",
+        "templates/PROMPT COMPILER.md", "templates/REFERENCE RIGHTS.md",
+        "templates/STYLE CHANGELOG.md", "templates/TEN-RUN STYLE TRACKER.md",
+        "examples/HAND-DRAWN.md", "examples/RETRO-FUTURISM.md",
+        "examples/BLACK-AND-WHITE INK.md", "examples/DEADPAN REALITY CLASH.md"
+      ]
+    },
+    {
+      "id": "07",
+      "order": 7,
+      "name": "AI Tool and Subscription Fit System",
+      "path": "07 AI Tool and Subscription Fit System",
+      "status": "buyer_ready",
+      "minimumCapability": "chat_only",
+      "additionalCapabilities": ["current_official_information"],
+      "measurementFile": "templates/TEN-RUN TOOL TRACKER.md",
+      "maintenanceFile": "templates/CANCEL OR UPGRADE.md",
+      "requiredFiles": [
+        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE TOOL DECISION.md",
+        "templates/TOOL INVENTORY.md", "templates/ACCOUNT BOUNDARY.md",
+        "templates/TOOL DECISION.md", "templates/30-MINUTE TEST.md",
+        "templates/SUBSCRIPTION COSTS.md", "templates/TASK ROUTER.md",
+        "templates/CANCEL OR UPGRADE.md", "templates/TEN-RUN TOOL TRACKER.md"
+      ]
+    },
+    {
+      "id": "08",
+      "order": 8,
+      "name": "AI Workspace Setup System",
+      "path": "08 AI Workspace Setup System",
+      "status": "buyer_ready",
+      "minimumCapability": "chat_only",
+      "additionalCapabilities": ["local_inspection", "run_named_tools"],
+      "measurementFile": "templates/TEN-RUN WORKSPACE TRACKER.md",
+      "maintenanceFile": "templates/SELF TEST.md",
+      "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
+      "requiredFiles": [
+        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE WORKSPACE PLAN.md",
+        "templates/WORKSPACE CHECKLIST.md", "templates/PERMISSIONS PLAN.md",
+        "templates/MODEL CHOICE.md", "templates/LONG-RUNNING JOBS.md",
+        "templates/VOICE WORKFLOW.md", "templates/BACKUP RECOVERY.md",
+        "templates/HANDOFF MAP.md", "templates/SELF TEST.md",
+        "templates/TEN-RUN WORKSPACE TRACKER.md", "tools/setup_doctor.py",
+        "tests/test_setup_doctor.py"
+      ]
+    },
+    {
+      "id": "09",
+      "order": 9,
+      "name": "Visual Storytelling and Motion System",
+      "path": "09 Visual Storytelling and Motion System",
+      "status": "buyer_ready",
+      "minimumCapability": "write_files",
+      "additionalCapabilities": ["run_named_tools", "image_generation", "current_official_information"],
+      "measurementFile": "templates/TEN-RUN MOTION TRACKER.md",
+      "maintenanceFile": "templates/RENDER PLAN.md",
+      "testCommand": "node --test tests/*.test.mjs",
+      "requiredFiles": [
+        "START HERE.md", "SYSTEM.md", "INSTALL.md", "THIRD-PARTY.md",
+        "examples/EXAMPLE MOTION PLAN.md", "examples/example-beat-map.json",
+        "templates/BEAT MAP.md", "templates/STORYBOARD.md", "templates/ASSET LEDGER.md",
+        "templates/FACT PARITY.md", "templates/RENDER PLAN.md",
+        "templates/PROVIDER COSTS.md", "templates/TEN-RUN MOTION TRACKER.md",
+        "tools/motion_plan.mjs", "tests/motion_plan.test.mjs", "starter/package.json",
+        "starter/package-lock.json", "starter/tsconfig.json", "starter/remotion.config.ts",
+        "starter/src/index.ts", "starter/src/Root.tsx",
+        "starter/src/MotionComposition.tsx", "starter/src/theme.ts"
+      ]
+    },
+    {
+      "id": "10",
+      "order": 10,
+      "name": "Content Waterfall System",
+      "path": "10 Content Waterfall System",
+      "status": "buyer_ready",
+      "minimumCapability": "write_files",
+      "additionalCapabilities": ["run_named_tools"],
+      "measurementFile": "templates/TEN-RUN CONTENT TRACKER.md",
+      "maintenanceFile": "templates/WINNER REVIEW.md",
+      "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
+      "requiredFiles": [
+        "START HERE.md", "SYSTEM.md", "INSTALL.md", "THIRD-PARTY.md", "CURRENT LIMITS AND PROOF.md",
+        "examples/EXAMPLE WATERFALL RUN.md", "examples/example-transcript.json",
+        "examples/example-content-map.json", "templates/AUDIENCE BRIEF.md",
+        "templates/VOICE GUIDE.md", "templates/CLAIM LEDGER.md",
+        "templates/CONTENT MAP.md", "templates/APPROVAL RECORD.md",
+        "templates/PERFORMANCE LEDGER.md", "templates/WINNER REVIEW.md",
+        "templates/NEXT CAPTURE BRIEF.md", "templates/TEN-RUN CONTENT TRACKER.md",
+        "tools/content_waterfall.py", "tools/transcript_adapter.py",
+        "tests/test_content_waterfall.py", "tests/test_transcript_adapter.py"
+      ]
+    }
+  ],
+  "sourceNotes": [
+    "Every system transfers a reusable mechanism without publishing private workspace content, account details, local paths, client material, or credentials.",
+    "System 02 uses a metadata-only Skills HQ and a proposal-only improvement loop. It does not read private chat logs or apply changes automatically.",
+    "System 09 contains a neutral original starter and requires buyers to install and license third-party tools for their own use.",
+    "System 10 is buyer-ready with tested portable mechanics and a documented proof boundary. Its first full long-form production run still requires separate human review before any broader performance claim."
+  ]
+}

@@ -1,0 +1,21 @@
+# Glossary
+
+- **Account boundary:** The person or organization that owns an account, data, settings, and access.
+- **Approval:** A clear yes to one named action after its effect is visible.
+- **Beat:** One spoken idea or moment that needs a visual decision.
+- **Capability:** Something the current AI can demonstrate, such as reading a file or running a named tool.
+- **Claim ledger:** A list of source-backed facts or assertions a derivative may use.
+- **Content map:** Approved source timestamps, claims, formats, and intended outputs.
+- **Evidence:** A file, result, log, hash, screenshot, or receipt that proves what happened.
+- **File-aware AI:** An AI that can read selected files. This does not imply write or command access.
+- **Handoff:** A bounded record that passes approved inputs and results to another system.
+- **Human review:** A person checks an output against a stated pass condition before it is used.
+- **Local tool:** A program that runs on the buyer's computer rather than only in a chat page.
+- **Metadata:** Information about a file, such as name, path relative to an approved root, version, hash, or last test. It is not the file's full content.
+- **Proposal-only:** A tool may prepare a change and evidence, but cannot apply the change.
+- **Receipt:** Evidence that a run or action happened, including what was skipped or failed.
+- **Skill:** Reusable instructions for one repeatable job.
+- **Snapshot:** A recoverable copy made before a change.
+- **Source-grounded:** Traceable to an approved source timestamp or claim.
+- **Synthetic test:** A controlled fixture that tests mechanics without claiming real-world performance.
+- **Working copy:** The buyer's editable duplicate of the clean package.

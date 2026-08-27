@@ -1,0 +1,18 @@
+# Motion Render Plan
+
+- **Composition:** [name]
+- **Version:** [version]
+- **Dimensions and fps:** [values]
+- **Duration frames:** [count]
+- **Deterministic inputs:** [fixed seed, timestep, stored transform source, or not applicable]
+- **Background:** [opaque or transparent]
+- **Output:** [new relative path]
+- **Audio:** [none for overlay, or separate final-edit plan]
+- **SFX cue source:** [rendered frame data, separate approved timeline, or none]
+- **Test command:** [command]
+- **Busy-frame review:** [frame labels]
+- **Frame-indexed contact sheet:** [exact frame list and output]
+- **Caption safe area:** [boundary]
+- **Alpha probe:** [exact transition and transparent-gap frames, or not required]
+- **Fallback:** [opaque export or editor handoff]
+- **Human approval:** [pending or recorded]
