@@ -37,7 +37,7 @@ Review a system after a failure, a third-party update, a permissions change, or 
 
 ## 8. Apply updates safely
 
-Download each release into a new folder. Read `CHANGELOG.md`, compare only the systems included in your purchase, copy the changes you want, and rerun the system's test. Your working files never update automatically.
+Download each release into a new folder. Read `CHANGELOG.md`, compare the systems you use, copy the changes you want, and rerun each affected system's test. Your working files never update automatically.
 
 ## Manual-only boundary
 

@@ -72,7 +72,7 @@ package under `_MY WORK/Skill Library and Improvement/` using that name as the f
 folder. Include the instruction, test cases, package plan, and maintenance
 file. If a plugin was not built or installed, say so directly.
 
-## Buyer-safe Skills HQ
+## Privacy-safe Skills HQ
 
 `tools/skills_hq.py` inventories only the roots the user names. It records relative path, title, description, version, file hash, and last test metadata. It does not read chat logs, search hidden folders, embed the full skill body, change files, or send data anywhere. Run it with `--root` and write the JSON output inside `_MY WORK`.
 
@@ -94,7 +94,7 @@ Run the skill against a normal request, an edge case, and a request that should 
 
 ## Ten-run measurement
 
-Use `TEN-RUN SKILL TRACKER.md` to record trigger accuracy, pass rate, review, rework, and observed failures. Usage is recorded by the buyer or an approved run receipt, never inferred from private conversation logs.
+Use `TEN-RUN SKILL TRACKER.md` to record trigger accuracy, pass rate, review, rework, and observed failures. Usage is recorded by the user or an approved run receipt, never inferred from private conversation logs.
 
 ## Maintenance loop
 

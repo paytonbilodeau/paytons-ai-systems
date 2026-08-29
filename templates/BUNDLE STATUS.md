@@ -2,7 +2,7 @@
 
 ## Library
 
-- **Purchased offer:** [Content Creation, Skills and Automation, or Complete]
+- **Starting collection:** [Content Creation, Skills and Automation, or Complete]
 - **Downloaded version:** [version]
 - **Working copy:** [folder name]
 - **Last reviewed:** [YYYY-MM-DD]

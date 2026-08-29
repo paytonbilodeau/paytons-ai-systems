@@ -33,7 +33,7 @@ function validPlan() {
         asset: {
           kind: "recorded_evidence",
           source: "assets/source-clip.mp4",
-          rights: "buyer_supplied"
+          rights: "user_supplied"
         }
       }
     ]

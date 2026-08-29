@@ -4,4 +4,4 @@
 |---|---|---|---|---|---|
 | [task] | [requirement] | [tool] | [test receipt] | [fallback] | [boundary] |
 
-Use the buyer's current tool when it meets the requirement. A new specialist needs a repeated measured reason.
+Use the user's current tool when it meets the requirement. A new specialist needs a repeated measured reason.

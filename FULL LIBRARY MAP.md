@@ -1,8 +1,8 @@
 # Full AI Systems Library Map
 
-This map shows all ten Payton's AI Systems and which purchase includes each one. Your protected Google Drive library and downloaded package contain only the files included in your purchase.
+This map shows all ten free Payton's AI Systems and the focused collections that help you find a useful starting point. Every system is included in this repository.
 
-| ID | System | Skills and Automation | Content Creation | Complete |
+| ID | System | Skills and Automation Collection | Content Creation Collection | Complete Library |
 |---|---|---|---|---|
 | 01 | AI Memory and Reflection System | Not included | Not included | Included |
 | 02 | Skill Library and Improvement System | Included | Not included | Included |
@@ -28,22 +28,9 @@ This map shows all ten Payton's AI Systems and which purchase includes each one.
 9. **Visual Storytelling and Motion:** Map narration to visual beats, plan motion, and build designed explanations with an optional generation path.
 10. **Content Waterfall:** Turn one approved source into traceable clips, captions, email drafts, and text posts with human approval before publishing.
 
-## Your access and updates
+## Access and updates
 
-- **Skills and Automation buyers:** Download Systems 02 and 03.
-- **Content Creation buyers:** Download Systems 05, 06, 09, and 10.
-- **Complete buyers:** Download all ten systems.
-- Return to the same protected Google Drive library for future releases to the systems you own.
+- Clone or download this repository to get all ten systems.
+- Use the focused collection orchestrators when you want a narrower starting point.
+- Return to this repository for maintained public releases.
 - Updates never replace your customized local files. Read the update log, compare the changes, and apply only what you want.
-
-## Upgrade to Complete
-
-Your personalized upgrade link uses your verified purchase history, so the amount you already paid for an eligible focused pack counts toward the $500 Complete price:
-
-- Content Creation owners pay the remaining **$251**.
-- Skills and Automation owners pay the remaining **$301**.
-- Owners of both focused packs under the same checkout email pay the remaining **$52**.
-
-Use the private upgrade link in your setup or access email. Do not share it. Refunded, disputed, or already-used source purchases do not qualify. If you no longer have the email, use the contact address on `https://www.aimentorship.co/systems`.
-
-The focused libraries intentionally do not contain the unpurchased system files. A visible label is not access control, so separate protected folders keep each purchase exact.

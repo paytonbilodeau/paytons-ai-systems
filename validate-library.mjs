@@ -10,19 +10,20 @@ const manifestPath = path.join(root, "manifest.json");
 const failures = [];
 
 const canonicalSystems = [
-  ["01", 1, "AI Memory and Reflection System", "01 AI Memory and Reflection System", "write_files", [], "buyer_ready"],
-  ["02", 2, "Skill Library and Improvement System", "02 Skill Library and Improvement System", "write_files", ["current_official_information", "run_named_tools"], "buyer_ready"],
-  ["03", 3, "Safe Automation Blueprint", "03 Safe Automation Blueprint", "chat_only", ["run_named_tools"], "buyer_ready"],
-  ["04", 4, "Decision to Action System", "04 Decision to Action System", "chat_only", ["current_official_information"], "buyer_ready"],
-  ["05", 5, "Video Pre-Edit System", "05 Video Pre-Edit System", "run_named_tools", [], "buyer_ready"],
-  ["06", 6, "Visual Style Builder", "06 Visual Style Builder", "chat_only", ["image_understanding", "image_generation", "current_official_information"], "buyer_ready"],
-  ["07", 7, "AI Tool and Subscription Fit System", "07 AI Tool and Subscription Fit System", "chat_only", ["current_official_information"], "buyer_ready"],
-  ["08", 8, "AI Workspace Setup System", "08 AI Workspace Setup System", "chat_only", ["local_inspection", "run_named_tools"], "buyer_ready"],
-  ["09", 9, "Visual Storytelling and Motion System", "09 Visual Storytelling and Motion System", "write_files", ["run_named_tools", "image_generation", "current_official_information"], "buyer_ready"],
-  ["10", 10, "Content Waterfall System", "10 Content Waterfall System", "write_files", ["run_named_tools"], "buyer_ready"]
+  ["01", 1, "AI Memory and Reflection System", "01 AI Memory and Reflection System", "write_files", [], "public_ready"],
+  ["02", 2, "Skill Library and Improvement System", "02 Skill Library and Improvement System", "write_files", ["current_official_information", "run_named_tools"], "public_ready"],
+  ["03", 3, "Safe Automation Blueprint", "03 Safe Automation Blueprint", "chat_only", ["run_named_tools"], "public_ready"],
+  ["04", 4, "Decision to Action System", "04 Decision to Action System", "chat_only", ["current_official_information"], "public_ready"],
+  ["05", 5, "Video Pre-Edit System", "05 Video Pre-Edit System", "run_named_tools", [], "public_ready"],
+  ["06", 6, "Visual Style Builder", "06 Visual Style Builder", "chat_only", ["image_understanding", "image_generation", "current_official_information"], "public_ready"],
+  ["07", 7, "AI Tool and Subscription Fit System", "07 AI Tool and Subscription Fit System", "chat_only", ["current_official_information"], "public_ready"],
+  ["08", 8, "AI Workspace Setup System", "08 AI Workspace Setup System", "chat_only", ["local_inspection", "run_named_tools"], "public_ready"],
+  ["09", 9, "Visual Storytelling and Motion System", "09 Visual Storytelling and Motion System", "write_files", ["run_named_tools", "image_generation", "current_official_information"], "public_ready"],
+  ["10", 10, "Content Waterfall System", "10 Content Waterfall System", "write_files", ["run_named_tools"], "public_ready"]
 ];
 
 const requiredRootFiles = [
+  "README.md",
   "READ ME FIRST.md",
   "FULL LIBRARY MAP.md",
   "BUNDLE ORCHESTRATOR.md",
@@ -46,24 +47,21 @@ const requiredRootFiles = [
 const canonicalBundles = [
   {
     key: "content",
-    name: "AI Content Creation Pack",
-    priceCents: 24900,
+    name: "AI Content Creation Collection",
     systemIds: ["05", "06", "09", "10"],
     orchestrator: "CONTENT PACK ORCHESTRATOR.md",
     tracker: "templates/CONTENT ROI TRACKER.md"
   },
   {
     key: "skills_automation",
-    name: "AI Skills and Automation Pack",
-    priceCents: 19900,
+    name: "AI Skills and Automation Collection",
     systemIds: ["02", "03"],
     orchestrator: "SKILLS AND AUTOMATION PACK ORCHESTRATOR.md",
     tracker: "templates/SYSTEM ROI TRACKER.md"
   },
   {
     key: "complete",
-    name: "Payton's Complete AI Systems",
-    priceCents: 50000,
+    name: "Complete AI Systems Library",
     systemIds: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"],
     orchestrator: "BUNDLE ORCHESTRATOR.md",
     tracker: "templates/MEASUREMENT DASHBOARD.md"
@@ -132,6 +130,7 @@ function safeRelativePath(value, label) {
 function walk(directory) {
   const files = [];
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    if (entry.name === ".git" || entry.name === ".gitignore") continue;
     const fullPath = path.join(directory, entry.name);
     if (entry.isSymbolicLink()) {
       fail(`Symbolic link is not allowed: ${toPosix(path.relative(root, fullPath))}`);
@@ -164,7 +163,10 @@ function runMutationTests() {
 
   function runCase(name, mutate, expectedMessage, shouldPass = false) {
     const caseRoot = path.join(temporaryRoot, name);
-    fs.cpSync(root, caseRoot, { recursive: true });
+    fs.cpSync(root, caseRoot, {
+      recursive: true,
+      filter: (source) => path.basename(source) !== ".git"
+    });
     mutate(caseRoot);
     const result = spawnSync(process.execPath, [path.join(caseRoot, "validate-library.mjs")], {
       cwd: caseRoot,
@@ -240,14 +242,14 @@ function runMutationTests() {
       updateManifest(caseRoot, (item) => {
         item.systems[9].status = "experimental";
       });
-    }, "System 10 status must be buyer_ready");
+    }, "System 10 status must be public_ready");
   } finally {
     fs.rmSync(temporaryRoot, { recursive: true, force: true });
   }
   return testFailures;
 }
 
-function runBuyerToolTests(manifest) {
+function runPublicToolTests(manifest) {
   const testFailures = [];
   let passed = 0;
   for (const system of manifest.systems) {
@@ -304,10 +306,10 @@ if (!Array.isArray(manifest.systems)) {
   manifest.systems = [];
 }
 if (!/^\d+\.\d+\.\d+$/.test(manifest.version || "")) fail("manifest.version must use major.minor.patch");
-if (manifest.releaseStatus !== "buyer_release") {
-  fail("manifest.releaseStatus must be buyer_release for the approved 2.0 publication");
+if (manifest.releaseStatus !== "public_release") {
+  fail("manifest.releaseStatus must be public_release");
 }
-if (!sameJson(manifest.rootFiles, requiredRootFiles)) fail("manifest.rootFiles must use the canonical 2.x root file list");
+if (!sameJson(manifest.rootFiles, requiredRootFiles)) fail("manifest.rootFiles must use the canonical public root file list");
 
 if (manifest.bundles.length !== canonicalBundles.length) {
   fail(`Expected ${canonicalBundles.length} bundles, found ${manifest.bundles.length}`);
@@ -315,7 +317,7 @@ if (manifest.bundles.length !== canonicalBundles.length) {
 for (const [index, expected] of canonicalBundles.entries()) {
   const bundle = manifest.bundles[index];
   if (!bundle || typeof bundle !== "object" || Array.isArray(bundle)) continue;
-  for (const field of ["key", "name", "priceCents", "orchestrator", "tracker"]) {
+  for (const field of ["key", "name", "orchestrator", "tracker"]) {
     if (bundle[field] !== expected[field]) fail(`Bundle ${expected.key} ${field} is invalid`);
   }
   if (!sameJson(bundle.systemIds, expected.systemIds)) {
@@ -492,7 +494,7 @@ if (failures.length === 0 && process.env.AI_MENTORSHIP_VALIDATOR_MUTATION_CHILD 
 }
 let passedToolSuites = 0;
 if (failures.length === 0 && process.env.AI_MENTORSHIP_VALIDATOR_MUTATION_CHILD !== "1") {
-  const result = runBuyerToolTests(manifest);
+  const result = runPublicToolTests(manifest);
   failures.push(...result.failures);
   passedToolSuites = result.passed;
 }
@@ -504,5 +506,5 @@ if (failures.length) {
 }
 
 console.log(
-  `Library validation passed: 10 canonical systems, 3 exact-entitlement bundles, ${actualFiles.size} exactly declared non-empty files, 13 mutation checks, and ${passedToolSuites} runnable tool suites. System 10 keeps its documented first-production proof boundary.`
+  `Library validation passed: 10 canonical systems, 3 public collections, ${actualFiles.size} exactly declared non-empty files, 13 mutation checks, and ${passedToolSuites} runnable tool suites. System 10 keeps its documented first-production proof boundary.`
 );

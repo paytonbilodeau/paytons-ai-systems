@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a buyer-controlled, metadata-only skill inventory and proposals."""
+"""Create a user-controlled, metadata-only skill inventory and proposals."""
 
 from __future__ import annotations
 

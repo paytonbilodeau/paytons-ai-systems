@@ -4,7 +4,7 @@ Use this system when the words are clear but the screen feels flat or random vis
 
 ## Minimum AI capability
 
-**Write files** is enough to produce a beat map, storyboard, asset ledger, and render plan. **Run named tools** is required for the included Node test and Remotion starter. Image or video generation is optional. The no-generation route uses designed explanation, buyer-supplied evidence, and simple motion.
+**Write files** is enough to produce a beat map, storyboard, asset ledger, and render plan. **Run named tools** is required for the included Node test and Remotion starter. Image or video generation is optional. The no-generation route uses designed explanation, user-supplied evidence, and simple motion.
 
 ## First useful result
 

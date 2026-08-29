@@ -23,4 +23,4 @@ The complete system has not processed and passed human review on one real record
 8. Record setup, run, review, rework, disk use, and actual cost without making a broader savings claim.
 9. Save the receipts and update this file only after the evidence is reviewed.
 
-The system is ready for careful buyer use now, but these unproven points remain limits until the evidence above exists.
+The system is ready for careful public use now, but these unproven points remain limits until the evidence above exists.

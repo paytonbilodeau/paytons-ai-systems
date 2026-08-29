@@ -2,6 +2,21 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.0.0 - 2026-08-29
+
+### Free public release
+
+- Made all ten systems and both focused collections free in the public GitHub repository.
+- Replaced the old purchase, protected-library, pricing, and upgrade instructions with public download and update instructions.
+- Added free-use terms for personal and commercial work while preserving attribution and third-party rights.
+- Changed the manifest and validator from buyer entitlements to one complete public library.
+- Fixed repository-root validation so Git metadata is ignored without weakening checks for unexpected hidden files.
+
+### Ongoing maintenance
+
+- Made the GitHub repository the public release channel for privacy-safe template improvements.
+- Kept private memory, customer information, account details, credentials, internal paths, and private visual recipes outside the public library.
+
 ## 2.0.4 - 2026-08-27
 
 ### System 06: Visual Style Builder

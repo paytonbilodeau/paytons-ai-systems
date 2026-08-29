@@ -98,4 +98,4 @@ Record every approved rule change in `STYLE CHANGELOG.md`. Change one rule at a 
 
 ## Safety and human review
 
-Use `REFERENCE RIGHTS.md` before generation. The buyer supplies authorized references and official brand assets. The system does not grant rights to a style, image, face, font, product, or mark.
+Use `REFERENCE RIGHTS.md` before generation. The user supplies authorized references and official brand assets. The system does not grant rights to a style, image, face, font, product, or mark.

@@ -26,4 +26,4 @@ The package pins exact versions for repeatability. A pinned version is not a cla
 
 For transparent overlays, use a codec and pixel format that support alpha, confirm alpha with a media probe, and remove audio. Keep a standard opaque fallback when the final editor does not support alpha.
 
-The included standard render command is muted. A verified release test produced one five-second video stream and no audio stream. This proves the neutral fixture on the tested release environment, not every buyer operating system or editor.
+The included standard render command is muted. A verified release test produced one five-second video stream and no audio stream. This proves the neutral fixture on the tested release environment, not every user operating system or editor.

@@ -76,4 +76,4 @@ No protected ranges were supplied.
 - Review every spoken-marker cut and every long cut before replacing a manual edit.
 - Keep the source file until the new output passes the review checklist.
 
-The source SHA-256 was identical before and after the smoke render. This example validates the maintained macOS test fixture, not an individual buyer's computer or footage.
+The source SHA-256 was identical before and after the smoke render. This example validates the maintained macOS test fixture, not an individual user's computer or footage.

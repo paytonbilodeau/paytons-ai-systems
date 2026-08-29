@@ -11,6 +11,6 @@ The supplied example uses a neutral 24-second transcript about review receipts. 
 
 ## What it does not prove
 
-There is no matching real recording in the buyer library. The zero-filled source hash is an example value, so extraction should refuse it against any actual file. The example does not prove selection quality, crop quality, platform performance, or time saved.
+There is no matching real recording in the public library. The zero-filled source hash is an example value, so extraction should refuse it against any actual file. The example does not prove selection quality, crop quality, platform performance, or time saved.
 
 Use the tests to create a temporary neutral video and prove the full local extraction path.

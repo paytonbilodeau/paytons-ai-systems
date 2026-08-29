@@ -11,7 +11,7 @@ export const LANES = new Set([
   "physical_metaphor",
   "restrained_hybrid"
 ]);
-const RIGHTS = new Set(["original", "buyer_supplied", "licensed", "official"]);
+const RIGHTS = new Set(["original", "user_supplied", "licensed", "official"]);
 const ASSET_KINDS = new Set([
   "original_design",
   "recorded_evidence",

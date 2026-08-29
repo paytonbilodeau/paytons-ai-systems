@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unit tests for the buyer-facing Video Pre-Edit tool."""
+"""Unit tests for the public Video Pre-Edit tool."""
 
 from __future__ import annotations
 

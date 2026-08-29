@@ -86,7 +86,7 @@ After a stable pilot, improve the weakest part that evidence reveals. Do not wid
 
 ## Test and evidence
 
-Complete `PROCESS MAP.md`, `TOOL ACCESS PLAN.md`, and `TEST PLAN.md` before a live tool is connected. The supplied `safe_counter.py` is a local example of dry-run, explicit apply, refusal to overwrite, and a receipt that distinguishes processed, skipped, and failed inputs. Its passing unit tests prove those mechanics, not that the buyer's proposed automation is safe.
+Complete `PROCESS MAP.md`, `TOOL ACCESS PLAN.md`, and `TEST PLAN.md` before a live tool is connected. The supplied `safe_counter.py` is a local example of dry-run, explicit apply, refusal to overwrite, and a receipt that distinguishes processed, skipped, and failed inputs. Its passing unit tests prove those mechanics, not that the user's proposed automation is safe.
 
 ## Ten-run measurement
 

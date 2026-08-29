@@ -73,4 +73,4 @@ After an observed failure, change one routing, timing, readability, or asset rul
 
 ## Safety and human review
 
-The buyer verifies narration, facts, rights, current provider terms, and the final render. Installing packages, downloading assets, spending money, or publishing requires separate approval. The starter does not contain private media or third-party marks.
+The user verifies narration, facts, rights, current provider terms, and the final render. Installing packages, downloading assets, spending money, or publishing requires separate approval. The starter does not contain private media or third-party marks.

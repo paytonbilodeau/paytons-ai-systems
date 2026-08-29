@@ -1,8 +1,8 @@
 # Payton's AI Systems
 
-Ten working systems that turn a file-aware AI assistant (Claude, ChatGPT, or anything that can read and write files) into a reliable operator: it remembers context between sessions, repeats good work, automates safely, and stays under your control.
+Ten free, working template systems for turning a file-aware AI assistant into a more reliable operator. They help an AI remember context, repeat good work, automate carefully, make decisions, create content, and stay under your control.
 
-This is the actual paid library from [aimentorship.co](https://aimentorship.co), published source-visible. It is not a prompt list. Every system is a set of standing instructions with a start guide, templates, and, where the work demands it, small local tools with tests.
+This is the complete public template library. It is not a prompt list, course, subscription, or coaching offer. Every system has standing instructions, a start guide, editable templates, and, where the work demands it, small local tools with tests.
 
 ## Try one in five minutes
 
@@ -27,16 +27,22 @@ Every system has a chat-only fallback, so you can start even before your assista
 | 09 | Visual Storytelling and Motion | Visual explainers and motion graphics built from your transcripts |
 | 10 | Content Waterfall | Turn one long recording into many finished pieces behind one approval gate |
 
-Every system has a `START HERE.md` and a `SYSTEM.md`. The bigger ones add templates, worked examples, and small local tools with test suites. The three orchestrator files at the root coordinate systems that work together, and `validate-library.mjs` checks the library's structure.
+Every system has a `START HERE.md` and a `SYSTEM.md`. The bigger ones add templates, worked examples, and small local tools with test suites. The three orchestrator files at the root coordinate systems that work together, and `validate-library.mjs` checks the library's structure, privacy rules, and runnable tool suites.
 
-## How they're sold
+## Use the complete library or one collection
 
-- **AI Content Creation Pack:** systems 05, 06, 09, and 10
-- **AI Skills and Automation Pack:** systems 02 and 03
-- **Payton's Complete AI Systems:** all ten
+- **AI Content Creation Collection:** systems 05, 06, 09, and 10
+- **AI Skills and Automation Collection:** systems 02 and 03
+- **Complete AI Systems Library:** all ten
 
-Purchased packages come with maintained releases in a protected buyer library. Details at [aimentorship.co](https://aimentorship.co).
+All ten systems and both focused collections are free in this repository. Download a release or clone the repository, keep a clean copy, and do your work in a separate working copy.
+
+## Updates
+
+This repository is the public release channel. Reusable improvements from Payton's private AI systems are rewritten as generic templates, checked for private information, tested, and published here. Private memory, account details, customer data, credentials, internal paths, and private visual recipes are never part of the public library.
+
+Updates never change your local customized files automatically. Read `CHANGELOG.md`, compare the changed files, and adopt only what you want.
 
 ## License
 
-Read everything here and use what you learn in your own work. The library itself is not open source: do not resell, redistribute, or republish it. Purchases follow the terms in `LICENSE AND USE.md`.
+No purchase is required. You may use and adapt the templates and original tools for personal or commercial work, subject to `LICENSE AND USE.md` and the separate terms for third-party software and assets.
