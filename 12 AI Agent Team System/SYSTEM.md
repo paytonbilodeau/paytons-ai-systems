@@ -12,7 +12,7 @@ Turn a hosted bot platform into a small, safe, genuinely useful agent team: one 
 - The user talks to one front-door agent. It routes work to functional specialists and brings verified results back.
 - Start with three specialists: Research, Writing, and Operations. Add another only when a distinct recurring outcome earns one.
 - Platform memory stores stable working preferences. Current facts stay in the source system.
-- On most hosted platforms, all bots share one cloud computer and every login is available to the whole roster. Separate bots are not separate security zones, so connect accounts as if the least careful bot could reach them.
+- Unless the platform proves separate identities and access boundaries, assume every bot can reach the same cloud computer and connected logins. Bot names alone are not security zones, so connect accounts as if the least careful bot could reach them.
 - Safe, reversible work proceeds with little friction. Sending, publishing, spending, deleting, permission changes, production changes, and legal commitments stay behind explicit approval.
 - Never paste secrets into chat. The user handles logins, two-factor codes, and payment confirmations personally through the platform's secure flow.
 - Do not install unreviewed third-party code, sync browser cookies wholesale, or let bots clone themselves during the pilot.

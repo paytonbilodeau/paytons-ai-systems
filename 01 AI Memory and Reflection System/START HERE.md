@@ -1,6 +1,6 @@
 # Start Here: AI Memory and Reflection System
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system when your AI keeps asking for the same context, forgets the current version of a project, or makes decisions from stale information.
 

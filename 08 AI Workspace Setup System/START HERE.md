@@ -1,6 +1,6 @@
 # Start Here: AI Workspace Setup System
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system to give a file-aware AI a clear working folder, safer permissions, suitable model choices, and a reliable setup for longer jobs.
 

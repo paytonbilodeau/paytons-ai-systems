@@ -1,6 +1,6 @@
 # Start Here: Video Pre-Edit System
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system to make a conservative first pass on a talking-head recording. It can shorten quiet pauses, remove exact ranges you approve, detect an exact spoken restart marker, and apply light local speech cleanup. It creates a new MP4 and a cut report. It never edits the source file.
 

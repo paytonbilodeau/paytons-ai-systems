@@ -1,6 +1,6 @@
 # Start Here: Safe Automation Blueprint
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system when you repeat a digital task and want to know whether AI should help, which part to automate first, and how to test it safely.
 

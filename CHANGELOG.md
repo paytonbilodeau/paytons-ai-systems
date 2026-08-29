@@ -2,6 +2,14 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.1.1 - 2026-08-29
+
+### Review cleanup
+
+- Removed the retired AI Mentorship product attribution from the remaining system start guides so attribution matches the free public library manifest.
+- Corrected the full library map to say all thirteen systems instead of ten.
+- Reworded the hosted-bot security boundary so users assume shared access unless their platform proves real identity and access isolation.
+
 ## 3.1.0 - 2026-08-29
 
 ### Three new systems

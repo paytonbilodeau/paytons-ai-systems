@@ -1,6 +1,6 @@
 # Start Here: Visual Style Builder
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system to turn a group of reference images and your taste into a style another AI can repeat and improve.
 

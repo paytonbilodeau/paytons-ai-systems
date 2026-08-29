@@ -1,6 +1,6 @@
 # Start Here: Always-On Agent System
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system when you want one personal AI agent that stays reachable from your phone through a messaging channel, runs on a computer you control, and can send background workers to finish real tasks while you do something else.
 

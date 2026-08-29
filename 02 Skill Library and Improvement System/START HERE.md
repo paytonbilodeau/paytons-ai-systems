@@ -1,6 +1,6 @@
 # Start Here: Skill Library and Improvement System
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system after an instruction or workflow has worked more than once and you want an AI to repeat it consistently.
 

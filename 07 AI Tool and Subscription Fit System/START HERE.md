@@ -1,6 +1,6 @@
 # Start Here: AI Tool and Subscription Fit System
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system before buying another AI plan, moving work into a new tool, or assuming your current account cannot do the job.
 

@@ -36,7 +36,7 @@ This map shows all thirteen free Payton's AI Systems and the focused collections
 
 ## Access and updates
 
-- Clone or download this repository to get all ten systems.
+- Clone or download this repository to get all thirteen systems.
 - Use the focused collection orchestrators when you want a narrower starting point.
 - Return to this repository for maintained public releases.
 - Updates never replace your customized local files. Read the update log, compare the changes, and apply only what you want.

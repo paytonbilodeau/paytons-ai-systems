@@ -1,6 +1,6 @@
 # Start Here: Decision to Action System
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system when a decision has too many requirements, the options keep changing, or planning has replaced action.
 

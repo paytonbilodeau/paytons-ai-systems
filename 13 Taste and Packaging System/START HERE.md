@@ -1,6 +1,6 @@
 # Start Here: Taste and Packaging System
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system when AI can produce endless drafts, titles, thumbnails, and posts, and the bottleneck has moved to judgment: deciding what is true enough to ship, bold enough to work, and written like a person. It turns your taste from a vague feeling into written rules an AI can actually follow.
 

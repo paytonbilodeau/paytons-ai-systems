@@ -1,6 +1,6 @@
 # Start Here: AI Agent Team System
 
-Part of Payton's AI Systems, created and maintained by Payton Bilodeau for AI Mentorship.
+Part of Payton's AI Systems, created and maintained by Payton Bilodeau.
 
 Use this system when you want a small team of AI agents on a hosted bot platform: one front-door agent you talk to, plus a few functional specialists it routes work to, connected carefully to your real accounts and proven trustworthy one test at a time.
 
