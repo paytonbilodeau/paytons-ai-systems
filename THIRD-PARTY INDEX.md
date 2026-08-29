@@ -7,5 +7,8 @@ This index points to system-specific notices. Versions, prices, plan limits, lic
 | 05 Video Pre-Edit | Python, FFmpeg, optional OpenAI Whisper and PyTorch | Read `05 Video Pre-Edit System/THIRD-PARTY.md`; install separately |
 | 09 Visual Storytelling and Motion | Node.js, React, Remotion | Read `09 Visual Storytelling and Motion System/THIRD-PARTY.md`; confirm Remotion eligibility and install separately |
 | 10 Content Waterfall | Python, FFmpeg, optional transcript or tracking tools | Read `10 Content Waterfall System/THIRD-PARTY.md`; start with supplied transcript JSON and static crop |
+| 11 Always-On Agent | A user-chosen agent runtime, messaging channel, and AI subscriptions | Read `11 Always-On Agent System/THIRD-PARTY.md`; verify current runtime documentation and channel terms |
+| 12 AI Agent Team | A user-chosen hosted bot platform and connected accounts | Read `12 AI Agent Team System/THIRD-PARTY.md`; verify current platform features, limits, and pricing |
+| 13 Taste and Packaging | Optional open MIT-licensed writing-quality skill | Read `13 Taste and Packaging System/THIRD-PARTY.md`; installation optional, attribution stays intact |
 
 The library does not bundle private media, third-party logos, model weights, `node_modules`, paid-provider credentials, or copied source from an unlicensed repository. Users supply official brand assets and verify their right to use references, footage, music, fonts, voices, and likenesses.

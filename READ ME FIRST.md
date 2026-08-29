@@ -1,14 +1,14 @@
 # Payton's AI Systems
 
-This library contains ten working systems that help a file-aware AI remember context, repeat good work, make safer decisions, create content, and stay under your control. It is not a prompt list, course, software subscription, coaching plan, or promise of business results.
+This library contains thirteen working systems that help a file-aware AI remember context, repeat good work, make safer decisions, create content, run always-on agents, and stay under your control. It is not a prompt list, course, software subscription, coaching plan, or promise of business results.
 
 ## Choose where to start
 
-- **AI Content Creation Collection:** Systems 05, 06, 09, and 10.
-- **AI Skills and Automation Collection:** Systems 02 and 03.
-- **Complete AI Systems Library:** All ten systems.
+- **AI Content Creation Collection:** Systems 05, 06, 09, 10, and 13.
+- **AI Skills and Automation Collection:** Systems 02, 03, 11, and 12.
+- **Complete AI Systems Library:** All thirteen systems.
 
-All ten systems are included free. Keep the downloaded repository or release as a clean reference and make a working copy before changing anything.
+All thirteen systems are included free. Keep the downloaded repository or release as a clean reference and make a working copy before changing anything.
 
 Open `FULL LIBRARY MAP.md` to see what each system does and which systems work well together.
 

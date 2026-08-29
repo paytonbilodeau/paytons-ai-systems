@@ -1,5 +1,6 @@
 # Glossary
 
+- **Acceptance test:** A predefined pass-or-fail check an agent setup must clear before gaining more access.
 - **Account boundary:** The person or organization that owns an account, data, settings, and access.
 - **Approval:** A clear yes to one named action after its effect is visible.
 - **Beat:** One spoken idea or moment that needs a visual decision.
@@ -8,7 +9,9 @@
 - **Content map:** Approved source timestamps, claims, formats, and intended outputs.
 - **Evidence:** A file, result, log, hash, screenshot, or receipt that proves what happened.
 - **File-aware AI:** An AI that can read selected files. This does not imply write or command access.
+- **Front-door agent:** The one agent a user talks to. It routes work to specialists or workers and returns verified results.
 - **Handoff:** A bounded record that passes approved inputs and results to another system.
+- **Honesty floor:** The narrow, non-negotiable ban on factual falsehood in packaging; everything else compelling remains allowed.
 - **Human review:** A person checks an output against a stated pass condition before it is used.
 - **Local tool:** A program that runs on the user's computer rather than only in a chat page.
 - **Metadata:** Information about a file, such as name, path relative to an approved root, version, hash, or last test. It is not the file's full content.
@@ -18,4 +21,6 @@
 - **Snapshot:** A recoverable copy made before a change.
 - **Source-grounded:** Traceable to an approved source timestamp or claim.
 - **Synthetic test:** A controlled fixture that tests mechanics without claiming real-world performance.
+- **Task card:** One written delegation with one deliverable, exact inputs, success criteria, and a runtime cap.
+- **Worker:** A headless agent that takes task cards, never opens channels, and reports only through the board.
 - **Working copy:** The user's editable duplicate of the clean package.

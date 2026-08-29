@@ -1,6 +1,6 @@
 {
   "title": "Payton's AI Systems",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "releaseStatus": "public_release",
   "maintainer": "Payton Bilodeau",
   "attribution": "Created and maintained by Payton Bilodeau.",
@@ -29,21 +29,46 @@
     {
       "key": "content",
       "name": "AI Content Creation Collection",
-      "systemIds": ["05", "06", "09", "10"],
+      "systemIds": [
+        "05",
+        "06",
+        "09",
+        "10",
+        "13"
+      ],
       "orchestrator": "CONTENT PACK ORCHESTRATOR.md",
       "tracker": "templates/CONTENT ROI TRACKER.md"
     },
     {
       "key": "skills_automation",
       "name": "AI Skills and Automation Collection",
-      "systemIds": ["02", "03"],
+      "systemIds": [
+        "02",
+        "03",
+        "11",
+        "12"
+      ],
       "orchestrator": "SKILLS AND AUTOMATION PACK ORCHESTRATOR.md",
       "tracker": "templates/SYSTEM ROI TRACKER.md"
     },
     {
       "key": "complete",
       "name": "Complete AI Systems Library",
-      "systemIds": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"],
+      "systemIds": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
       "orchestrator": "BUNDLE ORCHESTRATOR.md",
       "tracker": "templates/MEASUREMENT DASHBOARD.md"
     }
@@ -60,11 +85,19 @@
       "measurementFile": "templates/TEN-RUN MEMORY TRACKER.md",
       "maintenanceFile": "templates/MONTHLY REVIEW.md",
       "requiredFiles": [
-        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE PROJECT MEMORY.md",
-        "templates/MEMORY INDEX.md", "templates/CONTEXT.md", "templates/PROJECT STATE.md",
-        "templates/DECISIONS.md", "templates/RECEIPTS.md", "templates/SESSION HANDOFF.md",
-        "templates/MEMORY HEALTH.md", "templates/MONTHLY REVIEW.md",
-        "templates/RETRIEVAL TEST.md", "templates/TEN-RUN MEMORY TRACKER.md"
+        "START HERE.md",
+        "SYSTEM.md",
+        "examples/EXAMPLE PROJECT MEMORY.md",
+        "templates/MEMORY INDEX.md",
+        "templates/CONTEXT.md",
+        "templates/PROJECT STATE.md",
+        "templates/DECISIONS.md",
+        "templates/RECEIPTS.md",
+        "templates/SESSION HANDOFF.md",
+        "templates/MEMORY HEALTH.md",
+        "templates/MONTHLY REVIEW.md",
+        "templates/RETRIEVAL TEST.md",
+        "templates/TEN-RUN MEMORY TRACKER.md"
       ]
     },
     {
@@ -74,17 +107,29 @@
       "path": "02 Skill Library and Improvement System",
       "status": "public_ready",
       "minimumCapability": "write_files",
-      "additionalCapabilities": ["current_official_information", "run_named_tools"],
+      "additionalCapabilities": [
+        "current_official_information",
+        "run_named_tools"
+      ],
       "measurementFile": "templates/TEN-RUN SKILL TRACKER.md",
       "maintenanceFile": "templates/MAINTENANCE.md",
       "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
       "requiredFiles": [
-        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE SKILL PACKAGE.md",
-        "templates/SKILL TEMPLATE.md", "templates/TEST CASES.md", "templates/PACKAGE PLAN.md",
-        "templates/MAINTENANCE.md", "templates/USAGE LEDGER.md",
-        "templates/IMPROVEMENT PROPOSAL.md", "templates/JUDGE RUBRIC.md",
-        "templates/ROLLBACK.md", "templates/TEN-RUN SKILL TRACKER.md",
-        "tools/skills_hq.py", "tests/test_skills_hq.py"
+        "START HERE.md",
+        "SYSTEM.md",
+        "examples/EXAMPLE SKILL PACKAGE.md",
+        "templates/SKILL TEMPLATE.md",
+        "templates/TEST CASES.md",
+        "templates/PACKAGE PLAN.md",
+        "templates/MAINTENANCE.md",
+        "templates/USAGE LEDGER.md",
+        "templates/IMPROVEMENT PROPOSAL.md",
+        "templates/JUDGE RUBRIC.md",
+        "templates/ROLLBACK.md",
+        "templates/TEN-RUN SKILL TRACKER.md",
+        "tools/skills_hq.py",
+        "tests/test_skills_hq.py",
+        "SKILL CATALOG.md"
       ]
     },
     {
@@ -94,17 +139,27 @@
       "path": "03 Safe Automation Blueprint",
       "status": "public_ready",
       "minimumCapability": "chat_only",
-      "additionalCapabilities": ["run_named_tools"],
+      "additionalCapabilities": [
+        "run_named_tools"
+      ],
       "measurementFile": "templates/TEN-RUN AUTOMATION TRACKER.md",
       "maintenanceFile": "templates/INCIDENT REVIEW.md",
       "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
       "requiredFiles": [
-        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE AUTOMATION PILOT.md",
-        "templates/TASK INVENTORY.md", "templates/AUTOMATION SCORECARD.md",
-        "templates/AUTOMATION BRIEF.md", "templates/PROCESS MAP.md",
-        "templates/TOOL ACCESS PLAN.md", "templates/TEST PLAN.md", "templates/RUNBOOK.md",
-        "templates/RUN RECEIPT.md", "templates/INCIDENT REVIEW.md",
-        "templates/TEN-RUN AUTOMATION TRACKER.md", "tools/safe_counter.py",
+        "START HERE.md",
+        "SYSTEM.md",
+        "examples/EXAMPLE AUTOMATION PILOT.md",
+        "templates/TASK INVENTORY.md",
+        "templates/AUTOMATION SCORECARD.md",
+        "templates/AUTOMATION BRIEF.md",
+        "templates/PROCESS MAP.md",
+        "templates/TOOL ACCESS PLAN.md",
+        "templates/TEST PLAN.md",
+        "templates/RUNBOOK.md",
+        "templates/RUN RECEIPT.md",
+        "templates/INCIDENT REVIEW.md",
+        "templates/TEN-RUN AUTOMATION TRACKER.md",
+        "tools/safe_counter.py",
         "tests/test_safe_counter.py"
       ]
     },
@@ -115,15 +170,23 @@
       "path": "04 Decision to Action System",
       "status": "public_ready",
       "minimumCapability": "chat_only",
-      "additionalCapabilities": ["current_official_information"],
+      "additionalCapabilities": [
+        "current_official_information"
+      ],
       "measurementFile": "templates/TEN-RUN DECISION TRACKER.md",
       "maintenanceFile": "templates/AFTER ACTION REVIEW.md",
       "requiredFiles": [
-        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE DECISION.md",
-        "templates/DECISION BRIEF.md", "templates/OPTION COMPARISON.md",
-        "templates/DECISION LOG.md", "templates/ACTION PLAN.md",
-        "templates/ASSUMPTION LEDGER.md", "templates/PREMORTEM.md",
-        "templates/KILL CRITERIA.md", "templates/AFTER ACTION REVIEW.md",
+        "START HERE.md",
+        "SYSTEM.md",
+        "examples/EXAMPLE DECISION.md",
+        "templates/DECISION BRIEF.md",
+        "templates/OPTION COMPARISON.md",
+        "templates/DECISION LOG.md",
+        "templates/ACTION PLAN.md",
+        "templates/ASSUMPTION LEDGER.md",
+        "templates/PREMORTEM.md",
+        "templates/KILL CRITERIA.md",
+        "templates/AFTER ACTION REVIEW.md",
         "templates/TEN-RUN DECISION TRACKER.md"
       ]
     },
@@ -139,13 +202,23 @@
       "maintenanceFile": "templates/EDIT PROFILE.md",
       "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
       "requiredFiles": [
-        "START HERE.md", "INSTALL.md", "SYSTEM.md", "THIRD-PARTY.md",
-        "requirements-markers.txt", "templates/PRE-EDIT BRIEF.md",
-        "templates/EDIT REPORT.md", "templates/REVIEW CHECKLIST.md",
-        "templates/EDIT PROFILE.md", "templates/EDITOR HANDOFF.md",
-        "templates/TEN-RUN EDIT TRACKER.md", "TOOL ADAPTER.md",
-        "tools/video_pre_edit.py", "tools/setup_doctor.py", "tests/make_fixture.py",
-        "tests/test_video_pre_edit.py", "tests/test_setup_doctor.py",
+        "START HERE.md",
+        "INSTALL.md",
+        "SYSTEM.md",
+        "THIRD-PARTY.md",
+        "requirements-markers.txt",
+        "templates/PRE-EDIT BRIEF.md",
+        "templates/EDIT REPORT.md",
+        "templates/REVIEW CHECKLIST.md",
+        "templates/EDIT PROFILE.md",
+        "templates/EDITOR HANDOFF.md",
+        "templates/TEN-RUN EDIT TRACKER.md",
+        "TOOL ADAPTER.md",
+        "tools/video_pre_edit.py",
+        "tools/setup_doctor.py",
+        "tests/make_fixture.py",
+        "tests/test_video_pre_edit.py",
+        "tests/test_setup_doctor.py",
         "examples/EXAMPLE EDIT REPORT.md"
       ]
     },
@@ -156,17 +229,32 @@
       "path": "06 Visual Style Builder",
       "status": "public_ready",
       "minimumCapability": "chat_only",
-      "additionalCapabilities": ["image_understanding", "image_generation", "current_official_information"],
+      "additionalCapabilities": [
+        "image_understanding",
+        "image_generation",
+        "current_official_information"
+      ],
       "measurementFile": "templates/TEN-RUN STYLE TRACKER.md",
       "maintenanceFile": "templates/STYLE CHANGELOG.md",
       "requiredFiles": [
-        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE STYLE BUILD.md",
-        "templates/REFERENCE INVENTORY.md", "templates/STYLE SPEC.md",
-        "templates/IMAGE BRIEF.md", "templates/TEST MATRIX.md", "templates/STYLE DNA.md",
-        "templates/PROMPT COMPILER.md", "templates/REFERENCE RIGHTS.md",
-        "templates/STYLE CHANGELOG.md", "templates/TEN-RUN STYLE TRACKER.md",
-        "examples/RETRO-FUTURISM.md", "examples/BLACK-AND-WHITE INK.md",
-        "examples/DEADPAN REALITY CLASH.md"
+        "START HERE.md",
+        "SYSTEM.md",
+        "examples/EXAMPLE STYLE BUILD.md",
+        "templates/REFERENCE INVENTORY.md",
+        "templates/STYLE SPEC.md",
+        "templates/IMAGE BRIEF.md",
+        "templates/TEST MATRIX.md",
+        "templates/STYLE DNA.md",
+        "templates/PROMPT COMPILER.md",
+        "templates/REFERENCE RIGHTS.md",
+        "templates/STYLE CHANGELOG.md",
+        "templates/TEN-RUN STYLE TRACKER.md",
+        "examples/RETRO-FUTURISM.md",
+        "examples/BLACK-AND-WHITE INK.md",
+        "examples/DEADPAN REALITY CLASH.md",
+        "skills/retro-futurism/SKILL.md",
+        "skills/black-and-white-ink/SKILL.md",
+        "skills/deadpan-reality-clash/SKILL.md"
       ]
     },
     {
@@ -176,15 +264,23 @@
       "path": "07 AI Tool and Subscription Fit System",
       "status": "public_ready",
       "minimumCapability": "chat_only",
-      "additionalCapabilities": ["current_official_information"],
+      "additionalCapabilities": [
+        "current_official_information"
+      ],
       "measurementFile": "templates/TEN-RUN TOOL TRACKER.md",
       "maintenanceFile": "templates/CANCEL OR UPGRADE.md",
       "requiredFiles": [
-        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE TOOL DECISION.md",
-        "templates/TOOL INVENTORY.md", "templates/ACCOUNT BOUNDARY.md",
-        "templates/TOOL DECISION.md", "templates/30-MINUTE TEST.md",
-        "templates/SUBSCRIPTION COSTS.md", "templates/TASK ROUTER.md",
-        "templates/CANCEL OR UPGRADE.md", "templates/TEN-RUN TOOL TRACKER.md"
+        "START HERE.md",
+        "SYSTEM.md",
+        "examples/EXAMPLE TOOL DECISION.md",
+        "templates/TOOL INVENTORY.md",
+        "templates/ACCOUNT BOUNDARY.md",
+        "templates/TOOL DECISION.md",
+        "templates/30-MINUTE TEST.md",
+        "templates/SUBSCRIPTION COSTS.md",
+        "templates/TASK ROUTER.md",
+        "templates/CANCEL OR UPGRADE.md",
+        "templates/TEN-RUN TOOL TRACKER.md"
       ]
     },
     {
@@ -194,17 +290,27 @@
       "path": "08 AI Workspace Setup System",
       "status": "public_ready",
       "minimumCapability": "chat_only",
-      "additionalCapabilities": ["local_inspection", "run_named_tools"],
+      "additionalCapabilities": [
+        "local_inspection",
+        "run_named_tools"
+      ],
       "measurementFile": "templates/TEN-RUN WORKSPACE TRACKER.md",
       "maintenanceFile": "templates/SELF TEST.md",
       "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
       "requiredFiles": [
-        "START HERE.md", "SYSTEM.md", "examples/EXAMPLE WORKSPACE PLAN.md",
-        "templates/WORKSPACE CHECKLIST.md", "templates/PERMISSIONS PLAN.md",
-        "templates/MODEL CHOICE.md", "templates/LONG-RUNNING JOBS.md",
-        "templates/VOICE WORKFLOW.md", "templates/BACKUP RECOVERY.md",
-        "templates/HANDOFF MAP.md", "templates/SELF TEST.md",
-        "templates/TEN-RUN WORKSPACE TRACKER.md", "tools/setup_doctor.py",
+        "START HERE.md",
+        "SYSTEM.md",
+        "examples/EXAMPLE WORKSPACE PLAN.md",
+        "templates/WORKSPACE CHECKLIST.md",
+        "templates/PERMISSIONS PLAN.md",
+        "templates/MODEL CHOICE.md",
+        "templates/LONG-RUNNING JOBS.md",
+        "templates/VOICE WORKFLOW.md",
+        "templates/BACKUP RECOVERY.md",
+        "templates/HANDOFF MAP.md",
+        "templates/SELF TEST.md",
+        "templates/TEN-RUN WORKSPACE TRACKER.md",
+        "tools/setup_doctor.py",
         "tests/test_setup_doctor.py"
       ]
     },
@@ -215,20 +321,38 @@
       "path": "09 Visual Storytelling and Motion System",
       "status": "public_ready",
       "minimumCapability": "write_files",
-      "additionalCapabilities": ["run_named_tools", "image_generation", "current_official_information"],
+      "additionalCapabilities": [
+        "run_named_tools",
+        "image_generation",
+        "current_official_information"
+      ],
       "measurementFile": "templates/TEN-RUN MOTION TRACKER.md",
       "maintenanceFile": "templates/RENDER PLAN.md",
       "testCommand": "node --test tests/*.test.mjs",
       "requiredFiles": [
-        "START HERE.md", "SYSTEM.md", "INSTALL.md", "THIRD-PARTY.md",
-        "examples/EXAMPLE MOTION PLAN.md", "examples/example-beat-map.json",
-        "templates/BEAT MAP.md", "templates/STORYBOARD.md", "templates/ASSET LEDGER.md",
-        "templates/FACT PARITY.md", "templates/RENDER PLAN.md",
-        "templates/PROVIDER COSTS.md", "templates/TEN-RUN MOTION TRACKER.md",
-        "tools/motion_plan.mjs", "tests/motion_plan.test.mjs", "starter/package.json",
-        "starter/package-lock.json", "starter/tsconfig.json", "starter/remotion.config.ts",
-        "starter/src/index.ts", "starter/src/Root.tsx",
-        "starter/src/MotionComposition.tsx", "starter/src/theme.ts"
+        "START HERE.md",
+        "SYSTEM.md",
+        "INSTALL.md",
+        "THIRD-PARTY.md",
+        "examples/EXAMPLE MOTION PLAN.md",
+        "examples/example-beat-map.json",
+        "templates/BEAT MAP.md",
+        "templates/STORYBOARD.md",
+        "templates/ASSET LEDGER.md",
+        "templates/FACT PARITY.md",
+        "templates/RENDER PLAN.md",
+        "templates/PROVIDER COSTS.md",
+        "templates/TEN-RUN MOTION TRACKER.md",
+        "tools/motion_plan.mjs",
+        "tests/motion_plan.test.mjs",
+        "starter/package.json",
+        "starter/package-lock.json",
+        "starter/tsconfig.json",
+        "starter/remotion.config.ts",
+        "starter/src/index.ts",
+        "starter/src/Root.tsx",
+        "starter/src/MotionComposition.tsx",
+        "starter/src/theme.ts"
       ]
     },
     {
@@ -238,20 +362,113 @@
       "path": "10 Content Waterfall System",
       "status": "public_ready",
       "minimumCapability": "write_files",
-      "additionalCapabilities": ["run_named_tools"],
+      "additionalCapabilities": [
+        "run_named_tools"
+      ],
       "measurementFile": "templates/TEN-RUN CONTENT TRACKER.md",
       "maintenanceFile": "templates/WINNER REVIEW.md",
       "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
       "requiredFiles": [
-        "START HERE.md", "SYSTEM.md", "INSTALL.md", "THIRD-PARTY.md", "CURRENT LIMITS AND PROOF.md",
-        "examples/EXAMPLE WATERFALL RUN.md", "examples/example-transcript.json",
-        "examples/example-content-map.json", "templates/AUDIENCE BRIEF.md",
-        "templates/VOICE GUIDE.md", "templates/CLAIM LEDGER.md",
-        "templates/CONTENT MAP.md", "templates/APPROVAL RECORD.md",
-        "templates/PERFORMANCE LEDGER.md", "templates/WINNER REVIEW.md",
-        "templates/NEXT CAPTURE BRIEF.md", "templates/TEN-RUN CONTENT TRACKER.md",
-        "tools/content_waterfall.py", "tools/transcript_adapter.py",
-        "tests/test_content_waterfall.py", "tests/test_transcript_adapter.py"
+        "START HERE.md",
+        "SYSTEM.md",
+        "INSTALL.md",
+        "THIRD-PARTY.md",
+        "CURRENT LIMITS AND PROOF.md",
+        "examples/EXAMPLE WATERFALL RUN.md",
+        "examples/example-transcript.json",
+        "examples/example-content-map.json",
+        "templates/AUDIENCE BRIEF.md",
+        "templates/VOICE GUIDE.md",
+        "templates/CLAIM LEDGER.md",
+        "templates/CONTENT MAP.md",
+        "templates/APPROVAL RECORD.md",
+        "templates/PERFORMANCE LEDGER.md",
+        "templates/WINNER REVIEW.md",
+        "templates/NEXT CAPTURE BRIEF.md",
+        "templates/TEN-RUN CONTENT TRACKER.md",
+        "tools/content_waterfall.py",
+        "tools/transcript_adapter.py",
+        "tests/test_content_waterfall.py",
+        "tests/test_transcript_adapter.py"
+      ]
+    },
+    {
+      "id": "11",
+      "order": 11,
+      "name": "Always-On Agent System",
+      "path": "11 Always-On Agent System",
+      "status": "public_ready",
+      "minimumCapability": "run_named_tools",
+      "additionalCapabilities": [
+        "local_inspection",
+        "current_official_information"
+      ],
+      "measurementFile": "templates/TEN-RUN AGENT TRACKER.md",
+      "maintenanceFile": "templates/WEEKLY AGENT REVIEW.md",
+      "requiredFiles": [
+        "START HERE.md",
+        "SYSTEM.md",
+        "THIRD-PARTY.md",
+        "examples/EXAMPLE AGENT SETUP.md",
+        "templates/AGENT CHARTER.md",
+        "templates/APPROVAL BOUNDARIES.md",
+        "templates/WORKER ROSTER.md",
+        "templates/TASK CARD.md",
+        "templates/FLEET RULES.md",
+        "templates/WEEKLY AGENT REVIEW.md",
+        "templates/TEN-RUN AGENT TRACKER.md"
+      ]
+    },
+    {
+      "id": "12",
+      "order": 12,
+      "name": "AI Agent Team System",
+      "path": "12 AI Agent Team System",
+      "status": "public_ready",
+      "minimumCapability": "chat_only",
+      "additionalCapabilities": [
+        "connected_app",
+        "current_official_information"
+      ],
+      "measurementFile": "templates/TEN-RUN TEAM TRACKER.md",
+      "maintenanceFile": "templates/PILOT SCORECARD.md",
+      "requiredFiles": [
+        "START HERE.md",
+        "SYSTEM.md",
+        "THIRD-PARTY.md",
+        "examples/EXAMPLE TEAM PILOT.md",
+        "templates/BOOTSTRAP PROMPT.md",
+        "templates/TEAM ROLES.md",
+        "templates/APPROVAL RULES.md",
+        "templates/CONNECTOR CHECKLIST.md",
+        "templates/SHARED WORKSPACE PROTOCOL.md",
+        "templates/ACCEPTANCE TESTS.md",
+        "templates/MEMORY BRIDGE.md",
+        "templates/PILOT SCORECARD.md",
+        "templates/TEN-RUN TEAM TRACKER.md"
+      ]
+    },
+    {
+      "id": "13",
+      "order": 13,
+      "name": "Taste and Packaging System",
+      "path": "13 Taste and Packaging System",
+      "status": "public_ready",
+      "minimumCapability": "chat_only",
+      "additionalCapabilities": [],
+      "measurementFile": "templates/TEN-RUN TASTE TRACKER.md",
+      "maintenanceFile": "templates/MONTHLY TASTE REVIEW.md",
+      "requiredFiles": [
+        "START HERE.md",
+        "SYSTEM.md",
+        "THIRD-PARTY.md",
+        "examples/EXAMPLE PACKAGING DECISION.md",
+        "templates/PACKAGING CONSTITUTION.md",
+        "templates/WRITING QUALITY GATE.md",
+        "templates/VOICE PRESERVATION RULES.md",
+        "templates/TASTE LEDGER.md",
+        "templates/MONTHLY TASTE REVIEW.md",
+        "templates/TEN-RUN TASTE TRACKER.md"
       ]
     }
   ],

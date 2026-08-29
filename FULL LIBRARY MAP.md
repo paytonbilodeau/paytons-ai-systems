@@ -1,6 +1,6 @@
 # Full AI Systems Library Map
 
-This map shows all ten free Payton's AI Systems and the focused collections that help you find a useful starting point. Every system is included in this repository.
+This map shows all thirteen free Payton's AI Systems and the focused collections that help you find a useful starting point. Every system is included in this repository.
 
 | ID | System | Skills and Automation Collection | Content Creation Collection | Complete Library |
 |---|---|---|---|---|
@@ -14,6 +14,9 @@ This map shows all ten free Payton's AI Systems and the focused collections that
 | 08 | AI Workspace Setup System | Not included | Not included | Included |
 | 09 | Visual Storytelling and Motion System | Not included | Included | Included |
 | 10 | Content Waterfall System | Not included | Included | Included |
+| 11 | Always-On Agent System | Included | Not included | Included |
+| 12 | AI Agent Team System | Included | Not included | Included |
+| 13 | Taste and Packaging System | Not included | Included | Included |
 
 ## What each system helps you do
 
@@ -27,6 +30,9 @@ This map shows all ten free Payton's AI Systems and the focused collections that
 8. **AI Workspace Setup:** Organize files, apps, permissions, long-running jobs, backups, and handoffs across your computer and AI tools.
 9. **Visual Storytelling and Motion:** Map narration to visual beats, plan motion, and build designed explanations with an optional generation path.
 10. **Content Waterfall:** Turn one approved source into traceable clips, captions, email drafts, and text posts with human approval before publishing.
+11. **Always-On Agent:** Design one personal agent you can message any time, with headless background workers behind it, a written charter, and hard approval boundaries.
+12. **AI Agent Team:** Set up a front-door agent and functional specialists on a hosted bot platform, connect accounts one proven step at a time, and decide keep-or-cancel on evidence.
+13. **Taste and Packaging:** Lock an honesty floor and a boldness obligation for titles, hooks, and thumbnails, gate your prose for machine tells, and track judgment in a ledger.
 
 ## Access and updates
 

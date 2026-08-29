@@ -2,6 +2,23 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.1.0 - 2026-08-29
+
+### Three new systems
+
+- Added System 11, Always-On Agent: design one personal agent reachable by messaging, with headless background workers, a written charter, approval boundaries entered require-first, task cards with runtime caps, fleet rules, a weekly review, and a ten-run tracker. Rewritten as generic templates from a working private setup.
+- Added System 12, AI Agent Team: run a front-door agent plus Research, Writing, and Operations specialists on a hosted bot platform, with a bootstrap prompt, role descriptions, approval rules, a connector checklist that proves read before write, a shared workspace and handoff protocol, twelve acceptance tests, an optional memory bridge that never writes into canonical files, and a keep-or-cancel pilot scorecard. Rewritten as generic templates from a completed private pilot.
+- Added System 13, Taste and Packaging: a two-rule packaging constitution with a narrow honesty floor and an explicit obligation to earn attention, a four-layer writing quality gate, voice preservation rules for speech-sourced drafts, a taste ledger with predictions and outcomes, and a monthly review. The optional related open-source writing skill is attributed in the system's third-party notes.
+
+### Expanded existing systems
+
+- System 02 gained `SKILL CATALOG.md`: eighteen proven skill patterns from real production, each with job, triggers, inputs, output, and the safety line experience says it needs, plus two complete public reference repositories.
+- System 06 gained three installable skill packages under `skills/`, one per public starter card (Retro-Futurism, Black-and-White Ink, Deadpan Reality Clash), ready to drop into a skills folder and use with any native image generator.
+
+### Collections
+
+- The Skills and Automation Collection now includes Systems 11 and 12. The Content Creation Collection now includes System 13. The orchestrators, library map, glossary, third-party index, manifest, and validator cover all thirteen systems.
+
 ## 3.0.0 - 2026-08-29
 
 ### Free public release

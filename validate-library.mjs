@@ -19,7 +19,10 @@ const canonicalSystems = [
   ["07", 7, "AI Tool and Subscription Fit System", "07 AI Tool and Subscription Fit System", "chat_only", ["current_official_information"], "public_ready"],
   ["08", 8, "AI Workspace Setup System", "08 AI Workspace Setup System", "chat_only", ["local_inspection", "run_named_tools"], "public_ready"],
   ["09", 9, "Visual Storytelling and Motion System", "09 Visual Storytelling and Motion System", "write_files", ["run_named_tools", "image_generation", "current_official_information"], "public_ready"],
-  ["10", 10, "Content Waterfall System", "10 Content Waterfall System", "write_files", ["run_named_tools"], "public_ready"]
+  ["10", 10, "Content Waterfall System", "10 Content Waterfall System", "write_files", ["run_named_tools"], "public_ready"],
+  ["11", 11, "Always-On Agent System", "11 Always-On Agent System", "run_named_tools", ["local_inspection", "current_official_information"], "public_ready"],
+  ["12", 12, "AI Agent Team System", "12 AI Agent Team System", "chat_only", ["connected_app", "current_official_information"], "public_ready"],
+  ["13", 13, "Taste and Packaging System", "13 Taste and Packaging System", "chat_only", [], "public_ready"]
 ];
 
 const requiredRootFiles = [
@@ -48,21 +51,21 @@ const canonicalBundles = [
   {
     key: "content",
     name: "AI Content Creation Collection",
-    systemIds: ["05", "06", "09", "10"],
+    systemIds: ["05", "06", "09", "10", "13"],
     orchestrator: "CONTENT PACK ORCHESTRATOR.md",
     tracker: "templates/CONTENT ROI TRACKER.md"
   },
   {
     key: "skills_automation",
     name: "AI Skills and Automation Collection",
-    systemIds: ["02", "03"],
+    systemIds: ["02", "03", "11", "12"],
     orchestrator: "SKILLS AND AUTOMATION PACK ORCHESTRATOR.md",
     tracker: "templates/SYSTEM ROI TRACKER.md"
   },
   {
     key: "complete",
     name: "Complete AI Systems Library",
-    systemIds: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"],
+    systemIds: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13"],
     orchestrator: "BUNDLE ORCHESTRATOR.md",
     tracker: "templates/MEASUREMENT DASHBOARD.md"
   }
@@ -78,7 +81,10 @@ const requiredExamples = new Map([
   ["07", "examples/EXAMPLE TOOL DECISION.md"],
   ["08", "examples/EXAMPLE WORKSPACE PLAN.md"],
   ["09", "examples/EXAMPLE MOTION PLAN.md"],
-  ["10", "examples/EXAMPLE WATERFALL RUN.md"]
+  ["10", "examples/EXAMPLE WATERFALL RUN.md"],
+  ["11", "examples/EXAMPLE AGENT SETUP.md"],
+  ["12", "examples/EXAMPLE TEAM PILOT.md"],
+  ["13", "examples/EXAMPLE PACKAGING DECISION.md"]
 ]);
 
 const toolTests = new Map([
@@ -506,5 +512,5 @@ if (failures.length) {
 }
 
 console.log(
-  `Library validation passed: 10 canonical systems, 3 public collections, ${actualFiles.size} exactly declared non-empty files, 13 mutation checks, and ${passedToolSuites} runnable tool suites. System 10 keeps its documented first-production proof boundary.`
+  `Library validation passed: 13 canonical systems, 3 public collections, ${actualFiles.size} exactly declared non-empty files, 13 mutation checks, and ${passedToolSuites} runnable tool suites. System 10 keeps its documented first-production proof boundary.`
 );
