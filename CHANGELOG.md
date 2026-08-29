@@ -2,6 +2,18 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.1.2 - 2026-08-29
+
+### System 09: Visual Storytelling and Motion System
+
+- Added a visual-restraint rule that keeps persistent source, date, provenance,
+  and changing-condition footers off screen when they compete with the main
+  explanation.
+- Added exact-frame visual anchors for emphasis SFX so audio-only cues fail
+  review.
+- Added directional-fidelity checks so offsets, brackets, and labels stay on
+  the side supported by the source.
+
 ## 3.1.1 - 2026-08-29
 
 ### Review cleanup

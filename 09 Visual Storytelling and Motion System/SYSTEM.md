@@ -35,11 +35,20 @@ Use evidence when the viewer needs proof. Use explanation when the viewer needs 
 - Give each beat a clear entry, hold, and exit.
 - Let important information settle before it leaves.
 - Keep a stable hierarchy so motion does not compete with narration.
+- Do not keep a source, date, provenance, or changing condition footer on
+  screen when the main visual already explains the point. Put supporting
+  metadata in the caption or source record unless attribution needs its own
+  evidence beat.
 - Use consistent easing, spacing, type, and color from the approved style card.
 - Keep captions and important objects inside the target platform's safe area.
 - Use deterministic timing. The same inputs should produce the same frames.
 - Simulate physics once with a fixed timestep and fixed seed, then store transforms by frame. Do not run a live simulation inside a renderer that may request frames out of order.
 - Derive physical-impact sound cues from the same stored frame data as the picture. Do not hand-time an impact that the rendered motion can prove.
+- Give every emphasis sound a readable visual event on its exact rendered
+  frame. A sound with no matching state change is an orphan cue and fails
+  review.
+- When a visual communicates direction or offset, move the value toward the
+  side supported by the source and place its measurement label on that side.
 - Transparent overlay renders contain no sound. Mix sound in the final editor using the separate SFX timeline.
 - Do not animate invented evidence, fabricated screenshots, false numbers, or approximated logos.
 
