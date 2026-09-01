@@ -2,6 +2,14 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.1.3 - 2026-08-31
+
+### System 06: Visual Style Builder
+
+- Replaced the older blank-surface and after-generation logo-compositing method with a reference-first generation gate.
+- Official marks and short final words now belong in the complete scene from the first pass, with targeted native edits or full regeneration used for corrections instead of flat overlays.
+- Expanded full-size and small-display review to reject duplicated, misspelled, sticker-like, recolored, or otherwise altered marks.
+
 ## 3.1.2 - 2026-08-29
 
 ### System 09: Visual Storytelling and Motion System

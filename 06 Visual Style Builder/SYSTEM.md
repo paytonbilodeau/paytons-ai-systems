@@ -25,8 +25,8 @@ Turn approved references into a repeatable visual system with clear rules, a reu
 5. Draft `STYLE SPEC.md`.
 6. Convert one real topic into a single clear visual idea.
 7. Write an `IMAGE BRIEF.md`.
-8. When final text or an official logo is required, reserve its space and surface in the brief before generating the base image.
-9. Generate the base with that surface blank. Add final words and the supplied official asset only after the base exists.
+8. When final text or an official logo is required, lock the exact words and plan the mark's physical or designed surface in the brief before generation.
+9. Supply the current official asset as a required visual reference and generate the complete scene, exact mark, and short final words together. If any one fails, use a targeted native edit with the reference still attached or regenerate the complete scene.
 10. Test at least three subjects and two aspect ratios when image generation is available.
 11. Score each generated result against the same rules. If image generation is unavailable, stop at the written draft and do not claim a test result.
 12. Change the specification only when a repeated failure reveals a missing rule.
@@ -41,18 +41,18 @@ Turn approved references into a repeatable visual system with clear rules, a reu
 - Keep important elements inside the intended safe area.
 - Use short exact text only when it adds meaning.
 - Check spelling and letterforms after generation.
-- If a real company or product appears, use the current official vector or highest-resolution transparent mark as a supplied asset. Never redraw, retype, trace, recolor, or approximate it with an image model, live text, a substitute font, or CSS. Omit it if accuracy cannot be checked.
+- If a real company or product appears, use the current official vector or highest-resolution transparent mark as a required generation reference. Preserve its exact geometry, wordmark, proportions, spacing, and colors. Never rely on model memory, redraw, retype, trace, recolor, approximate, or replace it with live text, a substitute font, CSS, or another flat overlay. Omit it if accuracy cannot be checked.
 - Keep a rejected example and the reason it failed. It often teaches more than another approved image.
 
 ## Logo and text composition gate
 
-1. Record the approved asset, source, intended variant, and use rights.
-2. Reserve a plausible physical or designed surface in the image brief. Leave it blank during base generation.
-3. Prefer a front-facing or nearly front-facing plane. If a stronger angle would deform the official contours, simplify the composition.
-4. Composite the exact asset afterward. Preserve its aspect ratio, internal geometry, and approved colors. Use only a planar perspective transform when the surface requires it.
-5. Match the surface's local light direction, material texture, contrast, edge softness, grain, and any natural shadow, reflection, or occlusion. A flat overlay that looks pasted on fails.
-6. Place final words after the base exists. Use optical alignment, a consistent grid, safe margins, and a clear hierarchy.
-7. Inspect at 100 percent and at the final small display size. Reject altered contours, wrong colors, edge halos, crowded placement, awkward spacing, overlaps, or unreadable labels.
+1. Record the approved asset, first-party source, intended variant, and use rights.
+2. Plan one plausible physical or designed surface in the image brief. Name its object, material, location, orientation, and relationship to the focal action.
+3. Supply the official asset to the native image generator as a required visual reference. Generate it exactly once as part of the complete scene, together with any short final words.
+4. Preserve the mark's aspect ratio, internal geometry, wordmark, spacing, and approved colors. Let the surrounding surface match the local perspective, light direction, material texture, contrast, edge softness, grain, shadow, reflection, and occlusion without changing the mark itself.
+5. If a stronger angle would deform the official contours, simplify the composition or use a targeted native image edit with the official reference still attached.
+6. Do not generate a blank plate for later compositing. Do not patch a result with Pillow, CSS, SVG, live text, a substitute font, or another flat overlay. Regenerate the complete scene when a targeted native edit cannot pass.
+7. Inspect at 100 percent and at the final small display size. Reject altered contours, wrong colors, duplicated marks, misspellings, edge halos, sticker-like placement, crowded edges, awkward spacing, overlaps, or unreadable labels.
 
 ## Accuracy floor
 
