@@ -6,11 +6,25 @@ Run this before shipping any prose that matters: posts, scripts, emails, pages, 
 - **Audience:** [who it is actually for]
 - **Job:** [what the reader should know, feel, or do afterward]
 
+## Reasoning check for consequential prose
+
+Use this section for advice, strategy, sourced explanation, and persuasion. Skip it for simple replies where it would add ceremony.
+
+- **Closest source or live state:** [what was checked directly]
+- **Working explanation and assumptions:** [what the draft infers]
+- **Claim boundaries:** [separate fact, inference, analogy, and forecast]
+- **Strongest competing explanation:** [the best reasonable countercase]
+- **Whole trade:** [opportunity cost, hidden coordination cost, reversibility, and downside]
+- **Useful ending:** [next action, success condition, or decision boundary]
+
+If the draft cannot answer these questions, fix the thinking before polishing the prose. An AI critique is a pressure test, not independent verification.
+
 ## Layer 1: purpose
 
 - Does the piece recommend, decide, or claim something, or does it only explain?
 - Would it read the same if a competitor had written it about their own work?
 - What was deliberately left out? A piece that covers every angle chose none.
+- Does the causal path connect the evidence to the conclusion, or does fluent language hide a jump?
 
 **Finding:** [pass, or what is missing]
 

@@ -19,7 +19,7 @@ Every system has a chat-only fallback, so you can start even before your assista
 | 01 | AI Memory and Reflection | A durable memory your AI reads before work and updates after, so context stops resetting every chat |
 | 02 | Skill Library and Improvement | Package repeatable work as named skills, track ten real runs, improve or retire on evidence |
 | 03 | Safe Automation Blueprint | Decide what deserves automation, pilot it with gates and receipts, review every incident |
-| 04 | Decision to Action | Turn a fuzzy decision into a specific, testable next action |
+| 04 | Decision to Action | Turn a fuzzy decision into a source-grounded choice and a testable next action |
 | 05 | Video Pre-Edit | Cut silences and restarts from raw footage locally before a human ever opens the editor |
 | 06 | Visual Style Builder | Define a repeatable visual style an image model can hit on demand |
 | 07 | AI Tool and Subscription Fit | Route tasks to the right tool and plan instead of collecting subscriptions |

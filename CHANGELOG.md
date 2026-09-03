@@ -2,6 +2,19 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.2.0 - 2026-09-03
+
+### System 04: Decision to Action
+
+- Added a territory-first check that separates direct evidence from the working explanation and identifies the binding constraint before choosing a fix.
+- Expanded option comparison to include expected-value ranges, opportunity cost, downside, learning value, coordination cost, and stop or switch conditions.
+- Added defaults, friction, incentives, metrics, inherited-rule review, a stronger premortem, a success case, and post-outcome probability updates.
+
+### System 13: Taste and Packaging
+
+- Added a reasoning check for consequential prose: source contact, visible assumptions, claim boundaries, the strongest countercase, the whole trade, and a useful ending.
+- Clarified that AI critique pressure-tests a draft but does not independently verify it.
+
 ## 3.1.3 - 2026-08-31
 
 ### System 06: Visual Style Builder

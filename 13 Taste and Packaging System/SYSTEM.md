@@ -13,7 +13,7 @@ When drafts are cheap, judgment is the product. An unwritten standard produces t
 ## The mechanisms
 
 1. **The constitution** (`templates/PACKAGING CONSTITUTION.md`). Two rules govern every title, hook, thumbnail, caption, and subject line: no outright lies, and earn the click. The first is a hard floor defined narrowly and precisely as factual falsehood, so it cannot be stretched into an excuse for blandness. The second is an obligation, because an honest package nobody opens fails the audience it would have helped. Accuracy filters the options; boldness picks the winner among survivors.
-2. **The quality gate** (`templates/WRITING QUALITY GATE.md`). Before shipping prose, diagnose four layers in order and fix the deepest first: no purpose, voice collapse, padding, then surface patterns. Word-level fixes applied to a piece with no point produce polished emptiness.
+2. **The quality gate** (`templates/WRITING QUALITY GATE.md`). Before shipping prose, consequential work checks its source, assumptions, claim boundaries, countercase, whole trade, and useful ending. Then diagnose four writing layers in order and fix the deepest first: no purpose, voice collapse, padding, then surface patterns. Word-level fixes applied to a piece with no point produce polished emptiness.
 3. **The voice rules** (`templates/VOICE PRESERVATION RULES.md`). When the source is the user's own speech or rough writing, the AI edits rather than replaces: it keeps the user's route through the idea, their examples, and their sentence habits, and deletes only what blurs them.
 4. **The ledger** (`templates/TASTE LEDGER.md`). Every real decision gets a row: the options, the pick, the reason, and later the outcome. Taste that is never checked against outcomes is just confidence.
 
