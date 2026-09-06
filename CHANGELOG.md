@@ -2,6 +2,18 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.2.1 - 2026-09-06
+
+### System 12: AI Agent Team
+
+- Corrected the memory bridge to assign import to a local owner while allowing multiple authorized local and cloud passes through one protocol.
+- Added separate source-read receipts, gap recovery, overlap protection, durable import receipts, and atomic digest requirements, with optional acceptance checks for both directions and interrupted retries.
+- Clarified that missing access or a rejected command cannot be bypassed and that a local digest does not prove cloud context was refreshed.
+
+### System 07: AI Tool and Subscription Fit
+
+- Added a subscription-change handoff checklist covering active job ownership, retired fallbacks, preserved files, verified access, and shared usage limits.
+
 ## 3.2.0 - 2026-09-03
 
 ### System 04: Decision to Action

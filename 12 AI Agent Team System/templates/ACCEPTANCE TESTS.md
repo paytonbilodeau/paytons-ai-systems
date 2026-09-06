@@ -74,6 +74,18 @@ Run one stable workflow twice with different safe inputs. Review input selection
 
 Pass: only then may the team propose a routine. Creating or enabling it still requires approval.
 
+## Optional memory bridge checks
+
+Run these when enabling `MEMORY BRIDGE.md`, using harmless fixtures in a disposable test folder.
+
+1. Change one local fixture. Have the platform read the current source and save a receipt naming its path and content version. Check the saved receipt locally.
+2. Have the platform stage one benign candidate. Run the local importer and verify one review-queue entry, its source identifier, and the archived input. Keep the candidate untrusted until reviewed.
+3. Start two overlapping imports of the same candidate. Verify one capture and complete readable digests. Simulate failure after capture but before archival, then retry after a date change; verify no second capture.
+4. Simulate an interrupted digest replacement. Verify readers retain the previous complete file. Run a dry run and verify no files changed or moved.
+5. Simulate an unreachable host and a rejected import command. Verify the outbox survives, the missed half is reported, and no alternate language or permission change bypasses the rejection. Restore access and verify recovery covers the gap.
+
+Pass: both directions have inspected receipts, each candidate is captured once, and failures cannot masquerade as fresh shared context. Testing an implementation is separate from drafting this plan.
+
 ## Completion
 
 The setup passes when tests 1 through 11 pass and at least one workflow passes test 12.
