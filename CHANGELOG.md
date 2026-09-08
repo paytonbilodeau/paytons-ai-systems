@@ -2,6 +2,14 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.2.2 - 2026-09-08
+
+### System 06: Visual Style Builder
+
+- Separate logo identity from rendering: preserve official structure while matching the image's linework, materials, texture, palette treatment, lighting, and perspective.
+- Apply the same check to all three public starter styles and the reusable image brief. Reject both pasted-looking logos and structurally distorted marks.
+- Keep official asset references, native correction, and full-size and small-display verification requirements.
+
 ## 3.2.1 - 2026-09-06
 
 ### System 12: AI Agent Team

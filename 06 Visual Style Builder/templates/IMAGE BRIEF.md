@@ -42,11 +42,11 @@
 ## Official logo plan
 
 - **Approved file and source:** [exact asset, owner source, and use rights]
-- **Variant:** [exact approved color or inverse treatment]
+- **Variant:** [official reference variant and intended style-matched material or palette treatment]
 - **Integrated surface:** [object, material, location, orientation, and relationship to the focal action]
 - **Reference method:** [how the official asset will be supplied to the native generator]
-- **Scene fit:** [perspective, local light, texture, contrast, edge softness, grain, shadow, reflection, or occlusion around the unchanged mark]
-- **Do not alter:** [aspect ratio, internal contours, wordmark, spacing, colors, and clearspace]
+- **Scene fit:** [perspective, local light, texture, contrast, edge softness, grain, shadow, reflection, or occlusion shared by the styled mark and its surface]
+- **Do not alter:** [recognizable structure, component count, aspect ratio, internal geometry, exact wordmark spelling, spacing, and negative space]
 - **Correction route:** [targeted native image edit or full regeneration, never a flat overlay]
 - **Omit rule:** [what to do if accuracy or integration cannot be verified]
 

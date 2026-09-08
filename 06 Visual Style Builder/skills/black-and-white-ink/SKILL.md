@@ -39,3 +39,7 @@ Style law to include every time: black ink illustration on a pure flat white bac
 ## QA before delivering
 
 Check at full size and small: the background is truly white, the focal subject wins at a glance, the drawing still reads at avatar size, and nothing decorative snuck in. Test the style's consistency by imagining the last image in the set beside this one; they should feel drawn by the same hand.
+
+## Style-matched logos
+
+Use the current official asset as a structural reference. Preserve its exact recognizable structure, proportions, component count, spacing, negative space, and wordmark spelling while rendering it in this style's own linework, materials, texture, palette treatment, light, and perspective. Integrate it naturally into a meaningful surface during generation. A pasted pristine logo or unrelated app-icon tile fails; invented or distorted brand structure also fails. Correct errors with native editing or regeneration.

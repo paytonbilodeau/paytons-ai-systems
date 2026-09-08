@@ -11,7 +11,7 @@ Generate an image in the locked retro-futurism style. The style stays constant; 
 
 1. Turn the topic into one clear visual metaphor. One. If two metaphors are competing, make the user pick.
 2. Choose a limited palette with strong warm-cool contrast, and decide which side dominates: warmer and lighter for tutorials and wins, cooler and darker for warnings and commentary.
-3. If the image involves a real company or product, get the current official logo asset and supply it to the generator as a visual reference. Never redraw or retype a real mark.
+3. If the image involves a real company or product, get the current official logo asset and supply it to the generator as a visual reference. Preserve its structure while rendering it in the image's own style.
 4. If the image carries text, fix the exact words now, keep them short, and forbid any extra text in the prompt.
 
 ## Prompt structure
@@ -40,3 +40,7 @@ Style law to include every time: mid-century retro-futurism illustration; hard-e
 ## QA before delivering
 
 Inspect at full size and at phone size: exact spelling of every word, one logo only and it matches the official mark, the metaphor reads in under a second, edges are clean, and nothing looks added after the fact. Reject and regenerate rather than explain a flaw away.
+
+## Style-matched logos
+
+Use the current official asset as a structural reference. Preserve its exact recognizable structure, proportions, component count, spacing, negative space, and wordmark spelling while rendering it in this style's own linework, materials, texture, palette treatment, light, and perspective. Integrate it naturally into a meaningful surface during generation. A pasted pristine logo or unrelated app-icon tile fails; invented or distorted brand structure also fails. Correct errors with native editing or regeneration.

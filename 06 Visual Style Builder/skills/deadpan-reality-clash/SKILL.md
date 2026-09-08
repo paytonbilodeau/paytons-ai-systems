@@ -39,3 +39,7 @@ Two-layer law to include every time: foreground people are flat two-dimensional 
 ## QA before delivering
 
 Check at full size and small: the cartoons are genuinely flat, the background could pass as a photograph on its own, the two layers stay separate everywhere they touch, and the character system would survive being placed into a completely different setting unchanged.
+
+## Style-matched logos
+
+Use the current official asset as a structural reference. Preserve its exact recognizable structure, proportions, component count, spacing, negative space, and wordmark spelling while rendering it in this style's own linework, materials, texture, palette treatment, light, and perspective. Integrate it naturally into a meaningful surface during generation. A pasted pristine logo or unrelated app-icon tile fails; invented or distorted brand structure also fails. Correct errors with native editing or regeneration.

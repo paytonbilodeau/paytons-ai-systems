@@ -41,7 +41,7 @@ Turn approved references into a repeatable visual system with clear rules, a reu
 - Keep important elements inside the intended safe area.
 - Use short exact text only when it adds meaning.
 - Check spelling and letterforms after generation.
-- If a real company or product appears, use the current official vector or highest-resolution transparent mark as a required generation reference. Preserve its exact geometry, wordmark, proportions, spacing, and colors. Never rely on model memory, redraw, retype, trace, recolor, approximate, or replace it with live text, a substitute font, CSS, or another flat overlay. Omit it if accuracy cannot be checked.
+- If a real company or product appears, use the current official vector or highest-resolution transparent mark as a required generation reference. Preserve its exact recognizable structure, component count, proportions, spacing, negative space, and wordmark spelling. Render that structure in the image's own visual style. Never rely on model memory or substitute an invented mark, different lettering, or a flat overlay. Omit it if accuracy cannot be checked.
 - Keep a rejected example and the reason it failed. It often teaches more than another approved image.
 
 ## Logo and text composition gate
@@ -49,10 +49,10 @@ Turn approved references into a repeatable visual system with clear rules, a reu
 1. Record the approved asset, first-party source, intended variant, and use rights.
 2. Plan one plausible physical or designed surface in the image brief. Name its object, material, location, orientation, and relationship to the focal action.
 3. Supply the official asset to the native image generator as a required visual reference. Generate it exactly once as part of the complete scene, together with any short final words.
-4. Preserve the mark's aspect ratio, internal geometry, wordmark, spacing, and approved colors. Let the surrounding surface match the local perspective, light direction, material texture, contrast, edge softness, grain, shadow, reflection, and occlusion without changing the mark itself.
+4. Preserve the mark's recognizable structure, aspect ratio, internal geometry, wordmark, and spacing. Render the mark itself with the scene's linework, materials, texture, palette treatment, light, depth, perspective, and wear. Stylistic drawing and material or color treatment may change; brand structure must remain recognizable. A pristine flat asset pasted into a differently rendered scene fails.
 5. If a stronger angle would deform the official contours, simplify the composition or use a targeted native image edit with the official reference still attached.
 6. Do not generate a blank plate for later compositing. Do not patch a result with Pillow, CSS, SVG, live text, a substitute font, or another flat overlay. Regenerate the complete scene when a targeted native edit cannot pass.
-7. Inspect at 100 percent and at the final small display size. Reject altered contours, wrong colors, duplicated marks, misspellings, edge halos, sticker-like placement, crowded edges, awkward spacing, overlaps, or unreadable labels.
+7. Inspect at 100 percent and at the final small display size. Reject structurally distorted contours, style-inconsistent rendering, duplicated marks, misspellings, edge halos, sticker-like placement, crowded edges, awkward spacing, overlaps, or unreadable labels.
 
 ## Accuracy floor
 
@@ -65,7 +65,7 @@ Do not generate:
 - a number, result, rating, or chart value presented as real when it was invented;
 - a quote, endorsement, review, or award that does not exist;
 - a screenshot, interface, document, or receipt built to look like a real product or record;
-- a redrawn or approximated brand mark standing in for the official one;
+- an invented or structurally distorted brand mark standing in for the official one;
 - a person, company, or organization shown as involved when they were not.
 
 This floor applies to every style in the folder. A style card may add stricter
