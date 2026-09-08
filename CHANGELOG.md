@@ -2,6 +2,15 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.3.0 - 2026-09-08
+
+### System 13: Design direction and review
+
+- Add a reusable visual-design workflow covering clear briefs, structural alternatives, reference study, visual critique, bounded refinement, and actual delivery evidence.
+- Separate style decisions from factual and accessibility requirements; distinguish fresh critique from self-review and local checks from real-user outcomes.
+- Add a diagnostic for unearned visual patterns and connect it to existing copy and taste-ledger guidance.
+- Link the workflow from System 06 while preserving each selected image style and official-logo treatment.
+
 ## 3.2.2 - 2026-09-08
 
 ### System 06: Visual Style Builder

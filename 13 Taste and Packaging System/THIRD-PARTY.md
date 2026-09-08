@@ -13,3 +13,7 @@ This system ships original templates. It requires no third-party software.
 - no promise that an external repository remains available or unchanged.
 
 Check the license of anything you install, and keep attribution intact when you adapt public work. This file is not legal advice.
+
+## Design process references
+
+The design-direction template is independently written. Related public work includes [Anshu Chimala's design-process article](https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world), [Design Council's Double Diamond](https://www.designcouncil.org.uk/resources/framework-for-innovation/), [Sakana AI's String Seed of Thought](https://pub.sakana.ai/ssot/), and [research on LLM judge biases](https://arxiv.org/abs/2306.05685). No paid article text, private visual recipe, or third-party prompt is bundled. The method is a practical adaptation, not a validated guarantee of expert design quality.

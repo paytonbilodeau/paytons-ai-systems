@@ -99,3 +99,7 @@ Record every approved rule change in `STYLE CHANGELOG.md`. Change one rule at a 
 ## Safety and human review
 
 Use `REFERENCE RIGHTS.md` before generation. The user supplies authorized references and official brand assets. The system does not grant rights to a style, image, face, font, product, or mark.
+
+## Choosing and reviewing a concept
+
+For substantial new concepts, use `../13 Taste and Packaging System/templates/DESIGN DIRECTION AND REVIEW.md` alongside the selected style. Explore different scenes or compositions within its identity, compare against relevant references, and verify the final image at its real viewing sizes.

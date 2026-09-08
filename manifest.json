@@ -1,6 +1,6 @@
 {
   "title": "Payton's AI Systems",
-  "version": "3.2.2",
+  "version": "3.3.0",
   "releaseStatus": "public_release",
   "maintainer": "Payton Bilodeau",
   "attribution": "Created and maintained by Payton Bilodeau.",
@@ -468,7 +468,8 @@
         "templates/VOICE PRESERVATION RULES.md",
         "templates/TASTE LEDGER.md",
         "templates/MONTHLY TASTE REVIEW.md",
-        "templates/TEN-RUN TASTE TRACKER.md"
+        "templates/TEN-RUN TASTE TRACKER.md",
+        "templates/DESIGN DIRECTION AND REVIEW.md"
       ]
     }
   ],

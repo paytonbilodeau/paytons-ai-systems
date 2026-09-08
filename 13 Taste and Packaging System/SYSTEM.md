@@ -25,6 +25,10 @@ When drafts are cheap, judgment is the product. An unwritten standard produces t
 4. Check the surviving favorite against the audience definition: bold to the wrong person is noise.
 5. Record the decision in the ledger before shipping, and the outcome when it exists.
 
+## Visual design decisions
+
+For substantial images, pages, or interfaces, use `templates/DESIGN DIRECTION AND REVIEW.md`. Define the user task, explore structural alternatives, study relevant references, separate visual criticism from functional verification, and refine in bounded rounds. Preserve existing styles and brand identity. Record the decision and evidence in the same taste ledger; generic visual residue is a quality problem to diagnose, not an authorship detector.
+
 ## Test and evidence
 
 Prove the system on one real piece: one draft through the quality gate with the layer diagnosis named, one package decision through the floor-then-bold sequence with the reasoning written down, and one ledger row completed. Evidence is the written trail, not the user's memory of having judged carefully.
