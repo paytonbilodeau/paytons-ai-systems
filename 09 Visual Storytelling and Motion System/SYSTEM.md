@@ -17,7 +17,7 @@ Use evidence when the viewer needs proof. Use explanation when the viewer needs 
 
 ## Process
 
-1. Confirm the narration is approved and list factual claims.
+1. Confirm the narration is approved and list factual claims. For recorded media, establish matching timing as described below.
 2. Break it into beats with non-overlapping frame ranges.
 3. Write the meaning of each beat before choosing a visual.
 4. Choose one lane and explain the choice.
@@ -26,14 +26,30 @@ Use evidence when the viewer needs proof. Use explanation when the viewer needs 
 7. Complete fact parity before rendering.
 8. Validate the JSON beat map with the supplied tool.
 9. Storyboard the smallest useful motion. Avoid movement without a job.
-10. Use the neutral starter or hand the render plan to another editor.
+10. Choose a runtime that fits the existing project, then use the neutral starter or hand the render plan to another editor.
 11. Render a short test, inspect readability and timing, and remove audio from transparent overlays.
 12. Record the result and one improvement based on evidence.
+
+## Base edit and timing
+
+For recorded media, finish authorized cuts and any authorized audio processing before anchoring motion to speech. Identify that finished base by its filename, file hash, duration, and frame rate. Prefer an existing transcript that matches it; otherwise obtain word timing locally or through an already authorized service. Keep the raw timing and its source. Sentence timestamps divided evenly among words are estimates, not measured word timing. Plans made before recording can use provisional timing; match them to the finished performance before final delivery.
+
+A transcript from an earlier edit needs either a verified source-to-output edit map or fresh transcription of the finished base. Record each selected source interval, output interval, crop, and playback speed. A single offset cannot repair timing after cuts or speed changes. Move captions, visual cues, tracking, and SFX together, then check speech alignment at the beginning, middle, end, and every splice. Keep this handoff in `RENDER PLAN.md`; System 05's pre-edit report alone does not certify motion timing.
+
+## Choose the runtime
+
+Keep a working project's components and renderer when they fit the requested output. Use the included Remotion starter for its supported code-driven scenes; an existing HTML timeline or conventional editor can use the same beat and review records. Convert source only when the conversion solves a specific need. To combine engines, render a finished layer and verify its duration, frame rate, transparency, and audio role in the receiving editor.
+
+Record the runtime version and reproduction command. Check current installation, license, and cost requirements before adding a tool; a provider listed in a tutorial is not authorization to use it. Let one writer own a scene at a time. After a visual editor change, save, reload, and re-render to prove that the source change persisted.
+
+Preserve the actual source frame rate, including rational rates such as 30000/1001, unless a deliberate conversion is recorded. The included starter is configured at 30 fps, and the beat-map validator accepts integer frame rates only. A project requiring another rate needs a compatible renderer and timing validation; do not silently round the source rate to make it pass.
 
 ## Motion rules
 
 - Give each beat a clear entry, hold, and exit.
 - Let important information settle before it leaves.
+- Describe each beat's starting state, visible action, ending state, and reading window. The action should explain the relationship in the narration.
+- Land the meaningful word, value, or state on its spoken cue and retain it through the thought it explains. An entrance can anticipate a cue only if it does not reveal the next idea early. Review the final accumulated state at playback speed.
 - Keep a stable hierarchy so motion does not compete with narration.
 - Do not keep a source, date, provenance, or changing condition footer on
   screen when the main visual already explains the point. Put supporting
@@ -58,12 +74,12 @@ Generation is an asset route, not the system. Before using it, record the provid
 
 For generated illustration or animation, use a keyframe-first preservation gate:
 
-1. Generate or build the opening still from the approved style card.
+1. Generate or build the complete opening still from the approved style card. For generated images, include in-scene words and marks from this first pass. Use the official mark as a structural reference and the selected image style for its treatment, following System 06's image review rules.
 2. Review the still for subject identity, line or shape language, palette, composition, safe areas, text surfaces, and factual accuracy before buying or rendering motion.
 3. Prefer deterministic layer entrances, pose swaps, masks, accent fills, and text reveals when they can carry the beat.
 4. Use an image-to-video model only when the action genuinely needs generated motion.
 5. Ask for one primary action, a locked camera by default, no new objects or words, no identity or palette changes, and a final frame that settles as a complete composition.
-6. Add exact words and official logos after generation. Do not rely on a video model to preserve either.
+6. Preserve the approved words and marks during motion. Correct drift through native editing or regeneration. Separately authored captions and explanatory video overlays can use deterministic text; they must not serve as flat repairs to generated in-scene words or marks.
 7. Review the opening, change, and settled ending. Reject drift even when the middle motion looks impressive.
 
 Keep the style specification separate from the provider adapter. A model can change without changing the visual system.
@@ -71,6 +87,12 @@ Keep the style specification separate from the provider adapter. A model can cha
 ## Test and evidence
 
 Run `node --test tests/*.test.mjs`, then validate the filled beat-map JSON. Render a 5 to 10 second test only after the plan passes. Inspect the opening, busiest frame, caption hold, exit, alpha channel when needed, and absence of audio in an overlay. Build contact sheets from exact frame indexes so every label names the frame that was actually reviewed. For transparent work, probe exact frames inside each transition window and at an intended transparent gap. Save the commands, results, and reviewed frame indexes.
+
+For final delivery, check the completed export's dimensions, frame rate, frame count, duration, audio tracks, and full decode. Review consecutive frames around transitions, then watch and listen to the assembled file at playback speed, including joins and its first and last seconds. A successful render, still-frame review, transcript, or audio measurement alone does not prove that speech is intact or motion reads well. Record which checks were performed and which remain pending.
+
+Recompose each aspect ratio around the speaker, demonstrated action, and text. Check the destination's current interface overlays and a real small-display preview; a fixed crop or generic safe-area box is not sufficient for every format. For transparent layers, test a composite over the actual base and verify import in the intended editor. Confirm the delivered files at their destination and preserve editable source, selected assets, and the reproduction command.
+
+The supplied JSON validator checks plan structure and frame ranges. Transcript alignment, asset hashes, reading time, editor persistence, audio quality, and final-file review remain separate checks documented in the templates.
 
 ## Ten-run measurement
 

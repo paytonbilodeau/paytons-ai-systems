@@ -2,6 +2,16 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.3.1 - 2026-09-09
+
+### Systems 05 and 09: Video handoff and review
+
+- Tie transcript, captions, visual cues, and sound to the finished edit, with source-to-output mapping when footage changes.
+- Clarify runtime choice, reusable rendered layers, saved editor changes, and the beat-map validator's integer-frame-rate limit.
+- Expand existing beat, asset, and render records with meaningful state changes, reading windows, final-file checks, playback review, and destination verification.
+- Correct System 09's older after-generation logo instruction to follow System 06's complete-scene generation and native correction rules.
+- Keep the existing tools and schemas unchanged; distinguish their validation from the separate review checks.
+
 ## 3.3.0 - 2026-09-08
 
 ### System 13: Design direction and review
