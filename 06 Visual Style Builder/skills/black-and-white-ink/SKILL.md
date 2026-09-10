@@ -9,6 +9,11 @@ Generate a conceptual black ink drawing on a pure white background. The style's 
 
 ## Before generating
 
+Use the current runtime's native image generation through the user's existing
+subscription by default. A paid API fallback needs explicit approval, current
+operation-specific documentation and an attempt budget. Missing tools or
+required references do not authorize spending or dropping the references.
+
 1. Reduce the idea to one symbolic action or one contrast. If the concept needs a caption to make sense, the concept is not ready.
 2. Decide the focal subject and what merely supports it. Line weight will carry that hierarchy.
 3. Choose close-up or wide framing deliberately; both must feel like the same ink language.

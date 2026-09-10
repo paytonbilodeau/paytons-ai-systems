@@ -9,6 +9,11 @@ Generate an image where flat two-dimensional cartoon people sit inside a detaile
 
 ## Before generating
 
+Use the current runtime's native image generation through the user's existing
+subscription by default. A paid API fallback needs explicit approval, current
+operation-specific documentation and an attempt budget. Missing tools or
+required references do not authorize spending or dropping the references.
+
 1. Choose one scene that reads in a glance. The situation carries the idea; the style carries the tone.
 2. Decide the emotion, then dial it down one notch. Deadpan means grounded expressions and restrained body language, not theatrical reactions.
 3. Pick the realistic setting for what its materials say: an office's glass and carpet, a kitchen's steel and steam. The background does the world-building.

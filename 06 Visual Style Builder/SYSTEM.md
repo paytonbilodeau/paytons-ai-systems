@@ -6,6 +6,38 @@ These instructions are for the AI helping the user.
 
 Turn approved references into a repeatable visual system with clear rules, a reusable image brief, and tests that reveal when the style breaks.
 
+## Generation route and paid fallback
+
+Use the current runtime's native image generation through the user's existing
+subscription when it meets the brief. Verify that the capability is actually
+available and included. Do not infer its backend model from the name of an
+API model. If generation is unavailable, prepare the brief or use another
+authorized native surface. A missing tool, failed result, or general request
+for an image does not authorize a metered API call.
+
+Use a paid provider only when the user explicitly requests or approves that
+route. Continue within existing approval rather than asking again. Before
+uploading references or submitting a generation:
+
+1. Verify current official documentation for the exact operation and model.
+   Text generation and reference/edit operations may use different model IDs,
+   fields, ratios, resolutions and image limits. Do not rename unrelated model
+   settings or assume a local path or data URL is accepted as a reference.
+2. Confirm that every required reference is readable, authorized for this
+   provider, and supplied through its documented reference mechanism. If a
+   local asset needs an upload, use a fresh name and the returned hosted URL.
+   Missing or invalid required references must stop the request before paid
+   generation; do not replace them with a description from model memory.
+3. Check the current price and approved attempt budget. Keep credentials in
+   private configuration. Do not silently retry paid jobs, change paid
+   providers, or substitute models after a failure.
+
+Record the route, requested model and operation, documentation date, task
+receipt, output location, and review result. Separate estimated cost from
+reported actual cost; an unknown charge is not zero. Schema validation proves
+the request format only. Provider acceptance, generated output and visual
+approval are separate states that need their own evidence.
+
 ## Process
 
 1. Inventory each reference and why the user chose it.
@@ -41,7 +73,7 @@ Turn approved references into a repeatable visual system with clear rules, a reu
 - Keep important elements inside the intended safe area.
 - Use short exact text only when it adds meaning.
 - Check spelling and letterforms after generation.
-- If a real company or product appears, use the current official vector or highest-resolution transparent mark as a required generation reference. Preserve its exact recognizable structure, component count, proportions, spacing, negative space, and wordmark spelling. Render that structure in the image's own visual style. Never rely on model memory or substitute an invented mark, different lettering, or a flat overlay. Omit it if accuracy cannot be checked.
+- If a real company or product appears, use the current official vector or highest-resolution transparent mark as a required generation reference. Preserve its exact recognizable structure, component count, proportions, spacing, negative space, and wordmark spelling. Render that structure in the image's own visual style. Never rely on model memory or substitute an invented mark, different lettering, or a flat overlay. If a required mark cannot be checked, stop and explain the missing reference or review capability.
 - Keep a rejected example and the reason it failed. It often teaches more than another approved image.
 
 ## Logo and text composition gate
@@ -70,8 +102,8 @@ Do not generate:
 
 This floor applies to every style in the folder. A style card may add stricter
 rules on top of it. A style card may never relax it. When a required element
-cannot be shown accurately, leave it out and tell the user what was omitted and
-why.
+cannot be shown accurately, correct the image or stop and explain what remains
+unresolved. Do not quietly remove a requirement to make the image pass.
 
 ## Output
 

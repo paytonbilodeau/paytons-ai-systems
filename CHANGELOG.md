@@ -2,6 +2,16 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.3.3 - 2026-09-10
+
+### System 06: Native generation and paid fallback
+
+- Keep native subscription image generation as the default and require explicit approval for metered fallbacks.
+- Verify each provider operation's current schema, required references and attempt budget before uploads or generation.
+- Separate schema checks, provider acceptance, visual approval, estimated cost and reported cost in the image brief.
+- Stop for unresolved required marks instead of silently removing them. Apply the routing rule to all three public starter skills.
+- Keep this correction provider-neutral; no private adapters or style recipes are included.
+
 ## 3.3.2 - 2026-09-10
 
 ### Systems 05 and 09: Silence and render checks

@@ -4,6 +4,15 @@
 
 [Where the image will appear and what it needs to communicate.]
 
+## Generation route and receipt
+
+- **Native capability and plan:** [available tool, included use, and any hard limit]
+- **Paid route, if explicitly approved:** [provider, operation, approval scope and attempt budget]
+- **Verified request schema:** [official source and date, model ID, allowed inputs and limits]
+- **Reference transfer:** [required assets, permission to upload, and supported reference method]
+- **Cost:** [current estimate, reported actual cost, or unknown]
+- **Evidence:** [schema checked, provider accepted, output saved, and visually approved as separate states]
+
 ## Core idea
 
 [One visual argument, scene, or metaphor.]
@@ -48,7 +57,7 @@
 - **Scene fit:** [perspective, local light, texture, contrast, edge softness, grain, shadow, reflection, or occlusion shared by the styled mark and its surface]
 - **Do not alter:** [recognizable structure, component count, aspect ratio, internal geometry, exact wordmark spelling, spacing, and negative space]
 - **Correction route:** [targeted native image edit or full regeneration, never a flat overlay]
-- **Omit rule:** [what to do if accuracy or integration cannot be verified]
+- **Unresolved requirement:** [correction or stop condition if accuracy or integration cannot be verified]
 
 ## Avoid
 

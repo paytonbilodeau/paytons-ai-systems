@@ -9,6 +9,11 @@ Generate an image in the locked retro-futurism style. The style stays constant; 
 
 ## Before generating
 
+Use the current runtime's native image generation through the user's existing
+subscription by default. A paid API fallback needs explicit approval, current
+operation-specific documentation and an attempt budget. Missing tools or
+required references do not authorize spending or dropping the references.
+
 1. Turn the topic into one clear visual metaphor. One. If two metaphors are competing, make the user pick.
 2. Choose a limited palette with strong warm-cool contrast, and decide which side dominates: warmer and lighter for tutorials and wins, cooler and darker for warnings and commentary.
 3. If the image involves a real company or product, get the current official logo asset and supply it to the generator as a visual reference. Preserve its structure while rendering it in the image's own style.
