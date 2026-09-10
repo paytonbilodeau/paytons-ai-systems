@@ -51,6 +51,7 @@ The full-restart rule is also off by default. It requires both `--detect-full-st
 - Adjust one setting at a time after reviewing a dry run.
 - Preserve deliberate pauses when the user wants a slower pace.
 - Add each clip, music section, generated sound, or deliberate pause as a repeatable `--protect START-END` range using original-source timestamps.
+- Review the picture before approving silence cuts. Add silent demonstrations, reading time, and other intentional visual-only sections as protected ranges; low audio level does not mean nothing useful is happening.
 - Do not use this tool directly on HDR, multicamera, multitrack audio, subtitle-bearing, or edit-master media. Make a flattened SDR working copy.
 
 ## Audio rules

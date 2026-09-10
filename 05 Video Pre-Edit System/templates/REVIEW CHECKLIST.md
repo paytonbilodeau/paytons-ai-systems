@@ -10,6 +10,7 @@ Review the new MP4 from start to finish. Keep the source unchanged even after th
 - [ ] Words do not sound clipped at cut points.
 - [ ] Deliberate pauses still feel natural.
 - [ ] Played clips, music, and screen media remain intact.
+- [ ] Silent demonstrations and intentional visual-only sections were reviewed and protected before silence cutting.
 - [ ] Audio level is steady from the opening through the end.
 - [ ] Speech sounds natural and is not heavily compressed.
 - [ ] No useful repeated explanation was removed.

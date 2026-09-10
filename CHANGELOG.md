@@ -2,6 +2,14 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.3.2 - 2026-09-10
+
+### Systems 05 and 09: Silence and render checks
+
+- Require picture review and protected ranges for silent demonstrations before silence cutting.
+- Derive expected duration and frame count from the approved plan before rendering, and record frame-timing evidence when constant frame rate is required.
+- Update the review checklist and render plan; tools and validation coverage remain unchanged.
+
 ## 3.3.1 - 2026-09-09
 
 ### Systems 05 and 09: Video handoff and review
