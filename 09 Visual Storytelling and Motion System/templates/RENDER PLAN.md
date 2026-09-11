@@ -15,6 +15,8 @@
 - **Background:** [opaque or transparent]
 - **Output:** [new relative path]
 - **Audio:** [none for overlay, or separate final-edit plan]
+- **Audio preservation:** [unchanged encoded audio, intentional re-encode/edit with reason, or not applicable]
+- **Approved audio reference:** [same-length clip label, hash, codec and intended streams, or not applicable]
 - **SFX cue source:** [rendered frame data, separate approved timeline, or none]
 - **Emphasis cue check:** [exact frame and matching readable visual event, or none]
 - **Directional fidelity:** [source-supported side and matching label placement, or not applicable]
@@ -26,9 +28,11 @@
 - **Frame-indexed contact sheet:** [exact frame list and output]
 - **Caption safe area:** [boundary]
 - **Format review:** [each aspect ratio, destination overlay check, small-display result]
+- **Movement and edge review:** [exact frames at greatest lean/turn, action near edges, return and final frame; face/action clearance from crop and text]
 - **Alpha probe:** [exact transition and transparent-gap frames, or not required]
 - **Editor import and base composite:** [receiving editor, tested file, result, or not required]
 - **Final-file check:** [dimensions, exact fps, frames, duration, audio tracks, full decode]
+- **Audio preservation check:** [audio duration and encoded payload comparison with the approved same-length reference, or separate re-encode/edit review]
 - **Frame-timing check:** [constant-frame-rate requirement and measured timing evidence, or not required]
 - **Playback review:** [reviewer, file, watched/listened ranges, joins and opening/ending results]
 - **Delivery check:** [requested destination, verified file labels and hashes]
@@ -36,4 +40,4 @@
 - **Fallback:** [opaque export or editor handoff]
 - **Human approval:** [pending or recorded]
 
-The included starter is configured at 30 fps; the JSON validator accepts integer frame rates only. Record rational source rates exactly and use a compatible route when needed. The template records checks; filling a field does not run them.
+The included starter is configured at 30 fps; the JSON validator accepts integer frame rates only. Record rational source rates exactly and use a compatible route when needed. The template records checks; filling a field does not run them. Compare encoded audio payloads only when the revision preserves the same-length approved audio without re-encoding. That comparison does not replace sync review or listening.

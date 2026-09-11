@@ -30,6 +30,12 @@ Turn one approved long source into selected long cutdowns, mid-length clips, sho
 
 These ranges are product defaults, not platform guarantees. Check current platform limits before delivery.
 
+## Clip selection and packaging
+
+Compare candidate starts and endings across the source before choosing a range. The opening should establish the subject and a specific reason to keep watching without relying on missing context. Keep the explanation, example, or decision that pays off that opening, including any qualification needed to preserve the meaning. End after the useful thought is complete and before an unrelated aside or the next unfinished idea. Complete words at both boundaries are necessary, but do not by themselves make a strong clip. Record the opening words, closing words, and payoff in the content map, then check the actual exported boundaries at playback speed.
+
+Record a title and social caption separately when the destination uses both fields. A social caption is not a substitute for a video title. Each should make a source-supported promise that the selected clip fulfills. Review the actual export's crop and text during the subject's greatest lean or turn, important action near the edges, the return movement, and the final frame. A clean opening still or valid map does not establish that the whole clip is framed well.
+
 ## No-new-claims rule
 
 A content map proves traceability, not truth by itself. Every output must cite claim IDs that exist in the ledger, and a person must compare the draft with the cited source. Do not invent context, numbers, outcomes, quotes, endorsements, chronology, certainty, or causal claims. When a transition needs context the source does not contain, label it for the user's addition and reapproval.

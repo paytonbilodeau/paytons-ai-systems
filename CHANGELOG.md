@@ -2,6 +2,15 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.3.4 - 2026-09-11
+
+### Systems 09 and 10: Audio preservation and clip review
+
+- Add complete-audio preservation checks for picture-only revisions, using an approved same-length reference and distinguishing copied audio from intentional re-encoding.
+- Review moving subjects and important action at framing extremes, during the return movement, and in the actual final frame.
+- Record each clip's opening words, complete payoff, closing words, title, and separate social caption before final export review.
+- Keep tools, schemas, duration ranges, approval requirements, and manual publication unchanged. The outstanding real-production proof remains open.
+
 ## 3.3.3 - 2026-09-10
 
 ### System 06: Native generation and paid fallback
