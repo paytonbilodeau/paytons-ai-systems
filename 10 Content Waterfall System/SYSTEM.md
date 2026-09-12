@@ -46,6 +46,20 @@ Compare candidate starts and endings across the source before choosing a range. 
 
 Record a title and social caption separately when the destination uses both fields. A social caption is not a substitute for a video title. Each should make a source-supported promise that the selected clip fulfills. Review the actual export's crop and text during the subject's greatest lean or turn, important action near the edges, the return movement, and the final frame. A clean opening still or valid map does not establish that the whole clip is framed well.
 
+For designed thumbnails, preserve the authentic subject and source identity while
+reviewing photographic finishing, mask edges, color and detail. Choose emphasis
+from the meaning of the text, and include topic imagery only when truthful and
+useful. Keep an editable or lossless master and check the actual upload route's
+current image limits; a desktop interface and an API may accept different sizes.
+Review the final exported file and native appearance separately.
+
+When the full source video needs chapters, draft them from the final timeline
+and review their wording and boundaries. Use concise, accurate labels that help
+browsing without vague bait or unnecessary spoilers. Check current platform
+rules, distinguish a platform's automatic setting from creator-supplied timestamp
+chapters, and verify actual navigation after upload. A saved setting alone does
+not prove chapters appeared.
+
 ## No-new-claims rule
 
 A content map proves traceability, not truth by itself. Every output must cite claim IDs that exist in the ledger, and a person must compare the draft with the cited source. Do not invent context, numbers, outcomes, quotes, endorsements, chronology, certainty, or causal claims. When a transition needs context the source does not contain, label it for the user's addition and reapproval.

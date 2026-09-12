@@ -2,6 +2,16 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.3.7 - 2026-09-12
+
+### Systems 05, 09 and 10: Caption ownership and delivery review
+
+- Record who adds captions, the reserved area, and whether an export is a clean handoff or a final publication asset.
+- Compare actual rendered glyphs, spacing and contrast with authorized visual references; label font approximations honestly.
+- Preserve authentic subjects in thumbnail finishing and check the chosen upload route's image limits.
+- Review chapters against the final timeline and verify native navigation separately from saved settings.
+- These are generic workflow and template corrections; no private style recipe, account information or reference media is included.
+
 ## 3.3.6 - 2026-09-12
 
 ### System 09: Story checks and recovery of rendered sections
