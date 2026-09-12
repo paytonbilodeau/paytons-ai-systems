@@ -6,6 +6,8 @@
 - **Finished base:** [relative file label, hash, duration, exact frame rate, or no recorded base]
 - **Matching transcript:** [relative file label, hash, origin, timing method, or not applicable]
 - **Timing status:** [matches finished base, remapped and checked, provisional, or standalone motion]
+- **Story check:** [opening promise, explanation, recorded takeaway; gaps returned to the source-edit owner]
+- **Input authority:** [which input governs facts/performance, appearance and requested output]
 - **Source-to-output map:** [relative record of source/output intervals, frame rate, crop and speed, or unchanged base]
 - **Alignment review:** [beginning, middle, end and splice times checked against playback]
 - **Dimensions and fps:** [values]
@@ -39,5 +41,18 @@
 - **Pending checks:** [specific limits, or none]
 - **Fallback:** [opaque export or editor handoff]
 - **Human approval:** [pending or recorded]
+
+## Section recovery, when needed
+
+- **Representative sample:** [difficult transition, acceptance condition and observed result]
+- **Attempt budget:** [limit and when to inspect new evidence or change the method]
+
+| Part | Source and reference versions | Core frames / context handles | Expected frames | Output / owned job | State and checks | Attempts / dependencies to refresh |
+|---|---|---|---|---|---|---|
+| [ID] | [labels and hashes] | [exact ranges and end convention] | [count] | [relative file and ID] | [pending, failed, checked or accepted; evidence] | [count and affected parts/cues] |
+
+Record assembly order, removal of context handles, and checks of every join.
+Keep successful parts only while their inputs remain valid. Reconcile uncertain
+job state before retries, then review the assembled result separately.
 
 The included starter is configured at 30 fps; the JSON validator accepts integer frame rates only. Record rational source rates exactly and use a compatible route when needed. The template records checks; filling a field does not run them. Compare encoded audio payloads only when the revision preserves the same-length approved audio without re-encoding. That comparison does not replace sync review or listening.

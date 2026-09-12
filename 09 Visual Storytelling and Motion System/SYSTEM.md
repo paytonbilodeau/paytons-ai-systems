@@ -32,6 +32,14 @@ Use evidence when the viewer needs proof. Use explanation when the viewer needs 
 
 ## Base edit and timing
 
+Before visual finishing, compare the approved narration's opening promise,
+necessary explanation and closing takeaway. Flag a missing definition, broken
+reference or unsupported conclusion to the owner of the source edit. Do not
+invent a spoken ending or reopen approved narration during a motion-only job.
+Where layout changes are authorized, hold the relevant evidence while it is
+being read or demonstrated, then return to the speaker when the explanation
+benefits from seeing them. Eye direction alone is not a reliable switching cue.
+
 For recorded media, finish authorized cuts and any authorized audio processing before anchoring motion to speech. Identify that finished base by its filename, file hash, duration, and frame rate. Prefer an existing transcript that matches it; otherwise obtain word timing locally or through an already authorized service. Keep the raw timing and its source. Sentence timestamps divided evenly among words are estimates, not measured word timing. Plans made before recording can use provisional timing; match them to the finished performance before final delivery.
 
 A transcript from an earlier edit needs either a verified source-to-output edit map or fresh transcription of the finished base. Record each selected source interval, output interval, crop, and playback speed. A single offset cannot repair timing after cuts or speed changes. Move captions, visual cues, tracking, and SFX together, then check speech alignment at the beginning, middle, end, and every splice. Keep this handoff in `RENDER PLAN.md`; System 05's pre-edit report alone does not certify motion timing.
@@ -43,6 +51,27 @@ Keep a working project's components and renderer when they fit the requested out
 Record the runtime version and reproduction command. Check current installation, license, and cost requirements before adding a tool; a provider listed in a tutorial is not authorization to use it. Let one writer own a scene at a time. After a visual editor change, save, reload, and re-render to prove that the source change persisted.
 
 Preserve the actual source frame rate, including rational rates such as 30000/1001, unless a deliberate conversion is recorded. The included starter is configured at 30 fps, and the beat-map validator accepts integer frame rates only. A project requiring another rate needs a compatible renderer and timing validation; do not silently round the source rate to make it pass.
+
+## Recoverable sections
+
+When an output needs separate sections or rendered layers, test a representative
+sample containing a difficult transition before scaling. Record which input
+governs facts and performance, which governs appearance, and which defines the
+requested output. Keep the approved references fixed across sections.
+
+Extend the render plan with each part's source/version, core frame interval,
+context handles, expected frames, output, job state and checks. Remove handles
+exactly once at assembly. Check each complete part and every join for duplicated
+or missing content, timing, subject continuity and appearance. Accepted parts
+still need a separate review of their assembled result.
+
+Preserve successful parts and retry failures with their affected dependencies.
+Read an uncertain job's status before submitting it again. Changing a source cut
+invalidates dependent timing; changing the approved reference may invalidate all
+dependent visuals. Use an explicit attempt budget, and inspect new evidence or
+change methods before repeating a failed repair. Any fallback must retain the
+existing permission and quality requirements. These are operator checks; the
+included renderer and validator do not automate recovery or temporal review.
 
 ## Motion rules
 

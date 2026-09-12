@@ -2,6 +2,16 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.3.6 - 2026-09-12
+
+### System 09: Story checks and recovery of rendered sections
+
+- Check the opening promise, explanation and recorded takeaway before visual finishing; preserve approved narration and source-edit ownership.
+- Hold relevant evidence through the spoken thought when the requested layout permits it.
+- Add a representative sample, explicit input authority, per-part state and join checks to the render plan.
+- Preserve valid outputs, reconcile uncertain jobs before retrying, and refresh dependent parts when their inputs change.
+- These are workflow and template corrections. Renderer behavior, validator coverage, permissions and production-proof limits remain unchanged.
+
 ## 3.3.5 - 2026-09-11
 
 ### Systems 05 and 10: Approved source audio handoff
