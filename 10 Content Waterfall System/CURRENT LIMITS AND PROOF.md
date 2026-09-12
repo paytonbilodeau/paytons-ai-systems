@@ -9,6 +9,8 @@
 
 ## What is not yet proven
 
+The optional approved-source audio record is a manual workflow policy. The included tools do not enforce its approval scope or perform full decode, complete-word, measured-alignment or audio-payload comparisons. Record those checks separately; neither user acceptance nor a waveform is a claim that the assistant listened.
+
 The complete system has not processed and passed human review on one real recording of at least 30 minutes. Selection quality, real transcript quality, real crop quality, full output usefulness, operating-system coverage, and actual time or cost improvement remain unproven.
 
 ## Next production proof gate

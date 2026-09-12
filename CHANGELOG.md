@@ -2,6 +2,15 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.3.5 - 2026-09-11
+
+### Systems 05 and 10: Approved source audio handoff
+
+- Carry a user's explicitly authorized acceptance of an approved main into downstream work without requiring another listening pass or claiming one occurred.
+- Record the approved source hash, actual audio-presence evidence and separate technical output checks, including complete boundaries and applicable audio-preservation checks.
+- Choose clip quantity from source length and useful complete moments, while keeping production proof samples separate from recurring output targets.
+- Preserve tool schemas, existing approved records, map and output approval, manual publication and the outstanding production proof limits.
+
 ## 3.3.4 - 2026-09-11
 
 ### Systems 09 and 10: Audio preservation and clip review

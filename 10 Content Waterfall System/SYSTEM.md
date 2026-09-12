@@ -30,7 +30,17 @@ Turn one approved long source into selected long cutdowns, mid-length clips, sho
 
 These ranges are product defaults, not platform guarantees. Check current platform limits before delivery.
 
+## Approved source audio
+
+When the user has approved the finished main and explicitly authorizes continued work using that approval plus audio-presence evidence, record that scope in `APPROVAL RECORD.md` and proceed without requiring another listening pass. Bind the acceptance to the approved source hash and record the actual audio-stream, visible-waveform or decoded-audio evidence. State whether anyone listened; waveform activity, a transcript and successful decoding are not listening evidence.
+
+For each processed master or derivative, retain full audio/video decode, audio presence, expected duration and frame count, measured alignment, and complete spoken-word boundaries. For picture-only revisions, preserve the approved audio, compare against an independent same-length reference, and verify copied audio payloads when applicable. Keep actual crop, caption, editorial and claim checks. The included extraction tool's hash and duration checks do not perform all this review; record the additional evidence separately and resolve failures before delivery.
+
+This policy carries forward source acceptance only. The named map and outputs still need approval, publication remains outside this system, and old completed review records need no rewrite. An unapproved edit or changed audio cannot inherit a listening claim from an earlier file.
+
 ## Clip selection and packaging
+
+Choose the output count from the source's length and strongest complete, useful moments. Do not fill a fixed quota with weaker material; the production proof gate's sample counts are test coverage, not a recurring content target.
 
 Compare candidate starts and endings across the source before choosing a range. The opening should establish the subject and a specific reason to keep watching without relying on missing context. Keep the explanation, example, or decision that pays off that opening, including any qualification needed to preserve the meaning. End after the useful thought is complete and before an unrelated aside or the next unfinished idea. Complete words at both boundaries are necessary, but do not by themselves make a strong clip. Record the opening words, closing words, and payoff in the content map, then check the actual exported boundaries at playback speed.
 

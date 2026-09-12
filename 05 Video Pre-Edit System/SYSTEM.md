@@ -62,6 +62,12 @@ This is a practical speech starting point, not certified true-peak delivery comp
 
 The tool does not call paid audio services.
 
+### Carrying an approved main into later work
+
+If the user has approved the finished main and explicitly authorizes downstream work using that approval plus audio-presence evidence, carry that acceptance forward without making a new listening pass mandatory. Record the approved file's hash, the instruction and its scope, and the actual audio-stream or visible-waveform evidence in the editor handoff. A waveform shows audio activity; it does not establish how the audio sounds. Record whether anyone listened, and never turn technical evidence into a claim of listening.
+
+Before accepting a newly processed output, retain full audio/video decode, audio presence, planned duration and frame count, measured alignment, and complete spoken-word boundaries. Preserve the approved audio in a picture-only revision and compare it with an independent same-length reference; verify copied audio payloads when applicable. These checks need separate evidence beyond this tool's stream and duration probe. A failed or missing technical check still needs resolution. This downstream policy does not approve new cuts, waive the first-pass review, authorize paid processing or publication, or require changes to existing passed review records.
+
 ## Output rules
 
 - The source is never an allowed output.
