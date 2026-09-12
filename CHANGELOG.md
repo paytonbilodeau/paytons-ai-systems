@@ -2,6 +2,15 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.4.0 - 2026-09-12
+
+- Add an optional audio comparison record covering matched source, current
+  parameter meanings, full bypass checks, audition loudness and per-source trials.
+- Add reusable blockout, parent/child, soft-matte compositing and initial-state
+  procedures for motion authored in an existing editor or HTML runtime.
+- Extend the render plan with accepted camera/layer state and mask/join evidence.
+  The included renderer and pre-edit tool retain their existing capability limits.
+
 ## 3.3.7 - 2026-09-12
 
 ### Systems 05, 09 and 10: Caption ownership and delivery review

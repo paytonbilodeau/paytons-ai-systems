@@ -97,6 +97,41 @@ included renderer and validator do not automate recovery or temporal review.
 - Transparent overlay renders contain no sound. Mix sound in the final editor using the separate SFX timeline.
 - Do not animate invented evidence, fabricated screenshots, false numbers, or approximated logos.
 
+## Scene blockout and compositing
+
+For a difficult layer or camera shot, settle geometry, motion path and the
+reading interval in a plain blockout before polishing materials and light.
+Record what the viewer should understand and which objects sit in front of
+others. Preserve the accepted camera, placement and timing during a finishing
+pass. Reuse a scene with controlled asset substitutions when useful; recheck
+silhouettes, text width and occlusion after each substitution.
+
+Keep a card's contents in a local group and animate its parent when the whole
+card moves. Use a separate child control for an internal reveal. A clipping mask
+on one operation may limit only its foreground; inspect the actual output alpha
+rather than assuming it crops the whole scene. In a node compositor, connections
+define layer order. In HTML, stacking rules define it, not an editor's track label.
+
+To place an insert behind a person while preserving the room, keep the complete
+source as the base, put the insert above it, then add a time-aligned isolated
+foreground copy. An equivalent method multiplies the insert alpha by the inverse
+person matte. Literal alpha subtraction is not equivalent at soft edges. Keep
+one dialogue audio path. Check hair, motion blur, hand crossings, holes, halos
+and tracking through the full interval; critical words must remain visible.
+A synthetic layer-order test does not qualify real-person segmentation.
+
+An HTML animation should define essential initial visibility in static styles
+as well as its paused timeline. Check direct seeks to frame zero, the reading
+hold and consecutive frames around content changes. A content swap can retain
+its existing card and background. Avoid unintended blank frames. A character
+reveal is a typography effect; it does not reproduce an approved pen-writing
+mechanism. Retain the established style implementation when that distinction
+matters.
+
+These are editor/authoring procedures. The neutral starter and beat-map validator
+do not automate subject masking, 3D scene construction or visual review. Record
+blockout decisions and scoped evidence in the render plan.
+
 ## Optional generation adapter
 
 Generation is an asset route, not the system. Before using it, record the provider, model, date, current price unit, expected number of attempts, privacy setting, usage right, and fallback in `PROVIDER COSTS.md`. Keep prompts source-grounded. If the provider is unavailable or unsuitable, use typography, shapes, supplied footage, or static authorized images.

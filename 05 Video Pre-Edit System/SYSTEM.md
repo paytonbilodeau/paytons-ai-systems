@@ -62,6 +62,13 @@ This is a practical speech starting point, not certified true-peak delivery comp
 
 The tool does not call paid audio services.
 
+Before replacing an established audio workflow, use `templates/AUDIO COMPARISON.md`
+with a suitable editor. Compare matched source, complete processing bypass and
+level-matched listening, then encoded loudness/peak/sync and a separate full
+recording. Provider-specific parameter values are not portable presets. This
+optional operator procedure does not expand the included tool's capabilities
+or change its audio-off default.
+
 ### Carrying an approved main into later work
 
 If the user has approved the finished main and explicitly authorizes downstream work using that approval plus audio-presence evidence, carry that acceptance forward without making a new listening pass mandatory. Record the approved file's hash, the instruction and its scope, and the actual audio-stream or visible-waveform evidence in the editor handoff. A waveform shows audio activity; it does not establish how the audio sounds. Record whether anyone listened, and never turn technical evidence into a claim of listening.
