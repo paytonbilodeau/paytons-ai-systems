@@ -2,6 +2,14 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.6.1 - 2026-09-14
+
+- Add script-to-source coverage checks for authorized out-of-order editing.
+- Check when explanatory graphics become readable, their spoken cue and settled hold; record the separate duration needed for context hooks.
+- Distinguish intermittent channel loss, level, noise and echo; review color continuity between recording setups.
+- Reconcile accepted refinements against native and exported results, including after crash recovery.
+- These are generic System 14 workflow and template corrections. Tool behavior, permissions and practical-proof limits are unchanged.
+
 ## 3.6.0 - 2026-09-14
 
 - Add System 14, AI Video Editing, with a setup-first guide, copyable assistant prompt, Resolve/MCP connection checks, and optional Remotion and Hyperframes paths.

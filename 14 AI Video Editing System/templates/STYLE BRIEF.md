@@ -9,6 +9,8 @@ Use with System 06's reference inventory and rights record.
 - Typography: licensed font, glyph shapes, weight, spacing and shadow:
 - Colors, contrast, linework and composition:
 - Trigger, motion path, reveal, settled state, reading hold and exit:
+- First relevant spoken phrase and first-readable-information time:
+- Explanatory graphic or orienting hook/preview; required context duration:
 - Handwriting requirement: stroke formation / type-on / other:
 - Tracking target and the hardest motion to test:
 - Sound source, license, timing and level under dialogue:

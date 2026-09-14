@@ -11,6 +11,8 @@
 
 - Each effect has a purpose tied to the spoken point:
 - Entrances, complete actions, readable holds, exits and joins checked:
+- First-readable graphic timing checked against the spoken cue and preceding thought:
+- Required context-hook duration and visibility across layout changes checked:
 - Actual fonts, words, numerical claims and authentic evidence checked:
 - Face/hand/interface exclusions respected through motion:
 - Alpha edges checked on light, dark and source footage:
@@ -18,6 +20,15 @@
 - Single intended dialogue path; added sound does not mask speech:
 - Repeated seeks and final frame checked for deterministic motion:
 - Aspect ratio was composed intentionally, not merely resized:
+
+## Requested refinements and actual results
+
+| Range | Accepted refinement | Intended native change | Native/export evidence | Completed, failed, or unchanged with reason |
+|---|---|---|---|---|
+| | | | | |
+
+After a crash or uncertain retry, reconcile this record with the recovered
+project before continuing. A plan or successful tool call is not result evidence.
 
 ## Clean and decorated masters
 

@@ -44,12 +44,25 @@ explicit exclusive end for comparisons. Convert to an API's inclusive endpoint
 only at that interface. Record which complete take survives, not just a list
 of isolated word deletions. Check that the opening promise has a real payoff.
 
+When the brief authorizes assembly from out-of-order footage, map the intended
+script or lesson sequence to complete recorded takes. Check missing sections,
+duplicates, necessary transitions and numbered labels. Location and capture
+time identify footage; they do not determine the intended narrative order.
+
 ## 3. Finish the clean cut
 
 Improve dialogue and color conservatively in reversible settings or aligned
 stems. Preserve sync and the intentional source mix. Compare processing at
 matched perceived loudness, listen to a complete bypass and record the chain.
 Do not apply a second enhancement pass to audio already accepted for handoff.
+
+Inspect microphone channels across recording setups and transitions. Intermittent
+one-sided dialogue needs a channel diagnosis distinct from low level, noise and
+room echo. Center a verified mono microphone without doubling the mix or collapsing
+intentional stereo. Raising gain is not echo removal. Compare the named defect
+at matched playback loudness and retain the better result if treatment fails.
+Match exposure, white balance and skin between setups before applying a shared
+look; inspect their transitions rather than judging one attractive still.
 
 Assemble the best complete takes, then perform a separate fine pacing pass.
 Inspect clipped consonants, breaths, false starts, thought transitions and
@@ -83,6 +96,15 @@ Use System 09's beat map and source ledger. Screen recordings, evidence, faces,
 hands and captions have their own protected areas. Graphics need a reason and
 a readable interval; there is no mandatory effect quota.
 
+For each explanatory graphic, identify when the information first becomes
+readable and anchor that moment to the relevant spoken introduction. Review the
+preceding thought for premature distraction. Give the settled state enough time
+to read and relate to the explanation; entrance and exit time are not reading
+holds. An orienting hook or intentional preview has a different role: record
+its required context duration in the style brief and preserve it across layout
+changes. Use visual punch-ins sparingly for meaningful emphasis without
+damaging speech or replacing source-boundary repair.
+
 Resolve/Fusion owns timeline compositing, footage tracking and final finishing.
 Remotion is useful for frame-driven reusable components; Hyperframes is useful
 for editable HTML scenes and seekable animation. Choose the simplest useful
@@ -101,6 +123,12 @@ reframing. Its companion includes added graphics, captions and effects. Remove
 only those added layers and dedicated sounds from the clean version. Recorded
 examples already inside the source remain. For baked overlays, return to the
 editable assembly instead of claiming a crop has recovered clean footage.
+
+Reconcile each accepted refinement with actual native and exported evidence.
+An announced improvement is not proof it was applied. Record completed changes,
+failures and justified decisions to leave a correct section unchanged. After a
+crash, compare the recovered state with that list before retrying. Move or extend
+an otherwise correct graphic directly instead of rebuilding the whole edit.
 
 Check equal picture duration and source sequence where two masters share cuts.
 Their audio files can differ legitimately because added effects are absent.
