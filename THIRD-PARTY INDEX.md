@@ -10,5 +10,6 @@ This index points to system-specific notices. Versions, prices, plan limits, lic
 | 11 Always-On Agent | A user-chosen agent runtime, messaging channel, and AI subscriptions | Read `11 Always-On Agent System/THIRD-PARTY.md`; verify current runtime documentation and channel terms |
 | 12 AI Agent Team | A user-chosen hosted bot platform and connected accounts | Read `12 AI Agent Team System/THIRD-PARTY.md`; verify current platform features, limits, and pricing |
 | 13 Taste and Packaging | Optional open MIT-licensed writing-quality skill | Read `13 Taste and Packaging System/THIRD-PARTY.md`; installation optional, attribution stays intact |
+| 14 AI Video Editing | DaVinci Resolve/Studio, native MCP, optional Remotion and Hyperframes, local inspection tools | Read `14 AI Video Editing System/THIRD-PARTY.md`; prove the installed edition, connection and one sample edit |
 
 The library does not bundle private media, third-party logos, model weights, `node_modules`, paid-provider credentials, or copied source from an unlicensed repository. Users supply official brand assets and verify their right to use references, footage, music, fonts, voices, and likenesses.

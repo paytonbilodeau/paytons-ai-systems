@@ -27,6 +27,8 @@ Define the finished result, what failure looks like, and one low-consequence tes
 
 Read the selected system's `START HERE.md`, `SYSTEM.md`, filled example, and needed templates. Have the AI show the planned files and commands. Approve them, run the test, and save the receipt.
 
+For full video editing, System 14 has a staged setup guide and read-only checker. Use System 05 when the requested output is only a conservative pre-edit. A tool found on disk is not a verified editor connection.
+
 ## 6. Measure ten runs
 
 The first run includes setup and usually costs more time. Record setup, run, review, rework, errors, output quality, and whether the result was usable. Compare actual runs with the manual route. Do not turn a guess into an hours-saved claim.

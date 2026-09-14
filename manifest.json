@@ -1,6 +1,6 @@
 {
   "title": "Payton's AI Systems",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "releaseStatus": "public_release",
   "maintainer": "Payton Bilodeau",
   "attribution": "Created and maintained by Payton Bilodeau.",
@@ -34,7 +34,8 @@
         "06",
         "09",
         "10",
-        "13"
+        "13",
+        "14"
       ],
       "orchestrator": "CONTENT PACK ORCHESTRATOR.md",
       "tracker": "templates/CONTENT ROI TRACKER.md"
@@ -67,7 +68,8 @@
         "10",
         "11",
         "12",
-        "13"
+        "13",
+        "14"
       ],
       "orchestrator": "BUNDLE ORCHESTRATOR.md",
       "tracker": "templates/MEASUREMENT DASHBOARD.md"
@@ -471,7 +473,42 @@
         "templates/TASTE LEDGER.md",
         "templates/MONTHLY TASTE REVIEW.md",
         "templates/TEN-RUN TASTE TRACKER.md",
-        "templates/DESIGN DIRECTION AND REVIEW.md"
+        "templates/DESIGN DIRECTION AND REVIEW.md",
+        "templates/VIDEO DESCRIPTION AND CHAPTERS.md"
+      ]
+    },
+    {
+      "id": "14",
+      "order": 14,
+      "name": "AI Video Editing System",
+      "path": "14 AI Video Editing System",
+      "status": "public_ready",
+      "minimumCapability": "run_named_tools",
+      "additionalCapabilities": [
+        "current_official_information"
+      ],
+      "measurementFile": "templates/TEN-RUN EDITING TRACKER.md",
+      "maintenanceFile": "templates/LEARNING LOG.md",
+      "testCommand": "python3 -B -m unittest discover -s tests -p test_*.py",
+      "requiredFiles": [
+        "CURRENT LIMITS AND PROOF.md",
+        "INSTALL.md",
+        "START HERE.md",
+        "SYSTEM.md",
+        "THIRD-PARTY.md",
+        "examples/EXAMPLE EDITING RUN.md",
+        "guides/MOTION TOOL SETUP.md",
+        "guides/RESOLVE AND MCP.md",
+        "guides/STYLE FROM REFERENCES.md",
+        "templates/CUT REVIEW.md",
+        "templates/FINISH AND DELIVERY.md",
+        "templates/LEARNING LOG.md",
+        "templates/PROJECT BRIEF.md",
+        "templates/STYLE BRIEF.md",
+        "templates/TEN-RUN EDITING TRACKER.md",
+        "templates/TOOL SETUP.md",
+        "tests/test_setup_doctor.py",
+        "tools/setup_doctor.py"
       ]
     }
   ],
@@ -479,6 +516,7 @@
     "Every system transfers a reusable mechanism without publishing private workspace content, account details, local paths, client material, or credentials.",
     "System 02 uses a metadata-only Skills HQ and a proposal-only improvement loop. It does not read private chat logs or apply changes automatically.",
     "System 09 contains a neutral original starter and requires users to install and license third-party tools for their own use.",
-    "System 10 is public-ready with tested portable mechanics and a documented proof boundary. Its first full long-form production run still requires separate human review before any broader performance claim."
+    "System 10 is public-ready with tested portable mechanics and a documented proof boundary. Its first full long-form production run still requires separate human review before any broader performance claim.",
+    "System 14 coordinates editor setup, review and motion finishing with explicit evidence limits. Its setup checker does not install software or establish an editor connection. System 05 remains unchanged as a standalone pre-edit utility."
   ]
 }

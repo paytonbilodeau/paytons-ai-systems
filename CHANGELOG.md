@@ -2,6 +2,15 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.6.0 - 2026-09-14
+
+- Add System 14, AI Video Editing, with a setup-first guide, copyable assistant prompt, Resolve/MCP connection checks, and optional Remotion and Hyperframes paths.
+- Add a read-only setup checker and offline tests; report installed tools separately from a proven editor connection.
+- Turn reference-based motion design, test feedback, clean-cut review, manual revision comparison and reusable skills into generic templates.
+- Carry clean/decorated masters, editable media handoff, exact final transcripts and scoped audiovisual review through the full workflow.
+- Add a configurable links-first description and concise curiosity-led chapter template to System 13.
+- Connect System 14 to the content collection and library routes. Keep System 05 and its pre-edit tool unchanged as the lighter standalone option.
+
 ## 3.5.0 - 2026-09-14
 
 - Add an optional native-editor procedure for polished cut review, source-based

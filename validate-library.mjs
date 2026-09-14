@@ -22,7 +22,8 @@ const canonicalSystems = [
   ["10", 10, "Content Waterfall System", "10 Content Waterfall System", "write_files", ["run_named_tools"], "public_ready"],
   ["11", 11, "Always-On Agent System", "11 Always-On Agent System", "run_named_tools", ["local_inspection", "current_official_information"], "public_ready"],
   ["12", 12, "AI Agent Team System", "12 AI Agent Team System", "chat_only", ["connected_app", "current_official_information"], "public_ready"],
-  ["13", 13, "Taste and Packaging System", "13 Taste and Packaging System", "chat_only", [], "public_ready"]
+  ["13", 13, "Taste and Packaging System", "13 Taste and Packaging System", "chat_only", [], "public_ready"],
+  ["14", 14, "AI Video Editing System", "14 AI Video Editing System", "run_named_tools", ["current_official_information"], "public_ready"]
 ];
 
 const requiredRootFiles = [
@@ -51,7 +52,7 @@ const canonicalBundles = [
   {
     key: "content",
     name: "AI Content Creation Collection",
-    systemIds: ["05", "06", "09", "10", "13"],
+    systemIds: ["05", "06", "09", "10", "13", "14"],
     orchestrator: "CONTENT PACK ORCHESTRATOR.md",
     tracker: "templates/CONTENT ROI TRACKER.md"
   },
@@ -65,7 +66,7 @@ const canonicalBundles = [
   {
     key: "complete",
     name: "Complete AI Systems Library",
-    systemIds: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13"],
+    systemIds: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"],
     orchestrator: "BUNDLE ORCHESTRATOR.md",
     tracker: "templates/MEASUREMENT DASHBOARD.md"
   }
@@ -84,7 +85,8 @@ const requiredExamples = new Map([
   ["10", "examples/EXAMPLE WATERFALL RUN.md"],
   ["11", "examples/EXAMPLE AGENT SETUP.md"],
   ["12", "examples/EXAMPLE TEAM PILOT.md"],
-  ["13", "examples/EXAMPLE PACKAGING DECISION.md"]
+  ["13", "examples/EXAMPLE PACKAGING DECISION.md"],
+  ["14", "examples/EXAMPLE EDITING RUN.md"]
 ]);
 
 const toolTests = new Map([
@@ -93,7 +95,8 @@ const toolTests = new Map([
   ["05", ["python3", "-B", "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]],
   ["08", ["python3", "-B", "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]],
   ["09", [process.execPath, "--test", "tests/*.test.mjs"]],
-  ["10", ["python3", "-B", "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]]
+  ["10", ["python3", "-B", "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]],
+  ["14", ["python3", "-B", "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]]
 ]);
 
 const allowedExtensions = new Set([".md", ".json", ".mjs", ".py", ".txt", ".ts", ".tsx"]);
@@ -512,5 +515,5 @@ if (failures.length) {
 }
 
 console.log(
-  `Library validation passed: 13 canonical systems, 3 public collections, ${actualFiles.size} exactly declared non-empty files, 13 mutation checks, and ${passedToolSuites} runnable tool suites. System 10 keeps its documented first-production proof boundary.`
+  `Library validation passed: ${canonicalSystems.length} canonical systems, 3 public collections, ${actualFiles.size} exactly declared non-empty files, 13 mutation checks, and ${passedToolSuites} runnable tool suites. System 10 keeps its documented first-production proof boundary.`
 );

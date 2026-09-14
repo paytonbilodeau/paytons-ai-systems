@@ -1,6 +1,6 @@
 # Full AI Systems Library Map
 
-This map shows all thirteen free Payton's AI Systems and the focused collections that help you find a useful starting point. Every system is included in this repository.
+This map shows all fourteen free Payton's AI Systems and the focused collections that help you find a useful starting point. Every system is included in this repository.
 
 | ID | System | Skills and Automation Collection | Content Creation Collection | Complete Library |
 |---|---|---|---|---|
@@ -17,6 +17,7 @@ This map shows all thirteen free Payton's AI Systems and the focused collections
 | 11 | Always-On Agent System | Included | Not included | Included |
 | 12 | AI Agent Team System | Included | Not included | Included |
 | 13 | Taste and Packaging System | Not included | Included | Included |
+| 14 | AI Video Editing System | Not included | Included | Included |
 
 ## What each system helps you do
 
@@ -33,10 +34,11 @@ This map shows all thirteen free Payton's AI Systems and the focused collections
 11. **Always-On Agent:** Design one personal agent you can message any time, with headless background workers behind it, a written charter, and hard approval boundaries.
 12. **AI Agent Team:** Set up a front-door agent and functional specialists on a hosted bot platform, connect accounts one proven step at a time, and decide keep-or-cancel on evidence.
 13. **Taste and Packaging:** Lock an honesty floor and a boldness obligation for titles, hooks, and thumbnails, gate your prose for machine tells, and track judgment in a ledger.
+14. **AI Video Editing:** Set up the editor and motion tools, review a clean cut, learn from revisions and deliver an editable project with the requested masters. System 05 remains the separate pre-edit option.
 
 ## Access and updates
 
-- Clone or download this repository to get all thirteen systems.
+- Clone or download this repository to get all fourteen systems.
 - Use the focused collection orchestrators when you want a narrower starting point.
 - Return to this repository for maintained public releases.
 - Updates never replace your customized local files. Read the update log, compare the changes, and apply only what you want.

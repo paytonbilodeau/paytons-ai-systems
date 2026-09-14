@@ -16,6 +16,8 @@ In 30 to 60 minutes, map 20 to 60 seconds of approved narration into beats, choo
 Read START HERE.md, SYSTEM.md, INSTALL.md, THIRD-PARTY.md, every file in templates, examples/EXAMPLE MOTION PLAN.md, and tools/motion_plan.mjs. Ask for 20 to 60 seconds of approved narration and the facts that must remain exact. Break it into beats. For each beat choose designed explanation, real evidence, physical metaphor, or restrained hybrid. Explain why the lane supports the meaning. Create an asset ledger, fact-parity check, storyboard, caption plan, and render plan. Use supplied or authorized assets only. Prefer the no-generation path unless I approve a provider after reviewing current cost, privacy, and license terms. Validate the JSON beat map and wait for approval before installing software or rendering.
 ```
 
+For Resolve/MCP setup, a Hyperframes setup route and integrating motion into a reviewed editable cut, use [System 14](../14%20AI%20Video%20Editing%20System/START%20HERE.md). This system continues to own the beat map and neutral Remotion starter.
+
 ## What this does not include
 
 It does not include Payton's private media, brand files, production scenes, client work, third-party logos, fonts, model access, paid generation, automatic publishing, or a promise that motion improves performance.

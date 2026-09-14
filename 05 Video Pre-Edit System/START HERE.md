@@ -60,6 +60,8 @@ Plan for 60 to 90 minutes on the first pass (environment checks, a dry run, a re
 
 The first pass removes only agreed material, preserves protected ranges, sounds natural at every join, and lists every cut for review. Do not start with an irreplaceable file, HDR media, multicamera media, or a recording with several audio tracks. Export a flattened SDR working copy first.
 
+For a complete editor setup and finishing workflow, use [System 14](../14%20AI%20Video%20Editing%20System/START%20HERE.md). This pre-edit remains a standalone option with the same tool and defaults.
+
 ## Continuing in a final editor
 
 If the project needs a polished cut review before graphics, a comparison of a

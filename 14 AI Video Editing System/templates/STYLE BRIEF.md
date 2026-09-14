@@ -1,0 +1,29 @@
+# Motion Style Brief
+
+Use with System 06's reference inventory and rights record.
+
+- Style name and intended use:
+- Authorized references, provenance and license:
+- Observed behavior versus inferred or invented behavior:
+- Your original variation:
+- Typography: licensed font, glyph shapes, weight, spacing and shadow:
+- Colors, contrast, linework and composition:
+- Trigger, motion path, reveal, settled state, reading hold and exit:
+- Handwriting requirement: stroke formation / type-on / other:
+- Tracking target and the hardest motion to test:
+- Sound source, license, timing and level under dialogue:
+- Face, hand, evidence, interface and caption exclusion areas:
+- Landscape and portrait layout decisions:
+- Example that must stay unchanged:
+- First short test and meaningful comparison criteria:
+- Caption test: exact words, phrase grouping, line breaks and readability:
+- Approved components, reference outputs and asset/license locations:
+- Reusable skill entry point and last working version:
+
+| Test | What failed | Change requested | What stayed approved | New result |
+|---|---|---|---|---|
+| First source shot | | | | |
+| Different sentence and second shot | | | | |
+
+Do not call an approximate font or animation an exact match. Keep reference
+media private when its rights do not permit redistribution.

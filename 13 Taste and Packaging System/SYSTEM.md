@@ -29,6 +29,10 @@ When drafts are cheap, judgment is the product. An unwritten standard produces t
 
 For substantial images, pages, or interfaces, use `templates/DESIGN DIRECTION AND REVIEW.md`. Define the user task, explore structural alternatives, study relevant references, separate visual criticism from functional verification, and refine in bounded rounds. Preserve existing styles and brand identity. Record the decision and evidence in the same taste ledger; generic visual residue is a quality problem to diagnose, not an authorship detector.
 
+## Final video descriptions and chapters
+
+Use `templates/VIDEO DESCRIPTION AND CHAPTERS.md` after reading the exact final transcript. Record the user's link priorities and description order, keep chapter labels concise and useful without giving away every answer, and verify the final timestamps.
+
 ## Test and evidence
 
 Prove the system on one real piece: one draft through the quality gate with the layer diagnosis named, one package decision through the floor-then-bold sequence with the reasoning written down, and one ledger row completed. Evidence is the written trail, not the user's memory of having judged carefully.
