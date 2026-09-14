@@ -1,6 +1,6 @@
 {
   "title": "Payton's AI Systems",
-  "version": "3.6.1",
+  "version": "3.7.0",
   "releaseStatus": "public_release",
   "maintainer": "Payton Bilodeau",
   "attribution": "Created and maintained by Payton Bilodeau.",
@@ -311,6 +311,7 @@
         "templates/LONG-RUNNING JOBS.md",
         "templates/VOICE WORKFLOW.md",
         "templates/BACKUP RECOVERY.md",
+        "templates/ASSISTANT CONSOLIDATION.md",
         "templates/HANDOFF MAP.md",
         "templates/SELF TEST.md",
         "templates/TEN-RUN WORKSPACE TRACKER.md",

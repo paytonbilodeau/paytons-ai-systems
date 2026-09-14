@@ -2,6 +2,14 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.7.0 - 2026-09-14
+
+- Add a provider-neutral assistant consolidation plan to System 08: inventory outcomes, preserve context and custom skills, rehearse replacements, transfer schedule ownership, and verify retired triggers.
+- Add notification hours, deferred failure receipts, and catch-up rules to the automation runbook.
+- Expand backup recovery planning with required and optional source coverage, restore tests, destination checks, safe retry receipts, and retention limited to owned archives.
+- Clarify that memory review can use the primary assistant's supported scheduler and that a separate always-on runtime or hosted team should serve a demonstrated need.
+- Existing tools, approval boundaries, and optional team capabilities are unchanged. No private runtime configuration or backup implementation is included.
+
 ## 3.6.1 - 2026-09-14
 
 - Add script-to-source coverage checks for authorized out-of-order editing.

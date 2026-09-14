@@ -12,6 +12,11 @@
 
 [How a run begins.]
 
+- **Active executor and schedule owner:** [one owner for this outcome]
+- **Canonical prompt and completion record:** [locations]
+- **Host and app requirements:** [what must be running]
+- **Previous triggers retired or retained:** [names, reasons, and checked state]
+
 ## Inputs
 
 [Required files, fields, or events.]
@@ -32,6 +37,13 @@
 [What a run that produces no output means, where the log shows the difference
 between no work found and work that could not be done, and how long a quiet
 streak may last before someone checks it.]
+
+- **Allowed notification hours and timezone:** [user choice]
+- **Approved exceptions:** [none or explicit conditions]
+- **Deferred result and failure receipts:** [location]
+- **Catch-up rule:** [next allowed window, original cutoff, and duplicate check]
+
+Keep logging separate from notifying. A silent run can still record a failure for review during the next allowed window. Do not treat one requested out-of-hours update as a permanent policy change.
 
 ## Recovery
 

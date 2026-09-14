@@ -94,6 +94,8 @@ Use `templates/TEN-RUN MEMORY TRACKER.md`. Measure repeated questions, wrong or 
 
 Use `templates/MEMORY HEALTH.md` and `templates/MONTHLY REVIEW.md`. Check links and conflicts first, propose promotions and archives, confirm uncertain facts with the user, then update the index last. Never delete history automatically.
 
+If the user requests a schedule, this review can run in the primary assistant's supported scheduling interface. Keep the review prompt and last completion receipt in the workspace, preserve the same approval rules, and record the conditions needed for a run. A later session can check for a stale receipt and catch up without repeating completed work. Improving these files and skills does not retrain the underlying model.
+
 ## Optional external copies
 
 The approved local files remain the master memory. A cloud document, research notebook, or app-native memory is an optional copy, not a second source of truth.

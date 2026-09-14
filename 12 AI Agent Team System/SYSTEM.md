@@ -19,6 +19,8 @@ Turn a hosted bot platform into a small, safe, genuinely useful agent team: one 
 
 ## Build order
 
+Use this team pilot when separate specialists are expected to improve a defined outcome enough to justify their coordination cost. One capable assistant with shared files may already meet the need. If the user chooses to consolidate an existing team, use System 08's `templates/ASSISTANT CONSOLIDATION.md`; retain useful skills and decisions while retiring duplicate executors.
+
 1. Fill `templates/TEAM ROLES.md` and `templates/BOOTSTRAP PROMPT.md`, then create the front-door agent and paste its bootstrap.
 2. Enter `templates/APPROVAL RULES.md` into the platform, require rules first.
 3. Let the front-door agent complete read-only discovery of the approved context and return a setup plan.

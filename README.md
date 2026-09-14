@@ -12,6 +12,8 @@ This is the complete public template library. It is not a prompt list, course, s
 
 Every system has a chat-only fallback, so you can start even before your assistant can touch files.
 
+To simplify an existing setup, use [System 08's consolidation plan](08%20AI%20Workspace%20Setup%20System/templates/ASSISTANT%20CONSOLIDATION.md). It helps you move useful work into one primary assistant, preserve recovery files, and verify retired schedules without losing workflows.
+
 ## The fourteen systems
 
 | # | System | What it does |

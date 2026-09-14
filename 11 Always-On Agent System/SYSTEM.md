@@ -12,6 +12,8 @@ One named agent is the only front door. It lives on the user's own computer, ans
 
 ## Build order
 
+First check whether the user's primary assistant already provides the required scheduling and remote access through supported features. Use this separate always-on setup only for a need that remains unmet. If the user is retiring an existing setup, use System 08's `templates/ASSISTANT CONSOLIDATION.md` to preserve its useful work and verify the handover.
+
 1. Complete `templates/AGENT CHARTER.md` first. An agent without a written identity, provider policy, and boundary drifts toward whatever the runtime's defaults happen to be.
 2. Complete `templates/APPROVAL BOUNDARIES.md` before the first install, and enter the require-approval rules before any always-allow rules.
 3. Choose the runtime with current official documentation and the user's existing subscriptions. Prefer a runtime that authenticates through a subscription the user already pays for. Record the choice and the exact version.

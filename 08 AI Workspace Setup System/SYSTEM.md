@@ -54,6 +54,12 @@ For an interface that cannot read the workspace, create a short handoff with the
 goal, current state, relevant decisions, source locations, and next action. Mark
 what was actually synchronized and what still depends on a manual handoff.
 
+## Simplifying an existing setup
+
+Use `templates/ASSISTANT CONSOLIDATION.md` when the user wants one primary assistant to take over useful work from several providers or services. Inventory outcomes and triggers, preserve context and recovery files, rehearse each replacement, then transfer ownership with one active executor per outcome. Keep custom skills and working infrastructure even when their old agent runtime is retired.
+
+Distinguish configured, rehearsed, executed, and destination-verified work. Check retired triggers after a restart, record notification hours, and leave unreachable locations explicitly unresolved. A simpler roster does not prove that every former channel or capability has been replaced.
+
 ## Permission ladder
 
 1. Read selected files.
