@@ -118,3 +118,13 @@ Save a known-good edit profile only after repeated reviewed runs. Re-run setup a
 ## Safety and human review
 
 Keep the source immutable and use a new output name. The tool prepares a first pass, not the final creative edit. A person watches the result, checks every flagged cut, and approves the editor handoff.
+
+## Optional staged review and clean companion
+
+For projects that need an editorial review before motion finishing, use
+`templates/MANUAL REVIEW AND CLEAN MASTER.md` with a suitable editor. It records
+which native revision was approved, distinguishes source edits from ripple-only
+layer shifts, and defines a clean companion that preserves the approved cuts,
+dialogue, grade and recorded demonstrations. Keep added overlays and their sound
+effects separable. This operator procedure does not expand the included utility's
+capabilities or change its conservative pre-edit defaults.

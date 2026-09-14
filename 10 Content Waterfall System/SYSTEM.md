@@ -85,3 +85,17 @@ After ten runs, use `WINNER REVIEW.md` to compare approved formats, topics, open
 ## Safety and human review
 
 Use copied or low-consequence source material for the first run. Keep the original immutable. The user separately approves the content map, reviews every derivative, confirms rights and privacy, and performs publication outside this system.
+
+## Choosing a clean source for new crops
+
+When the approved long-form edit has added graphics designed for its original
+aspect ratio, use an approved clean companion for new crops when available.
+System 05's `MANUAL REVIEW AND CLEAN MASTER.md` defines the separation: preserve
+the final cuts, dialogue, grade and original recorded demonstrations; exclude
+only the agreed added overlays and their dedicated sound effects. Keep the
+decorated master as a separate deliverable and reuse finished audio processing.
+
+Bind transcripts and content-map ranges to the actual clean source hash and
+timing. Requesting this source export alone does not request clips or publication.
+Honor the requested formats; short-only work does not require long or mid-length
+outputs. This is a source-selection procedure, not an added extraction-tool feature.

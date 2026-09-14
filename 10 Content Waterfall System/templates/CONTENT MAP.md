@@ -28,3 +28,14 @@ Complete one record for each planned video. These are manual review notes, not n
 - **Export review:** [file label and reviewed opening, ending, movement extremes, return and final frame; result or pending]
 
 The map is a selection plan. It does not authorize extraction until `APPROVAL RECORD.md` is complete.
+
+## Optional clean-source handoff
+
+- **Master selected:** [clean companion or decorated main; relative label/hash]
+- **Clean scope:** [excluded added layers and sound effects, or not applicable]
+- **Approved cuts/audio/color retained:** [source-map and dialogue evidence]
+- **Recorded demonstrations retained:** [ranges and review evidence]
+- **Transcript alignment:** [matches this master, remapped and checked, or pending]
+- **Requested formats only:** [authorized outputs; source export alone creates no derivative obligation]
+
+These are manual notes and do not add required fields to the runnable JSON.

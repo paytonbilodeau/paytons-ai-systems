@@ -2,6 +2,17 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.5.0 - 2026-09-14
+
+- Add an optional native-editor procedure for polished cut review, source-based
+  comparison of manual revisions, and a clean companion for later reframing.
+- Keep approved cuts, dialogue, color and recorded demonstrations shared between
+  masters while separating added visual layers and their sound effects.
+- Record approval scope, exact layer differences and encoded-output evidence;
+  distinguish ripple edits from supported creative lessons.
+- Connect motion finishing and content selection to the actual approved master.
+  Existing tools, schemas, pre-edit defaults and publication limits are unchanged.
+
 ## 3.4.0 - 2026-09-12
 
 - Add an optional audio comparison record covering matched source, current

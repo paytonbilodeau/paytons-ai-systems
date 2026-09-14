@@ -39,3 +39,16 @@ a high-quality clean master and label the remaining stage. Do not publish that
 handoff as the captioned final when a returned export is expected. Keep the
 source and editable project, avoid repeated resampling, and verify the returned
 file before downstream work. This choice is project-specific.
+
+## Optional native review and clean companion
+
+- **Approved native revision:** [project/timeline identity and saved snapshot]
+- **Review sequence and next authorized stage:** [cuts review, visual finishing, export, or other]
+- **Manual revision comparison:** [relative evidence record and unresolved interpretations]
+- **Meaning of clean for this delivery:** [exact excluded layers; graphics may remain in a caption-only handoff]
+- **Full/clean source alignment:** [same frame sequence, dialogue and picture properties; evidence]
+- **Added visual/SFX separation:** [named tracks or layers]
+
+Use `MANUAL REVIEW AND CLEAN MASTER.md` when applicable. Preserve the user's
+approved timeline and original recorded demonstrations. Record the user's approval
+and the agent's actual verification separately.

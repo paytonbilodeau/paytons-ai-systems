@@ -1,6 +1,6 @@
 {
   "title": "Payton's AI Systems",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "releaseStatus": "public_release",
   "maintainer": "Payton Bilodeau",
   "attribution": "Created and maintained by Payton Bilodeau.",
@@ -220,7 +220,8 @@
         "tests/test_video_pre_edit.py",
         "tests/test_setup_doctor.py",
         "examples/EXAMPLE EDIT REPORT.md",
-        "templates/AUDIO COMPARISON.md"
+        "templates/AUDIO COMPARISON.md",
+        "templates/MANUAL REVIEW AND CLEAN MASTER.md"
       ]
     },
     {

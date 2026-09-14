@@ -59,3 +59,10 @@ Plan for 60 to 90 minutes on the first pass (environment checks, a dry run, a re
 ## A good first result
 
 The first pass removes only agreed material, preserves protected ranges, sounds natural at every join, and lists every cut for review. Do not start with an irreplaceable file, HDR media, multicamera media, or a recording with several audio tracks. Export a flattened SDR working copy first.
+
+## Continuing in a final editor
+
+If the project needs a polished cut review before graphics, a comparison of a
+returned manual edit, or a clean source for later reframing, use
+`templates/MANUAL REVIEW AND CLEAN MASTER.md`. It is an optional editor procedure;
+the included command-line utility still produces only the pre-edit described above.

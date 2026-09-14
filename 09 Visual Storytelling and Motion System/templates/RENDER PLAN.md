@@ -63,3 +63,18 @@ Keep successful parts only while their inputs remain valid. Reconcile uncertain
 job state before retries, then review the assembled result separately.
 
 The included starter is configured at 30 fps; the JSON validator accepts integer frame rates only. Record rational source rates exactly and use a compatible route when needed. The template records checks; filling a field does not run them. Compare encoded audio payloads only when the revision preserves the same-length approved audio without re-encoding. That comparison does not replace sync review or listening.
+
+## Approved editorial base and clean companion, when needed
+
+- **Approved native edit:** [project/timeline identity, snapshot and approval scope]
+- **Clean companion:** [relative master label and hash; exact excluded layers]
+- **Separate added layers:** [graphics/captions and dedicated SFX tracks]
+- **Returned manual-edit comparison:** [source-based evidence; ripple shifts versus design/timing changes]
+- **Dependent timing after edits:** [continuous drawing/motion and matching sound events checked against the final map]
+- **Full/clean parity:** [same picture sequence, dialogue, grade and native properties; permitted added-layer differences]
+- **Encoded companion review:** [visible overlay states, mask movement, clean-frame absence and preserved source demonstrations]
+
+Use System 05's `MANUAL REVIEW AND CLEAN MASTER.md` for the editor procedure.
+Preserve an approved manual revision. Update motion and cue timing only for the
+authorized next stage, and retain the clean companion for new aspect ratios.
+Original recorded demonstrations remain part of the picture and sound.
