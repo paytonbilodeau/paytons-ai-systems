@@ -35,6 +35,12 @@ duration means every removal should be repeated next time.
 - Uncertain speech checked against source; remaining uncertainty:
 - Accidental tiny clip islands or quiet syllable cuts checked:
 - Decisions verified in the saved native source/output map:
+- Rebuilt sequence version and source/output map used for the second review:
+- Every actual output join checked, including its combined remaining pause:
+- Retained phrases rechecked for false starts, repeated fragments and hesitation:
+- Existing-edge refinements considered separately from new tiny splices:
+- Joins and phrases rechecked after further changes:
+- Ordinary dialogue transcribed without marker prompts; prompted searches identified and corroborated:
 - Finished-sequence transcript checked for complete meanings and possible repeats:
 - Separate audiovisual review coverage and exact version:
 
@@ -43,6 +49,13 @@ candidate list, a smaller duration or a larger cut count does not demonstrate a
 completed fine-cut review. Protect the uncertain word precisely instead of
 leaving broad handles throughout the edit. Recognition can omit or invent
 repetitions; verify disputed phrases before deleting speech.
+
+Review the rebuilt sequence even when every original candidate has a decision.
+Two individually acceptable handles can leave an excessive combined pause.
+Protect the specific word's audible beginning and ending, not an entire uncertain
+transcript interval. Keep meaningful short speech while rejecting accidental
+clip islands. Prompted recognition of a recording command is not proof it was
+spoken; check the audio and use an unprimed pass for ordinary dialogue.
 
 When using speech detection as evidence, use its raw unpadded intervals when
 needed. Subtracting a fixed pad from padded intervals can create false gaps if

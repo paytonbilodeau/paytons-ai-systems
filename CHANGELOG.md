@@ -2,6 +2,13 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.7.2 - 2026-09-14
+
+- Add a second review of every actual output join and retained phrase after rebuilding the edit, including the combined pause across both sides of a join.
+- Separate fine adjustments to existing edges from new tiny splices, and protect specific audible words instead of broad uncertain transcript intervals.
+- Use unprimed transcription for ordinary dialogue and corroborate marker searches against audio before treating them as evidence of a recording mistake.
+- These are generic System 14 review instructions. No private recordings, project examples or editing preferences are included.
+
 ## 3.7.1 - 2026-09-14
 
 - Add a versioned fine-cut coverage record to System 14, covering internal pauses, both sides of existing joins, protected speech and proof that decisions appear in the native timeline.

@@ -38,6 +38,12 @@ gaps, failed takes and uncertain words against the media. Automatic speech
 recognition can silently normalize stutters, omit words or hallucinate speech
 over silence. Never use fluent transcript text as proof a take is clean.
 
+Transcribe ordinary dialogue and short diagnostic clips without a prompt that
+suggests recording commands or mistakes. Such prompts can cause recognition to
+invent the suggested words. If a separate marker search needs a targeted hint,
+record that mode and corroborate its findings against the audio. A prompted
+transcript alone cannot establish that a recording mistake exists.
+
 Keep source times, timeline times and exported-video times distinct. Record
 frame rate and timeline start timecode. Use frame-based source ranges and an
 explicit exclusive end for comparisons. Convert to an API's inclusive endpoint
@@ -69,6 +75,20 @@ Inspect clipped consonants, breaths, false starts, thought transitions and
 unnecessary gaps. A silent demonstration or reading interval can be essential.
 Remove only source-supported problems within the user's editorial permission.
 Blanket silence or filler deletion is not a substitute for this decision.
+
+After rebuilding the sequence, review every actual output join and all retained
+phrases against that exact version. Judge the combined pause left by the outgoing
+word tail and incoming word attack, rather than checking each handle alone.
+Revisit short false starts, repeated fragments and internal hesitation in the
+assembled phrase. Earlier candidate decisions do not prove the result is clean.
+Record this pass beside the final native source/output map, and recheck joins
+and phrases affected by further changes.
+
+A fine adjustment to an existing edge is different from creating a new tiny
+splice. A minimum size for new deletions must not block useful edge refinements.
+Protect the specific audible word, including quiet articulation, instead of
+retaining a broad interval solely because its transcript timing is uncertain.
+Keep purposeful holds and meaningful speech; do not chase a global gap target.
 
 Deliver a polished cut with sound and color but no added graphics for the first
 review, unless the user requested a different sequence. Save the native project,
