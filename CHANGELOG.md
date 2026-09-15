@@ -2,6 +2,13 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.7.1 - 2026-09-14
+
+- Add a versioned fine-cut coverage record to System 14, covering internal pauses, both sides of existing joins, protected speech and proof that decisions appear in the native timeline.
+- Distinguish a reviewed edit from automatic candidates or duration targets, and check possible recognition errors before deleting repeated words.
+- Document why subtracting fixed padding from adjusted speech-detection intervals can falsely create gaps inside speech.
+- These are generic review-template corrections. No private footage, timing preferences or client details are included.
+
 ## 3.7.0 - 2026-09-14
 
 - Add a provider-neutral assistant consolidation plan to System 08: inventory outcomes, preserve context and custom skills, rehearse replacements, transfer schedule ownership, and verify retired triggers.

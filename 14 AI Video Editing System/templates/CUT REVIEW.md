@@ -25,3 +25,26 @@ duration means every removal should be repeated next time.
 - Remaining issues, accepted exceptions and approval scope:
 - Native snapshot and export saved:
 - Next step authorized:
+
+## Fine-cut coverage before handoff
+
+- Retained source ranges reviewed phrase by phrase:
+- Both sides of every existing join reviewed:
+- Internal pauses considered, with trim/retain decisions in context:
+- Specific protected word attacks/tails, reading holds and useful actions:
+- Uncertain speech checked against source; remaining uncertainty:
+- Accidental tiny clip islands or quiet syllable cuts checked:
+- Decisions verified in the saved native source/output map:
+- Finished-sequence transcript checked for complete meanings and possible repeats:
+- Separate audiovisual review coverage and exact version:
+
+Record the work in a versioned review file beside the source map. An automatic
+candidate list, a smaller duration or a larger cut count does not demonstrate a
+completed fine-cut review. Protect the uncertain word precisely instead of
+leaving broad handles throughout the edit. Recognition can omit or invent
+repetitions; verify disputed phrases before deleting speech.
+
+When using speech detection as evidence, use its raw unpadded intervals when
+needed. Subtracting a fixed pad from padded intervals can create false gaps if
+adjacent intervals shortened that padding. Neither speech detection nor low
+energy alone decides a cut.
