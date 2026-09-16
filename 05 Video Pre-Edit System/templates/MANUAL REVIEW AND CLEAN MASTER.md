@@ -103,3 +103,14 @@ evidence. A user's review does not mean the agent watched or listened.
 
 Keep both masters when they serve distinct uses. A request for a clean source
 export alone does not authorize making clips, imposing a clip quota or publishing.
+
+
+## Isolated-noise review before approval
+
+Check short retained islands and peaks between dialogue cuts against source
+context. Classify speech, useful breaths, demonstration sounds and incidental
+input-device noise separately. Record the boundary decision and inspect the
+rebuilt phrase. Recognition timestamps that extend through quiet space do not
+establish spoken content across that entire interval. Keep meaningful short
+speech and complete articulation; avoid a universal minimum clip length or
+silence threshold. System 14's cut-review template provides a detailed ledger.

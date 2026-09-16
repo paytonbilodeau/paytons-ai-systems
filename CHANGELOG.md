@@ -2,6 +2,13 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.7.4 - 2026-09-16
+
+- Add explicit classification of isolated transients and retained clip islands to manual cut review, including speech-preserving handling of overlapping noise.
+- Check stretched recognition timestamps against source sound boundaries rather than treating them as protected speech intervals.
+- Add a portrait-framing review that tests stable crops before tracking and checks the full movement for abrupt recentering.
+- These are generic review mechanisms. No private recordings, source examples, timing preferences or account details are included.
+
 ## 3.7.3 - 2026-09-15
 
 - Add an optional batch review handoff with numbered topic timelines, unchanged baselines and explicit reviewer control.

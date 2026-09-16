@@ -89,3 +89,35 @@ Compare disjoint retained source spans, not just the outer endpoints. Distinguis
 edge refinements, whole-segment removal, restored material, ripple movement and
 property changes. A timing-only comparison does not establish that every grade,
 plugin or audio setting was unchanged. Name exactly what was inspected.
+
+
+## Transients and retained islands
+
+- Isolated peaks classified from source context: speech, useful breath, demonstration sound, incidental transient or unresolved:
+- Incidental keyboard/mouse noise removed from expendable gaps:
+- Speech-overlapping noise preserved or repaired locally without damaging articulation:
+- Every small retained island between adjacent cuts has a reason to remain:
+- Stretched recognition timestamps checked against actual speech onset and decay:
+- Useful visual actions and comprehension holds identified explicitly:
+- Adjusted boundaries rechecked in the rebuilt phrase and scene transition:
+
+A brief peak can be a click or a quiet consonant. Classify it before changing the
+cut. Do not preserve an incidental noise merely because a speech detector marked
+it active, and do not delete meaningful speech merely because a retained segment
+is small. Two cuts around the same noise can accidentally leave the noise as an
+isolated clip. Inspect that pattern explicitly. If noise overlaps speech, a local
+repair requires its own comparison; broad gating is not a substitute for editing.
+
+## Stable portrait framing
+
+- A stable crop tested against the subject's full range of movement:
+- Crop changes justified by lost subject or necessary visual information:
+- Movement checked through the lean, held pose and return:
+- Interpolation and transitions reviewed for jumps or reactive recentering:
+- Fixed captions and other overlays remain stable:
+- Continuous review coverage, or technical-only limitation, recorded:
+
+Leave room for natural movement before adding tracking. Frame containment and
+readable demonstrations matter more than forcing a face onto the same pixel in
+every shot. Smooth tracking is useful only when it solves an actual framing
+problem.
