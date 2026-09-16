@@ -2,6 +2,12 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.8.0 - 2026-09-16
+
+- Add model routing guidance to System 07: keep complex judgment and final review with a capable owner, use bounded support workers with compact handoffs, and prefer qualified scripts for deterministic work.
+- Track subscription allowance changes separately from attributable costs and their API component, including shared-account and measurement limits.
+- Preserve quality checks and account permissions. The templates make no guaranteed savings claim and contain no private account or model configuration.
+
 ## 3.7.4 - 2026-09-16
 
 - Add explicit classification of isolated transients and retained clip islands to manual cut review, including speech-preserving handling of overlapping noise.
