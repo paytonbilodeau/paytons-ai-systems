@@ -175,6 +175,13 @@ tests and the change record together. Record whether a tutorial idea is merely
 studied, tested on a fixture, or accepted in a real edit. A stored skill guides
 future runs; it is not model training or a guarantee the next run succeeds.
 
+Keep one shared editing playbook for transferable review methods, with small
+channel or format adapters for audience, visual treatment and delivery rules.
+Link each editing entry point to the shared playbook instead of maintaining
+competing copies of the same pacing, sound, color and demonstration guidance.
+Use the learning log to record where a rule applies and a case where it does not.
+A channel's accepted style stays in its adapter unless evidence supports wider use.
+
 Preserve the last working version when adopting new dependencies or techniques.
 Use `templates/LEARNING LOG.md` after a meaningful correction, failed test,
 tool update or ten completed runs.

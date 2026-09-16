@@ -21,6 +21,33 @@
 - Repeated seeks and final frame checked for deterministic motion:
 - Aspect ratio was composed intentionally, not merely resized:
 
+## Demonstration and overlay review
+
+For each demonstrated action, identify the control, gesture and result the viewer
+must see. Review the encoded output at its intended small-screen size with the
+destination's interface areas represented. Include the hardest action and the
+closing frames, not only the opening composition.
+
+| Action and time range | Essential visible detail | Layout and crop | Text or presenter overlap | Result at viewing size |
+|---|---|---|---|---|
+| | | | | |
+
+Use available width where it improves legibility. Preserve source proportions
+and required context; an enlarged crop that hides the target control still fails.
+Compare a split view, a detail crop or a different presenter position when the
+viewer cannot follow the action. Keep camera movement stable unless a necessary
+change in the subject or demonstration warrants reframing.
+
+Record the visible interval of each hook, caption and explanatory label. Check
+what it covers during its whole interval, including layout transitions and moving
+controls. Move, shorten or remove an overlay when its continued presence blocks
+the demonstration. Required context still needs enough readable time.
+
+Test caption weight, contrast, outline and shadow against both bright and dark
+moving footage. Choose the smallest effective treatment that keeps letter shapes
+clear at delivery size. A heavier treatment can also merge letters or hide detail;
+judge the exported result rather than relying on a preset name.
+
 ## Requested refinements and actual results
 
 | Range | Accepted refinement | Intended native change | Native/export evidence | Completed, failed, or unchanged with reason |

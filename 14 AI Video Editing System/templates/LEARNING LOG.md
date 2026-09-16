@@ -31,3 +31,18 @@ segment. Use the evidence to focus the next contextual review, not to invent a
 global padding value, deletion quota or percentage reduction. Keep the approved
 edit unchanged, retain its baseline, and test the narrow lesson on the next
 suitable source. Report technical analysis separately from actual listening.
+
+## Carry a correction across workflows
+
+- Shared playbook location and version:
+- Applicable editing, derivative and packaging entry points:
+- General mechanism supported by the evidence:
+- Channel or format exceptions and their reason:
+- Links updated; conflicting duplicate guidance removed or superseded:
+- Next suitable source and observable acceptance check:
+- Result on that source, or not yet tested:
+
+Before promoting a rule, separate the editing defect from the chosen visual
+style. For example, a viewer must be able to identify a demonstrated control;
+the layout used to achieve that can differ between formats. Preserve the
+accepted project's state and apply the lesson to future work within scope.

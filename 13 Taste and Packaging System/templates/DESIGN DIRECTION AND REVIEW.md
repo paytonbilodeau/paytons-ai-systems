@@ -34,6 +34,20 @@ Remove choices that supply no information, grouping, affordance, feedback, or us
 
 Edit copy for truthful claims, concrete actions, and the user's voice. Do not describe AI-edited text as human-written.
 
+## Choose a source portrait before finishing
+
+When a thumbnail uses a person from a recording, compare several authentic frames
+from that recording before masking or grading. Keep a contact sheet or candidate
+list with source identifiers and timestamps. Compare focus, eye position, facial
+expression, speech articulation and fit with the truthful title promise at the
+intended thumbnail size. Avoid an accidental blink or distorted mid-word pose
+unless that moment is relevant and deliberately chosen.
+
+Record why the selected frame works better than the alternatives. Color and
+lighting adjustments should improve an already suitable frame; they cannot
+repair a poorly chosen expression. Preserve recognizable identity and source
+provenance. Recheck the expression after the final crop and text are in place.
+
 ## Record evidence
 
 For interfaces, record the main task, alternate states, keyboard behavior, focus, viewport/reflow checks, readable text, measured contrast, motion preferences, and errors. For images, record full-size and small-display review, crop/dimensions, exact words, brand structure, and stylistic integration. Automated checks do not certify complete accessibility or real-user success.

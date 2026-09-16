@@ -46,6 +46,13 @@ Compare candidate starts and endings across the source before choosing a range. 
 
 Record a title and social caption separately when the destination uses both fields. A social caption is not a substitute for a video title. Each should make a source-supported promise that the selected clip fulfills. Review the actual export's crop and text during the subject's greatest lean or turn, important action near the edges, the return movement, and the final frame. A clean opening still or valid map does not establish that the whole clip is framed well.
 
+Use System 14's shared editing playbook and the applicable format adapter when
+reviewing derivatives. Its `FINISH AND DELIVERY.md` demonstration table records
+the important action, crop, overlay interval and actual small-screen result.
+Verify that a viewer can see the control and its response throughout the action.
+If a presenter inset or decorative margin consumes needed space, compare another
+layout. Test a stable crop through the full movement before adding tracking.
+
 For designed thumbnails, preserve the authentic subject and source identity while
 reviewing photographic finishing, mask edges, color and detail. Choose emphasis
 from the meaning of the text, and include topic imagery only when truthful and

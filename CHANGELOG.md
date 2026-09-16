@@ -2,6 +2,13 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.8.1 - 2026-09-16
+
+- Connect editing and derivative review through one shared playbook with scoped channel and format adapters.
+- Add a demonstration review table for essential controls, presenter overlap, overlay timing and legibility at the intended viewing size.
+- Compare authentic portrait candidates before finishing a thumbnail and retain the selection reason and source timing.
+- These are generic review mechanisms. No private recordings, personal style settings or project examples are included.
+
 ## 3.8.0 - 2026-09-16
 
 - Add model routing guidance to System 07: keep complex judgment and final review with a capable owner, use bounded support workers with compact handoffs, and prefer qualified scripts for deterministic work.
