@@ -2,6 +2,13 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.7.3 - 2026-09-15
+
+- Add an optional batch review handoff with numbered topic timelines, unchanged baselines and explicit reviewer control.
+- Validate source-frame conventions before interpreting small manual trims, and distinguish source edits from rounding, ripple movement and uninspected properties.
+- Separate reviewer feedback, measured changes and inferred reasons when learning from an accepted edit.
+- These are generic System 14 review mechanisms. No private recordings, timing preferences, source examples or account details are included.
+
 ## 3.7.2 - 2026-09-14
 
 - Add a second review of every actual output join and retained phrase after rebuilding the edit, including the combined pause across both sides of a join.

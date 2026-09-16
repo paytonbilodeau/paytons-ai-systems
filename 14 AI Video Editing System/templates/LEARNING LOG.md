@@ -16,3 +16,18 @@ skill and test it on another sentence or source shot. Keep the old version.
 
 Review after ten runs, an important failure, a tool update or a scope change.
 Do not claim a new technique improves every edit after one favorable example.
+
+## Learn from an accepted manual pass
+
+Keep the reviewer's explicit feedback, measured edit differences and inferred
+reasons in separate fields. A shortened boundary may reflect a closer word-tail
+trim; removal of a voiced segment may reflect phrasing or take selection. A low
+waveform or an overlapping recognition timestamp cannot establish either reason
+on its own. Preserve complete articulation and useful demonstrations when
+applying a lesson to new material.
+
+Record which changes affect an existing edge and which create or remove a whole
+segment. Use the evidence to focus the next contextual review, not to invent a
+global padding value, deletion quota or percentage reduction. Keep the approved
+edit unchanged, retain its baseline, and test the narrow lesson on the next
+suitable source. Report technical analysis separately from actual listening.

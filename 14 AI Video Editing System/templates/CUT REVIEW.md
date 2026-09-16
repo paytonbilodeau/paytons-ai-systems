@@ -61,3 +61,31 @@ When using speech detection as evidence, use its raw unpadded intervals when
 needed. Subtracting a fixed pad from padded intervals can create false gaps if
 adjacent intervals shortened that padding. Neither speech detection nor low
 energy alone decides a cut.
+
+## Optional batch handoff
+
+- Shared project and intended review order:
+- Numbered review timeline for each source/topic:
+- Unchanged baseline timeline and snapshot for each review timeline:
+- Source identity checked against actual content, with any filename mismatch recorded:
+- Editor control handed to the reviewer; automation paused during manual work:
+- Exact returned project and approved timelines located and backed up:
+- Approved timeline state checked unchanged before and after export:
+
+Keep each baseline separate from the reviewer's final pass. Choose labels that
+make the intended order and topic clear. Do not infer source identity from a
+filename or silently run further cleanup on an approved timeline.
+
+## Source-frame comparison integrity
+
+Record the source start, exclusive end, duration and output position used for
+comparison. Validate the editor's source-frame getters against known source
+ranges before interpreting tiny differences. If imported items use inconsistent
+rounding, retain the raw readback and derive a consistent source map from a
+verified offset/duration convention. Revalidate for timecode, subclips, source
+frame rates and speed changes; there is no universal offset formula.
+
+Compare disjoint retained source spans, not just the outer endpoints. Distinguish
+edge refinements, whole-segment removal, restored material, ripple movement and
+property changes. A timing-only comparison does not establish that every grade,
+plugin or audio setting was unchanged. Name exactly what was inspected.
