@@ -9,14 +9,27 @@ System 06's reference inventory and rights record remain useful here.
 
 For each reference, say what happens before, during and after the visible frame.
 A still image cannot establish speed, tracking, stroke order or sound. Record
-what you observed separately from what you want to invent. Use multiple clear
-states of the same effect where available, plus examples that must not change.
+what you observed separately from what you want to invent. Give each observation
+the source file or URL, source version and exact timestamp or range so another
+editor can verify it. Use multiple clear states of the same effect where
+available, plus examples that must not change.
 
 Complete `templates/STYLE BRIEF.md`. Explain the layout, glyph shapes, linework,
 contrast, colors, animation triggers, reveal, reading hold, exit, sound and
 placement rules. State your own changes. A matching font name does not prove
 matching typography; inspect rendered glyphs, weight, spacing and shadow.
 Verify the license for each font and asset. Call an approximation an approximation.
+
+Decide whether speech or music leads each section. In speech-led work, preserve
+the argument, emphasis and reading time, then shape music around them. In a
+music-led sequence, select the track before locking major visual events and mark
+phrase changes, builds, drops, accents and quiet passages by listening. A beat
+grid alone does not explain why a moment matters.
+
+Reserve strong musical accents for visual events that earn them. Give the event
+enough preparation to read and hold the resulting state long enough to register
+before the next cut. If the music changes, recheck every dependent caption,
+animation, transition, effect and sound cue against the revised timing.
 
 Handwriting needs particular care: typing letters or wiping a text block from
 left to right does not demonstrate a pen forming strokes. Decide which behavior
@@ -41,6 +54,18 @@ Compare sound alternatives at similar perceived loudness. Compare graphics over
 the same source so changing footage does not hide a weak result. Review the
 complete action, readable hold and exit, including tracking at difficult frames.
 A rectangle-following test does not establish clean hair or hand segmentation.
+
+For physical actions and object-led transitions, inspect contiguous frames from
+setup through the settled result. Confirm that objects clear openings and edges,
+stay on the intended side of other layers, preserve identity and avoid impossible
+intersections. For a wipe, verify full coverage of the underlying cut and a clean
+reveal rather than judging only the first and last frame.
+
+Keep a short regression list for defects repaired during the edit. After any
+timing, camera, mask or asset change, replay the repaired ranges with surrounding
+context and confirm that clipping, jumps, blocked results, wrong assets and other
+fixed failures have not returned. Check the final encoded export as well as the
+editable timeline.
 
 ## Learn from tutorials without replacing what works
 

@@ -10,7 +10,10 @@
 ## Visual and sound review
 
 - Each effect has a purpose tied to the spoken point:
+- Reference observations include source file or URL, version and exact timestamp or range:
+- Speech-led or music-led timing recorded for each section:
 - Entrances, complete actions, readable holds, exits and joins checked:
+- Major musical accents have a readable visual event, preparation and protected result hold:
 - First-readable graphic timing checked against the spoken cue and preceding thought:
 - Required context-hook duration and visibility across layout changes checked:
 - Actual fonts, words, numerical claims and authentic evidence checked:
@@ -22,6 +25,9 @@
 - Music changes stay within the agreed level, composition or remix scope:
 - Music auditioned under dialogue at comparable levels, including opening and close:
 - Repeated seeks and final frame checked for deterministic motion:
+- Physical actions checked on contiguous frames for clearance, layer order, identity and intersections:
+- Object-led wipes fully cover the cut and complete the reveal cleanly:
+- Previously repaired defects replayed after later changes and checked in the final encoded export:
 - Aspect ratio was composed intentionally, not merely resized:
 
 ## Demonstration and overlay review
@@ -56,6 +62,16 @@ judge the exported result rather than relying on a preset name.
 | Range | Accepted refinement | Intended native change | Native/export evidence | Completed, failed, or unchanged with reason |
 |---|---|---|---|---|
 | | | | | |
+
+## Repaired-defect regression list
+
+Record only defects already repaired in this project. Recheck the affected range
+with its preceding and following action after later timing, camera, mask, asset
+or export changes.
+
+| Repaired defect and range | Repair evidence | Dependent elements | Final export regression result |
+|---|---|---|---|
+| | | | |
 
 After a crash or uncertain retry, reconcile this record with the recovered
 project before continuing. A plan or successful tool call is not result evidence.

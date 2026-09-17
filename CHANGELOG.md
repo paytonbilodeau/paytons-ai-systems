@@ -2,6 +2,14 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.8.3 - 2026-09-17
+
+- Tie editing-style observations to exact reference versions and timestamps.
+- Distinguish speech-led timing from music-led timing, with clear visual events and readable results at musical accents.
+- Check physical clearance and complete transition coverage across moving frames.
+- Recheck repaired defects after dependent changes and in the final encoded export.
+- These are generic review procedures. No private footage, settings, source examples or style recipes are included.
+
 ## 3.8.2 - 2026-09-17
 
 - Record the exact selected soundtrack asset and preserve it through later visual revisions.
