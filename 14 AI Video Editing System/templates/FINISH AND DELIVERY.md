@@ -18,6 +18,9 @@
 - Alpha edges checked on light, dark and source footage:
 - Tracking/matte tested on the actual subject, not only a geometric fixture:
 - Single intended dialogue path; added sound does not mask speech:
+- Selected music filename/version/checksum matches the approved take after later edits:
+- Music changes stay within the agreed level, composition or remix scope:
+- Music auditioned under dialogue at comparable levels, including opening and close:
 - Repeated seeks and final frame checked for deterministic motion:
 - Aspect ratio was composed intentionally, not merely resized:
 

@@ -14,6 +14,9 @@ Use with System 06's reference inventory and rights record.
 - Handwriting requirement: stroke formation / type-on / other:
 - Tracking target and the hardest motion to test:
 - Sound source, license, timing and level under dialogue:
+- Selected music asset: exact filename, version, duration and checksum:
+- Qualities to retain from each soundtrack reference:
+- Music revision scope: level/mix adjustment, new composition, or explicitly requested layered remix:
 - Face, hand, evidence, interface and caption exclusion areas:
 - Landscape and portrait layout decisions:
 - Example that must stay unchanged:
@@ -29,3 +32,9 @@ Use with System 06's reference inventory and rights record.
 
 Do not call an approximate font or animation an exact match. Keep reference
 media private when its rights do not permit redistribution.
+
+Translate combined reference feedback into one coherent musical direction. A request
+for one reference with qualities of another does not by itself authorize stacking
+two finished songs. Record the intended interpretation, preserve the selected take,
+and compare alternatives under the same dialogue at matched levels. Only layer
+independent tracks when that is explicitly requested and musically reviewed.

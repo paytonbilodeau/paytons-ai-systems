@@ -2,6 +2,13 @@
 
 New releases appear first. Apply only the changes you want to a separate working copy.
 
+## 3.8.2 - 2026-09-17
+
+- Record the exact selected soundtrack asset and preserve it through later visual revisions.
+- Distinguish musical reference qualities from an explicitly requested layered remix.
+- Compare music alternatives under the same dialogue at matched levels, including the opening and close.
+- These are generic review mechanisms. No private music, style settings or project examples are included.
+
 ## 3.8.1 - 2026-09-16
 
 - Connect editing and derivative review through one shared playbook with scoped channel and format adapters.
